@@ -13,7 +13,7 @@ body {
 
 #info {
 	background-color: #fff;
-	opacity:0.70;
+	opacity:0.90;
 	padding: 50px 5px;
 	margin-top: 50px;
 
@@ -24,18 +24,21 @@ body {
 }
 
 #character img {
-	width: 90%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: -150px;
+	margin-top: -250px;
 
 	animation: translate1 1.3s; 
   animation-iteration-count: 1; 
   -webkit-animation: translate1 1.3s; /* Safari & Chrome */
   -webkit-animation-iteration-count: 1;
 }
-#character.col-sm-12 img {
-		margin-top: 0px;
+
+@media screen and (orientation: portrait) {
+  #character img {
+  		margin-top: -200px;
+  }
 }
  
 @keyframes translate0 { 
