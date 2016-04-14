@@ -13,8 +13,10 @@ body {
 
 #logo img {
   width: 100%;
-  margin-bottom: -50px;
+  margin-top: 80px;
+  margin-bottom: -100px;
   z-index: 2;
+  position: relative;
 
   animation: translate1 1.8s; 
   animation-iteration-count: 1; 
@@ -26,7 +28,8 @@ body {
 	background-color: #fff;
 	opacity:0.90;
 	padding: 20px 5px;
-	margin-top: 50px;
+	margin-top: 100px;
+  margin-bottom: 100px;
   margin-left: -100px;
 
   -moz-transform: rotate(-2deg);
@@ -53,9 +56,13 @@ body {
   -webkit-animation-iteration-count: 1;
 }
 
-@media screen and (orientation: portrait) {
+/* for 1 column layout */
+@media (max-width: 1200px) {
+  .container {
+      width: 95%;
+  }
   #logo img {
-    margin-bottom: -15000px;
+    margin-bottom: -150px;
   }
   #info {
     margin-top: -120px;
