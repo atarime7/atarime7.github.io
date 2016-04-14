@@ -60,6 +60,7 @@ body {
 @media (max-width: 1200px) {
   .container {
       width: 95%;
+      font-size: 2rem;
   }
   #logo img {
     margin-bottom: -150px;
