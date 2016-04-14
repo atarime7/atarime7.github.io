@@ -62,6 +62,9 @@ body {
       width: 95%;
       font-size: 6rem;
   }
+  h3 {
+    font-size: 6rem;
+  }
   #logo img {
     margin-bottom: -150px;
   }
