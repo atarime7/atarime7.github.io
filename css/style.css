@@ -102,11 +102,12 @@ body.color-1 div#top-nav #fixed-nav li.current a {
 	border-bottom: 3px solid #e74c3c;
 }
 body.color-1 .bg-color{
-	/*background: #e74c3c;*/
-	/*background: url("../images/bg_6.png");*/
+	/*PC用背景*/
 	background:url("../images/bg_6.png") center/cover no-repeat fixed
 }
+/*スマホ用背景*/
 @media (max-width: 767px) { 
+	body.color-1 .bg-color {background:none} /*PC用の背景はオフ*/
 	body::before {
 	  content:"";
 	  display:block;
