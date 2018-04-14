@@ -103,8 +103,23 @@ body.color-1 div#top-nav #fixed-nav li.current a {
 }
 body.color-1 .bg-color{
 	/*background: #e74c3c;*/
-	background-image: url("../images/bg_6.png")
+	/*background: url("../images/bg_6.png");*/
+	background:url("../images/bg_6.png") center/cover no-repeat fixed
 }
+@media (max-width: 767px) { 
+	body::before {
+	  content:"";
+	  display:block;
+	  position:fixed;
+	  top:0;
+	  left:0;
+	  z-index:-1;
+	  width:100%;
+	  height:100vh;
+	  background:url("../images/bg_6.png") center/cover no-repeat; /*fixedをトル！*/
+	  -webkit-background-size:cover;/*Android4*/
+	} 
+}  
 body.color-1 hr {
 	border-bottom: 1px solid #e74c3c;
 }
