@@ -104,7 +104,7 @@ body.color-1 div#top-nav #fixed-nav li.current a {
 /*PC用背景*/
 @media (min-width: 767px) { 
 	body.color-1 .bg-color{
-		background:url("../images/bg_.png") center/cover no-repeat fixed
+		background:url("../images/bg_6.png") center/cover no-repeat fixed
 	}
 }
 /*スマホ用背景*/
@@ -118,7 +118,7 @@ body.color-1 div#top-nav #fixed-nav li.current a {
 	  z-index:-1;
 	  width:100%;
 	  height:100vh;
-	  background:url("../images/bg_.png") center/cover no-repeat; /*fixedをトル！*/
+	  background:url("../images/bg_6.png") center/cover no-repeat; /*fixedをトル！*/
 	  -webkit-background-size:cover;/*Android4*/
 	} 
 }  
