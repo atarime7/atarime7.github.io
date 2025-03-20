@@ -1,0 +1,89 @@
+/* Custom Color Palette */
+:root {
+  --primary: #87cac6;    /* Turquoise - for primary elements */
+  --secondary: #0b3360;  /* Deep Blue - for secondary elements */
+  --accent: #d35165;     /* Coral Red - for accents and highlights */
+  --highlight: #f79a64;  /* Peach - for secondary highlights */
+}
+
+/* Text colors */
+.text-primary {
+  color: var(--primary);
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.text-highlight {
+  color: var(--highlight);
+}
+
+/* Background colors */
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
+.bg-highlight {
+  background-color: var(--highlight);
+}
+
+/* Border colors */
+.border-primary {
+  border-color: var(--primary);
+}
+
+.border-secondary {
+  border-color: var(--secondary);
+}
+
+.border-accent {
+  border-color: var(--accent);
+}
+
+.border-highlight {
+  border-color: var(--highlight);
+}
+
+/* Other elements using our color palette */
+.title h2 {
+  color: var(--secondary);
+}
+
+.hr-inner {
+  border-color: var(--accent);
+}
+
+.i-block h3 {
+  color: var(--secondary);
+}
+
+.i-block i {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+/* Table customization with our color palette */
+.table th {
+  background-color: var(--primary);
+  color: white;
+}
+
+.table-bordered {
+  border-color: var(--primary);
+}

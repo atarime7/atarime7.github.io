@@ -1,590 +1,959 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-	<meta charset="utf-8" />
-
-	<title>アタリメ Official Site</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<meta name="HandheldFriendly" content="true">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- Import CSS -->
-	<link rel="stylesheet" href="css/main.css">
-	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.easing.min.js"></script>
-	<script src="js/jquery.scrollto.min.js"></script>
-	<script src="js/slabtext.min.js"></script>
-	<script src="js/jquery.nav.js"></script>
-	<script src="js/main.js"></script>
-	<link rel="icon" href="images/favicon.ico" id="favicon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>アタリメ Official Site</title>
+  <meta name="description" content="アタリメは2016年結成の渋谷系でポップンなユニットです。M3を中心に活動し、明るいポップソングを届けています。">
+  <meta name="keywords" content="アタリメ, atarime, 音楽, M3, 渋谷系, J-pop">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main-modern.css">
+  
+  <!-- Scripts -->
+  <script src="js/jquery.min.js"></script>
 </head>
-<!-- To change color change the class "color-1" to "color-2, color-3 ... color-6" -->
-<body class="home color-1">
-	<div id="header">
-		<div class="container">
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/atarime_icon.png" alt="アタリメ">
+        </a>
+      </div>
+      
+      <button class="mobile-nav-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+      
+      <ul class="nav-menu">
+        <li class="current"><a href="#home">Home</a></li>
+        <li><a href="#discography">Discography</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#members">Members</a></li>
+        <li><a href="#history">History</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
 
-			<div class="row">
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="particles-container" id="particles"></div>
+    <div class="hero-content">
+      <img src="images/atarime_icon.png" alt="アタリメ">
+    </div>
+    <div class="scroll-indicator">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
 
-					<i id="nav-button" class="icon-circle-arrow-down"></i>
-					<h2 id="logo"><a href="index.html"><span class="highlight"></span></a></h2>
-				
+  <!-- Discography Section -->
+  <section id="discography">
+    <div class="container">
+      <div class="section-header">
+        <h2>Discography</h2>
+        <p>M3を中心に活動しています。</p>
+      </div>
+      
+      <div class="album-grid">
+        <!-- Album 1 -->
+        <div class="album-card">
+          <div class="album-image">
+            <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1937638718&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          </div>
+          <div class="album-info">
+            <h3>raspberry syrup</h3>
+            <p class="album-id">ATRM-0018</p>
+            <p class="album-event">2024秋M3 Q-23b<br>会場頒布価格¥2000</p>
+            <div class="album-tracks">
+              1.夕方ラストサマータイム<br>
+              2.チグハグ<br>
+              3.Surreal realm<br>
+              4.シアワセ(川崎泰弘Remix)<br>
+              5.私の気持ち(彩水Ver.)<br>
+              6.ロケットモード
+            </div>
+            <div class="album-links">
+              <a href="https://a-tari-me.booth.pm/items/6192076">BOOTH</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Album 2 -->
+        <div class="album-card">
+          <div class="album-image">
+            <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1635572892&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          </div>
+          <div class="album-info">
+            <h3>monophonic.</h3>
+            <p class="album-id">ATRM-0017</p>
+            <p class="album-event">2023秋M3 P-03b<br>会場頒布価格¥1000</p>
+            <div class="album-tracks">
+              1.Bloom<br>
+              2.Milkyway Darling<br>
+              3.ファンタジー<br>
+              4.ダンデライオンになれない
+            </div>
+            <div class="album-links">
+              <a href="https://a-tari-me.booth.pm/items/5156275">BOOTH</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Album 3 -->
+        <div class="album-card">
+          <div class="album-image">
+            <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1360959361&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          </div>
+          <div class="album-info">
+            <h3>Party Popper</h3>
+            <p class="album-id">ATRM-0016</p>
+            <p class="album-event">2022秋M3 コ-03a<br>会場頒布価格¥1500</p>
+            <div class="album-tracks">
+              1.Just for you<br>
+              2.サブリミナル<br>
+              3.ハッピーバースデー<br>
+              4.春色ファンファーレ<br>
+              5.天気雨
+            </div>
+            <div class="album-links">
+              <a href="https://a-tari-me.booth.pm/items/4228725">BOOTH</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Album 4 -->
+        <div class="album-card">
+          <div class="album-image">
+            <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1146935386&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          </div>
+          <div class="album-info">
+            <h3>Tomorrow's Forecast</h3>
+            <p class="album-id">ATRM-0015</p>
+            <p class="album-event">2021秋M3 コ-12<br>会場頒布価格¥1000</p>
+            <div class="album-tracks">
+              1.キラキラ<br>
+              2.わすれもの<br>
+              3.mito<br>
+              4.音の葉
+            </div>
+            <div class="album-links">
+              <a href="https://a-tari-me.booth.pm/items/3365688">BOOTH</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Album 5 -->
+        <div class="album-card">
+          <div class="album-image">
+            <img src="./images/jacket_14.png" alt="Pastel Symphony">
+          </div>
+          <div class="album-info">
+            <h3>『Pastel Symphony』</h3>
+            <p class="album-id">ATRM-0014</p>
+            <p class="album-event">2021春M3 あ-09<br>会場頒布価格¥2000</p>
+            <div class="album-tracks">
+              1.パステルシンフォニー<br>
+              2.Realize<br>
+              3.七色プリズム<br>
+              4.友達でしょう？ウォークマン<br>
+              5.永劫<br>
+              6.まちがいばっか
+            </div>
+            <div class="album-links">
+              <a href="https://a-tari-me.booth.pm/items/2906952">BOOTH</a>
+              <a href="https://pastel-symphony-m3spring2021.tumblr.com/">Info</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Album 6 -->
+        <div class="album-card">
+          <div class="album-image">
+            <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/908254252&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          </div>
+          <div class="album-info">
+            <h3>Baby a Go! Go!</h3>
+            <p class="album-id">ATRM-0013</p>
+            <p class="album-event">2020秋M3 C-24<br>会場頒布価格¥1000</p>
+            <div class="album-tracks">
+              1.可愛くなりたいベイビーアイラブユー！<br>
+              2.Circuit?<br>
+              3.オレンジに飛び乗って<br>
+              4.空と雲のパレード<br>
+              5.Found You
+            </div>
+            <div class="album-links">
+              <a href="https://a-tari-me.booth.pm/items/2464128">BOOTH(CD)</a>
+              <a href="https://a-tari-me.booth.pm/items/2470073">BOOTH(DL)</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-				<div id="top-nav" class="">
-					<ul id="fixed-nav">
-						<li class="current"><a href="#home">Home</a></li>
-						<li><a href="#discography">Discography</a></li>
-						<li><a href="#aboutus">About Us</a></li>
-						<li><a href="#member">Members</a></li>
-						<li><a href="#schedule">Schedule</a></li>
-						<li><a href="#contact">Contact Us</a></li>
-					</ul>
-				</div>
+      <div class="view-more">
+        <button id="load-more" class="btn">もっと見る</button>
+      </div>
+      
+      <!-- Hidden Albums (shown when "View More" is clicked) -->
+      <div class="hidden-albums" style="display: none;">
+        <div class="album-grid">
+          <!-- Album 7 -->
+          <div class="album-card">
+            <div class="album-image">
+              <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/757677535&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </div>
+            <div class="album-info">
+              <h3>Weather satellite</h3>
+              <p class="album-id">ATRM-0012</p>
+              <p class="album-event">2020春M3 G-13b<br>会場頒布価格¥1000</p>
+              <div class="album-tracks">
+                1.天気雨<br>
+                2.Milkyway Darling<br>
+                3.空と雲のパレード<br>
+                4.passing shower<br>
+                5.星空ララバイ(川崎泰弘Remix)
+              </div>
+              <div class="album-links">
+                <a href="https://booth.pm/ja/items/1855459">BOOTH(CD)</a>
+                <a href="https://booth.pm/ja/items/2470427">BOOTH(DL)</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Album 8 -->
+          <div class="album-card">
+            <div class="album-image">
+              <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/656243540&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </div>
+            <div class="album-info">
+              <h3>私の気持ち / 白昼夢</h3>
+              <p class="album-id">ATRM-0010</p>
+              <p class="album-event">C96 月曜日南コ18b<br>会場頒布価格¥800</p>
+              <div class="album-tracks">
+                1.私の気持ち<br>
+                2.白昼夢<br>
+                3.私の気持ち(Instrumental)<br>
+                4.白昼夢(Instrumental)
+              </div>
+              <div class="album-links">
+                <a href="https://booth.pm/ja/items/1478117">BOOTH</a>
+                <a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=554239">メロンブックス</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Album 9 -->
+          <div class="album-card">
+            <div class="album-image">
+              <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/598732044&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </div>
+            <div class="album-info">
+              <h3>Sweet Serenade</h3>
+              <p class="album-id">ATRM-0009</p>
+              <p class="album-event">2019春M3 I-06b<br>会場頒布価格¥1000</p>
+              <div class="album-tracks">
+                1.パステル<br>
+                2.Vital Reflection<br>
+                3.泡沫トリップ<br>
+                4.White Wing<br>
+                5.セレナーデ
+              </div>
+              <div class="album-links">
+                <a href="https://booth.pm/ja/items/1339503">BOOTH</a>
+                <a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=504604">メロンブックス</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Album 10 -->
+          <div class="album-card">
+            <div class="album-image">
+              <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/514118649&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </div>
+            <div class="album-info">
+              <h3>RAPTURE CITY</h3>
+              <p class="album-id">ATRM-0008</p>
+              <p class="album-event">2018秋M3 N-17a<br>会場頒布価格¥1000</p>
+              <div class="album-tracks">
+                1.The dawn is breaking<br>
+                2.星空ララバイ<br>
+                3.なみだ<br>
+                4.Sichuan<br>
+                5.ライン
+              </div>
+              <div class="album-links">
+                <a href="https://booth.pm/ja/items/1086363">BOOTH</a>
+                <a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=504603">メロンブックス</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Album 11 -->
+          <div class="album-card">
+            <div class="album-image">
+              <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/477852213&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </div>
+            <div class="album-info">
+              <h3>グライダー / ライン</h3>
+              <p class="album-id">ATRM-0007</p>
+              <p class="album-event">2018夏コミ 1日目 西は06b<br>会場頒布価格¥700</p>
+              <div class="album-tracks">
+                1.グライダー<br>
+                2.ライン<br>
+                3.グライダー(Instrumental)<br>
+                4.ライン(Instrumental)
+              </div>
+              <div class="album-links">
+                <a href="https://a-tari-me.booth.pm/items/970777">BOOTH</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Album 12 -->
+          <div class="album-card">
+            <div class="album-image">
+              <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/429541248&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </div>
+            <div class="album-info">
+              <h3>Monsoon Girl</h3>
+              <p class="album-id">ATRM-0006</p>
+              <p class="album-event">2018春M3 サ-05a<br>会場頒布価格¥1000</p>
+              <div class="album-tracks">
+                1. Best Friend<br>
+                2. つぼみの桜<br>
+                3. タルト・タタンの恋人<br>
+                4. ハルモニア<br>
+                5. Papua[HYPER EURO MIX]
+              </div>
+              <div class="album-links">
+                <a href="https://a-tari-me.booth.pm/items/838838">BOOTH</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Album 13 -->
+          <div class="album-card">
+            <div class="album-image">
+              <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/346984944&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+            </div>
+            <div class="album-info">
+              <h3>Plastic squid</h3>
+              <p class="album-id">ATRM-0005</p>
+              <p class="album-event">2017秋M3 H-04a<br>会場頒布価格¥1000</p>
+              <div class="album-tracks">
+                1. ハッピーバースデー<br>
+                2. ダンデライオンになれない<br>
+                3. レモネード(水彩ver)<br>
+                4. ミッドナイト・レースカー<br>
+                5. 向日葵
+              </div>
+              <div class="album-links">
+                <a href="https://a-tari-me.booth.pm/items/683156">BOOTH</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Album 14 -->
+          <div class="album-card">
+            <div class="album-image">
+              <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/336698445&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+            </div>
+            <div class="album-info">
+              <h3>向日葵 c/w 03:09</h3>
+              <p class="album-id">ATRM-0004</p>
+              <p class="album-event">2017夏コミ 1日目 東へ23b<br>会場頒布価格¥500</p>
+              <div class="album-tracks">
+                1. 向日葵<br>
+                2. 03:09<br>
+                3. 向日葵(Instrumental)<br>
+                4. 03:09(Instrumental)
+              </div>
+              <div class="album-links">
+                <a href="https://a-tari-me.booth.pm/items/838928">BOOTH</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Album 15 -->
+          <div class="album-card">
+            <div class="album-image">
+              <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317803702&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+            </div>
+            <div class="album-info">
+              <h3>Daydream Pancake</h3>
+              <p class="album-id">ATRM-0003</p>
+              <p class="album-event">2017春M3 あ-12a<br>会場頒布価格¥500</p>
+              <div class="album-tracks">
+                1. ホットケーキ<br>
+                2. 白昼夢<br>
+                3. 明日は笑えるから
+              </div>
+              <div class="album-links">
+                <a href="https://a-tari-me.booth.pm/items/535426">BOOTH</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Album 16 -->
+          <div class="album-card">
+            <div class="album-image">
+              <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/288222106&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+            </div>
+            <div class="album-info">
+              <h3>アクアリウム</h3>
+              <p class="album-id">ATRM-0002</p>
+              <p class="album-event">2016秋M3 L-22b<br>会場頒布価格¥500</p>
+              <div class="album-tracks">
+                1. スーパースターフィッシュ<br>
+                2. シアワセ<br>
+                3. なみだ
+              </div>
+              <div class="album-links">
+                <a href="https://a-tari-me.booth.pm/items/838919">BOOTH</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Album 17 -->
+          <div class="album-card">
+            <div class="album-image">
+              <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258241424&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+            </div>
+            <div class="album-info">
+              <h3>mild&chocolate</h3>
+              <p class="album-id">ATRM-0001</p>
+              <p class="album-event">2016春M3<br>会場頒布価格¥500</p>
+              <div class="album-tracks">
+                1. グッバイプレッツェルガール<br>
+                2. レモネード<br>
+                3. papua
+              </div>
+              <div class="album-links">
+                <a href="https://a-tari-me.booth.pm/items/838915">BOOTH</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-			</div>
-		</div>
-	</div><!-- End Header -->
-	<!-- Big Full screen Banner -->
-	<div class="hero bg-fixed bg-color" id="home">
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Us</h2>
+      </div>
+      <div class="about-content">
+        <p>2016年結成。渋谷系でポップンなユニット。日々明るいポップソングを届ける為に活動中。<br>ライブでは生演奏&amp;打ち込みの編成から、ピアノ&amp;カホンのアコースティックまでどんな場所でも演奏します。</p>
+      </div>
+    </div>
+  </section>
 
-		<div class="slogan">
-			<div  class="vcenter container">
+  <!-- Members Section -->
+  <section id="members">
+    <div class="container">
+      <div class="section-header">
+        <h2>Members</h2>
+      </div>
+      <div class="members-content">
+        <table class="members-table">
+          <tbody>
+            <tr>
+              <td><strong>aki</strong></td>
+              <td>キーボード・作曲</td>
+            </tr>
+            <tr>
+              <td><strong>こまっティ</strong></td>
+              <td>デザイン・編曲</td>
+            </tr>
+            <tr>
+              <td><strong>水彩</strong></td>
+              <td>ボーカル・作詞</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <table class="members-table">
+          <tbody>
+            <tr>
+              <td><strong>ハレルヤ</strong></td>
+              <td>ボーカル・作詞</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
 
-				<div class="row">
+  <!-- History Section -->
+  <section id="history">
+    <div class="container">
+      <div class="section-header">
+        <h2>History</h2>
+      </div>
+      <div class="history-content">
+        <!-- 採用・受賞 -->
+        <table class="history-table">
+          <caption>採用・受賞</caption>
+          <tbody>
+            <tr>
+              <td>2024年 10月</td>
+              <td><a href="https://x.com/a_tari_me/status/1842884131556151726">「MASH VP! Re:VISION」</a><br>「グライダー」収録</td>
+            </tr>
+            <tr>
+              <td>2023年 9月</td>
+              <td><a href="https://x.com/a_tari_me/status/1698295926060966049">「太鼓の達人楽曲募集だドン！」2023</a><br>「ロケットモード」<br>採用</td>
+            </tr>
+            <tr>
+              <td>2023年 9月</td>
+              <td><a href="https://x.com/a_tari_me/status/1552989782354980864">「太鼓の達人楽曲募集だドン！」2022</a><br>「春色ファンファーレ」<br>佳作</td>
+            </tr>
+            <tr>
+              <td>2020年 6月</td>
+              <td><a href="https://x.com/a_tari_me/status/1275743606855233536">「太鼓の達人楽曲募集だドン！」</a><br>「かわいくなりたいベイビーアイラブユー！」<br>準佳作</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <!-- 楽曲提供 -->
+        <table class="history-table">
+          <caption>楽曲提供(敬称略)</caption>
+          <tbody>
+            <tr>
+              <td>2024年6月<br>
+              めもあ</td>
+              <td><a href="https://x.com/a_tari_me/status/1801903165828161951">
+              new memory</a><br>
+              作詞 作曲 編曲</td>
+            </tr>
+            <tr>
+              <td>2023年10月<br>
+              bararabi</td>
+              <td><a href="https://x.com/a_tari_me/status/1715708129374253346">
+              そわそわ恋心</a><br>
+              作詞 作曲 編曲</td>
+            </tr>
+            <tr>
+              <td>2022年10月<br>
+              Alumina<br>(コラボ楽曲)</td>
+              <td><a href="https://x.com/a_tari_me/status/1583780227485818881">
+              感情ドロップ</a><br>
+              編曲</td>
+            </tr>
+            <tr>
+              <td>2022年10月<br>
+              力石好乃</td>
+              <td><a href="https://x.com/a_tari_me/status/1580858311565451264">
+              Gift</a><br>
+              作詞 作曲 編曲</td>
+            </tr>
+            <tr>
+              <td>2022年10月<br>
+              bararabi</td>
+              <td><a href="https://x.com/a_tari_me/status/1583274210318725120">
+              空に落ちる</a><br>
+              作詞 作曲 編曲</td>
+            </tr>
+            <tr>
+              <td>2022年4月<br>
+              Madoromi Mimi</td>
+              <td><a href="https://x.com/a_tari_me/status/1516383730356539392">
+              私たちの春</a><br>
+              作詞 作曲 編曲</td>
+            </tr>
+            <tr>
+              <td>2021年10月<br>
+              bararabi</td>
+              <td><a href="https://x.com/a_tari_me/status/1451166305826971652">大空とcolor</a><br>
+              作詞 作曲 編曲</td>
+            </tr>
+            <tr>
+              <td>2021年8月<br>
+              liqumo</td>
+              <td><a href="https://x.com/a_tari_me/status/1026108863685095425">ベリーソーダの恋煩い</a><br>
+              作曲 編曲</td>
+            </tr>
+            <tr>
+              <td>2020年10月<br>
+              雨ヶ崎笑虹</td>
+              <td><a href="https://x.com/a_tari_me/status/1319588668084989952">
+              音の葉</a><br>
+              作詞 作曲 編曲</td>
+            </tr>
+            <tr>
+              <td>2020年10月<br>
+              bararabi</td>
+              <td><a href="https://x.com/a_tari_me/status/1312404370005213184">
+              星の恋人、その名はスピカ</a><br>
+              作曲 編曲</td>
+            </tr>
+            <tr>
+              <td>2019年10月<br>
+              力石好乃</td>
+              <td><a href="https://x.com/a_tari_me/status/1183706689612025857">
+              「FULL THROTTLE」</a><br>
+              全4曲 編曲</td>
+            </tr>
+            <tr>
+              <td>2019年10月<br>
+              Magicaliny</td>
+              <td><a href="https://x.com/a_tari_me/status/1184119793525248002">
+              fly day night</a><br>
+              作曲 編曲</td>
+            </tr>
+            <tr>
+              <td>2019年10月<br>
+              Raspberry Milk</td>
+              <td><a href="https://x.com/a_tari_me/status/1185202503610028032">
+              sunday*greetings</a><br>
+              作曲 編曲</td>
+            </tr>
+            <tr>
+              <td>2019年8月
+              </br>あやんち！</td>
+              <td><a href="https://x.com/a_tari_me/status/1159459165984571392">
+              Message</a><br>
+              編曲</td>
+            </tr>
+            <tr>
+              <td>2019年4月<br>
+              もかりく。</td>
+              <td><a href="https://x.com/a_tari_me/status/1121785475117633537">お日さまホリディ<br>ハピネス・メモリアル</a><br>
+              作曲 編曲</td>
+            </tr>
+            <tr>
+              <td>2017年12月<br>Ri9,ＯＲＩ姫
+              </td>
+              <td><a href="https://x.com/a_tari_me/status/944589367602843648">
+              ジングルベル</a><br>
+              編曲</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <!-- ライブ出演 -->
+        <table class="history-table">
+          <caption>ライブ出演</caption>
+          <tbody>
+            <tr>
+              <td>2024年 10月</td>
+              <td><a href="https://gprofficial.net/live51">Guitar Pop Restaurant vol.51</a></td>
+            </tr>
+            <tr>
+              <td>2018年 9月</td>
+              <td><a href="https://x.com/markyataka/status/1019884584308072448">『アキシブアラモード〜Vol.1』</a></td>
+            </tr>
+            <tr>
+              <td>2017年 9月</td>
+              <td>Squirrel★Presents H!B!R! <br>～ first party ～</td>
+            </tr>
+            <tr>
+              <td>2017年 6月</td>
+              <td>をたばん！なな</td>
+            </tr>
+            <tr>
+              <td>2017年 4月</td>
+              <td>DO LIVE02</td>
+            </tr>
+            <tr>
+              <td>2016年 5月</td>
+              <td>池袋ジャズフェスティバル</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <!-- イベント参加 -->
+        <table class="history-table">
+          <caption>イベント参加</caption>
+          <tbody>
+            <tr>
+              <td>2024年 10月</td>
+              <td>M3-2024秋<br>『raspberry syrup』リリース</td>
+            </tr>
+            <tr>
+              <td>2024年 4月</td>
+              <td>M3-2024春</td>
+            </tr>
+            <tr>
+              <td>2023年 10月</td>
+              <td>M3-2023秋<br>『monophonic.』リリース</td>
+            </tr>
+            <tr>
+              <td>2023年 4月</td>
+              <td>M3-2023春</td>
+            </tr>
+            <tr>
+              <td>2022年 10月</td>
+              <td>M3-2022秋<br>『Party Popper』リリース</td>
+            </tr>
+            <tr>
+              <td>2022年 4月</td>
+              <td>M3-2022春</td>
+            </tr>
+            <tr>
+              <td>2021年 10月</td>
+              <td>M3-2021秋<br>『Tomorrow's Forecast』リリース</td>
+            </tr>
+            <tr>
+              <td>2021年 4月</td>
+              <td>M3-2021春<br>『Pastel Symphony』リリース</td>
+            </tr>
+            <tr>
+              <td>2020年 10月</td>
+              <td>M3-2020秋<br>『Baby a Go! Go!』リリース</td>
+            </tr>
+            <tr>
+              <td>2020年 3月</td>
+              <td>M3-2020春<br>『Wheather satellite』リリース</td>
+            </tr>
+            <tr>
+              <td>2019年 10月</td>
+              <td>M3-2019秋<br></td>
+            </tr>
+            <tr>
+              <td>2019年 8月</td>
+              <td>コミックマーケット96<br>『私の気持ち / 白昼夢』リリース</td>
+            </tr>
+            <tr>
+              <td>2019年 8月</td>
+              <td>ガタケット165<br></td>
+            </tr>
+            <tr>
+              <td>2019年 4月</td>
+              <td>M3-2019春<br>『Sweet Serenade』リリース</td>
+            </tr>
+            <tr>
+              <td>2018年 12月</td>
+              <td>第２回　音けっと</td>
+            </tr>
+            <tr>
+              <td>2018年 10月</td>
+              <td>M3-2018秋<br>『RAPTURE CITY』リリース</td>
+            </tr>
+            <tr>
+              <td>2018年 8月</td>
+              <td>コミックマーケット94<br>『グライダー / ライン』リリース</td>
+            </tr>
+            <tr>
+              <td>2018年 7月</td>
+              <td>みちのくコミティア(郡山)</td>
+            </tr>
+            <tr>
+              <td>2018年 4月</td>
+              <td>M3-2018春<br>『Monsoon Girl』リリース</td>
+            </tr>
+            <tr>
+              <td>2017年 10月</td>
+              <td>M3-2017秋<br>『Plastic squid』リリース</td>
+            </tr>
+            <tr>
+              <td>2017年  8月</td>
+              <td>コミックマーケット92<br>『向日葵 c/w 03:09』リリース</td>
+            </tr>
+            <tr>
+              <td>2017年  4月</td>
+              <td>M3-2017春<br>『Daydream Pancake』リリース</td>
+            </tr>
+            <tr>
+              <td>2016年 10月</td>
+              <td>M3-2016秋<br>『アクアリウム』リリース</td>
+            </tr>
+            <tr>
+              <td>2016年  4月</td>
+              <td>M3-2016春<br>『Mild&Chocolate』リリース</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
 
-					<div class="span12 spinner">
-						<h1><img src="images/atarime_icon.png" width="50px"/></h1>
-					</div>
-				</div>
-			</div>
-		</div>
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Contact Us</h2>
+        <p>下記SNSよりお問い合わせください。</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-item">
+          <i class="fab fa-x-twitter"></i>
+          <h4>X (Twitter)</h4>
+          <a href="https://x.com/a_tari_me" target="_blank">Official</a>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-soundcloud"></i>
+          <h4>SoundCloud</h4>
+          <a href="https://soundcloud.com/mix-precure" target="_blank">Official</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 アタリメ All rights reserved.</p>
+    </div>
+  </footer>
 
-	</div>
-	<!-- End Full screen banner  -->
-	<!-- Services Section -->
-	<!-- class section-alt is to give a different color please edit css/style.css to change the color -->
-	<div class="section section-alt" id="discography">
-		<div class="container">
-			<div class="content">
-				<div class="row" >
-					<div class="title">
-						<h2>DISCOGRAPHY</h2>
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<p>M3を中心に活動しています。</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>raspberry syrup</h3>
-						<p><b>ATRM-0018</b>
-						<p><b>2024秋M3 Q-23b</b><br/>会場頒布価格¥2000</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1937638718&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-						<p>1.夕方ラストサマータイム<br/>2.チグハグ<br/>3.Surreal realm<br/>4.シアワセ(川崎泰弘Remix)</br>5.私の気持ち(彩水Ver.)</br>6.ロケットモード</p>
-						<p><a href="https://a-tari-me.booth.pm/items/6192076">BOOTH</a></p>
-					</div>
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>monophonic.</h3>
-						<p><b>ATRM-0017</b>
-						<p><b>2023秋M3 P-03b</b><br/>会場頒布価格¥1000</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1635572892&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-						<p>1.Bloom<br/>2.Milkyway Darling<br/>3.ファンタジー<br/>4.ダンデライオンになれない</br></br></br></p>
-						<p><a href="https://a-tari-me.booth.pm/items/5156275">BOOTH</a></p>
-					</div>
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>Party Popper</h3>
-						<p><b>ATRM-0016</b>
-						<p><b>2022秋M3 コ-03a</b><br/>会場頒布価格¥1500</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1360959361&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-						<p>1.Just for you<br/>2.サブリミナル<br/>3.ハッピーバースデー<br/>4.春色ファンファーレ<br/>5.天気雨</br></br></p>
-						<p><a href="https://a-tari-me.booth.pm/items/4228725">BOOTH</a></p>
-					</div>
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>Tomorrow's Forecast</h3>
-						<p><b>ATRM-0015</b>
-						<p><b>2021秋M3 コ-12</b><br/>会場頒布価格¥1000</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1146935386&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-						<p>1.キラキラ<br/>2.わすれもの<br/>3.mito<br/>4.音の葉</br></br></p>
-						<p><a href="https://a-tari-me.booth.pm/items/3365688">BOOTH</a></p>
-					</div>
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>『Pastel Symphony』</h3>
-						<p><b>ATRM-0014</b>
-						<p><b>2021春M3 あ-09</b><br/>会場頒布価格¥2000</p>
-						<a href="https://pastel-symphony-m3spring2021.tumblr.com/"><img src="./images/jacket_14.png" width="250" height="250"></a>
-						<p>1.パステルシンフォニー<br/>2.Realize<br/>3.七色プリズム<br/>4.友達でしょう？ウォークマン<br/>5.永劫<br/>6.まちがいばっか</p>
-						<p></p>
-						<p><a href="https://a-tari-me.booth.pm/items/2906952">BOOTH</a></p>
-						<p></p>
-						<p></p>
-					</div>
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>Baby a Go! Go!</h3>
-						<p><b>ATRM-0013</b>
-						<p><b>2020秋M3 C-24</b><br/>会場頒布価格¥1000</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/908254252&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-						<p>1.可愛くなりたいベイビーアイラブユー！<br/>2.Circuit?<br/>3.オレンジに飛び乗って<br/>4.空と雲のパレード<br/>5.Found You</br></p>
-						<p><a href="https://a-tari-me.booth.pm/items/2464128">BOOTH(CD)</a> <a href="https://a-tari-me.booth.pm/items/2470073">BOOTH(DL)</a></p>
-						<p><a href="https://shop.akbh.jp/products/2100000119431">アキバホビー</a></p>
-					</div>
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>Weather satellite</h3>
-						<p><b>ATRM-0012</b>
-						<p><b>2020春M3 G-13b</b><br/>会場頒布価格¥1000</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/757677535&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-						<p>1.天気雨<br/>2.Milkyway Darling<br/>3.空と雲のパレード<br/>4.passing shower<br/>5.星空ララバイ(川崎泰弘Remix)</br></p>
-						<p><a href="https://booth.pm/ja/items/1855459">BOOTH(CD)</a> <a href="https://booth.pm/ja/items/2470427">BOOTH(DL)</a></p>
-						<p><a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=640215">メロンブックス</a> <a href="https://shop.akbh.jp/products/2100000115419">アキバホビー</a></p>
-					</div>
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>私の気持ち / 白昼夢</h3>
-						<p><b>ATRM-0010</b>
-						<p><b>C96 月曜日南コ18b</b><br/>会場頒布価格¥800</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/656243540&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-						<p>1.私の気持ち<br/>2.白昼夢<br/>3.私の気持ち(Instrumental)<br/>4.白昼夢(Instrumental)<br/>&nbsp;</br></p>
-						<p><a href="https://booth.pm/ja/items/1478117">BOOTH</a></p>
-						<p><a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=554239">メロンブックス</a></p>
-					</div>					
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>Sweet Serenade</h3>
-						<p><b>ATRM-0009</b>
-						<p><b>2019春M3 I-06b</b><br/>会場頒布価格¥1000</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/598732044&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-						<p>1.パステル<br/>2.Vital Reflection<br/>3.泡沫トリップ<br/>4.White Wing<br/>5.セレナーデ</br></p>
-						<p><a href="https://booth.pm/ja/items/1339503">BOOTH</a></p>
-						<p><a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=504604">メロンブックス</a></p>
-					</div>
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>RAPTURE CITY</h3>
-						<p><b>ATRM-0008</b>
-						<p><b>2018秋M3 N-17a</b><br/>会場頒布価格¥1000</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/514118649&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-						
-						<p>1.The dawn is breaking<br/>2.星空ララバイ<br/>3.なみだ<br/>4.Sichuan<br/>5.ライン</br></p>
-						<p><a href="https://booth.pm/ja/items/1086363">BOOTH</a></p>
-						<p><s><a href="https://ec.toranoana.jp/tora_r/ec/item/040030680437/">とらのあな</a></s>完売 <a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=504603">メロンブックス</a></p>
-					</div>
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>グライダー / ライン</h3>
-						<p><b>ATRM-0007</b>
-						<p><b>2018夏コミ 1日目 西は06b</b><br/>会場頒布価格¥700</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/477852213&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-						<p>1.グライダー<br/>2.ライン<br/>3.グライダー(Instrumental)<br/>4.ライン(Instrumental)<br/>&nbsp;</br></p>
-						<p><a href="https://a-tari-me.booth.pm/items/970777">BOOTH</a></p>
-						<p><s><a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=399145">メロンブックス</a></s>完売</p>
-					</div>
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>Monsoon Girl</h3>
-						<p><b>ATRM-0006</b>
-						<p><b>2018春M3 サ-05a</b><br/>会場頒布価格¥1000</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/429541248&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-						<p>1. Best Friend</br>2. つぼみの桜<br/>3. タルト・タタンの恋人<br/>4. ハルモニア<br/>5. Papua[HYPER EURO MIX]</br></p>
-						<p><a href="https://a-tari-me.booth.pm/items/838838">BOOTH</a></p>
-						<p><s><a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=360306">メロンブックス</a></s>完売</p>
-					</div>
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>Plastic squid</h3>
-						<p><b>ATRM-0005</b>
-						<p><b>2017秋M3 H-04a</b><br/>会場頒布価格¥1000</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/346984944&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-						<p>1. ハッピーバースデー</br>2. ダンデライオンになれない<br/>3. レモネード(水彩ver)<br/>4. ミッドナイト・レースカー<br/>5. 向日葵</br></p>
-						<p><a href="https://a-tari-me.booth.pm/items/683156">BOOTH</a></p>
-						<p><s><a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=293486">メロンブックス</a></s>完売</p>
-					</div>		
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>向日葵 c/w 03:09</h3>
-						<p><b>ATRM-0004</b>
-						<p><b>2017夏コミ 1日目 東へ23b</b><br/>会場頒布価格¥500</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/336698445&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-						<p>1. 向日葵</br>2. 03:09</br>3. 向日葵(Instrumental)</br>4. 03:09(Instrumental)</br>&nbsp;</br></p>
-						<p><a href="https://a-tari-me.booth.pm/items/838928">BOOTH</a></p>
-						<p><s><a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=279363">メロンブックス</a></s>完売</p>
-					</div>	
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>Daydream Pancake</h3>
-						<p><b>ATRM-0003</b>
-						<p><b>2017春M3 あ-12a</b><br/>会場頒布価格¥500</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317803702&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-						<p>1. ホットケーキ</br>2. 白昼夢</br>3. 明日は笑えるから</br>&nbsp;</br>&nbsp;</br></p>
-						<p><a href="https://a-tari-me.booth.pm/items/535426">BOOTH</a></p>
-						<p><s><a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=215046">メロンブックス</a></s>完売</p>
-					</div>
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>アクアリウム</h3>
-						<p><b>ATRM-0002</b>
-						<p><b>2016秋M3 L-22b</b><br/>会場頒布価格¥500</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/288222106&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-						<p>1. スーパースターフィッシュ</br>2. シアワセ</br>3. なみだ</br>&nbsp;</br>&nbsp;</br></p>
-						<p><a href="https://a-tari-me.booth.pm/items/838919">BOOTH</a></p>
-						<p><s><a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=188857">メロンブックス</a></s>完売</p>
-					</div>
-					<div class="span4 i-block">
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<h3>mild&chocolate</h3>
-						<p><b>ATRM-0001</b>
-						<p><b>2016春M3</b><br/>会場頒布価格¥500</p>
-						<iframe width="250" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258241424&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-						<p>1. グッバイプレッツェルガール</br>2. レモネード</br>3. papua</br>&nbsp;</br>&nbsp;</br></p>
-						<p><a href="https://a-tari-me.booth.pm/items/838915">BOOTH</a></p>
-						<p>&nbsp;</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End Services Section -->
-	<!-- About Us section -->
-	<div class="section section-alt" id="aboutus">
-		<div class="container">
-			<div class="content">
-				<div class="row">
-					<div class="span12">
-						<div class="title">
-							<h2>About Us</h2>
-							<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-							<p>2016年結成。渋谷系でポップンなユニット。日々明るいポップソングを届ける為に活動中。<br/>ライブでは生演奏&amp;打ち込みの編成から、ピアノ&amp;カホンのアコースティックまでどんな場所でも演奏します。</p>
-
-						</div>
-						<p class="text-center">
-							
-						</p>
-					</div>
-				</div>
-			</div>
-		</div> 
-	</div>
-
-		<div class="section section-alt" id="member">
-		<div class="container">
-			<div class="content">
-				<div class="row">
-					<div class="span4"></div>
-					<div class="span4">
-						<div class="title">
-							<h2>Members</h2>
-							<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-								<center>
-									<table class="table table-bordered">
-										<tr><td><b>aki</b>  </td><td>           キーボード・作曲</td></tr>
-										<tr><td><b>こまっティ</b></td><td>   デザイン・編曲</td></tr>
-										<tr><td><b>水彩</b>   </td><td>           ボーカル・作詞</td></tr>
-									</table>
-
-									<table class="table table-bordered">
-										<tr><td><b>ハレルヤ</b>   </td><td>           ボーカル・作詞</td></tr>
-									</table>
-						</div>
-					</div>
-					<div class="span4"></div>
-				</div>
-			</div>
-		</div> 
-	</div>
-
-	<div class="section section-alt" id="hchedule">
-		<div class="container">
-			<div class="content">
-				<div class="row">
-					<div class="span4"></div>
-					<div class="span4">
-						<div class="title">
-							<h2>History</h2>
-							<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-
-							<b>採用・受賞</b>
-							<table class="table table-bordered">
-								<tr><td>2024年 10月</td><td><a href="https://x.com/a_tari_me/status/1842884131556151726">「MASH VP! Re:VISION」</a></br>「グライダー」収録</td></tr>
-								<tr><td>2023年 9月</td><td><a href="https://x.com/a_tari_me/status/1698295926060966049">「太鼓の達人楽曲募集だドン！」2023</a></br>「ロケットモード」</br>採用</td></tr>
-								<tr><td>2023年 9月</td><td><a href="https://x.com/a_tari_me/status/1552989782354980864">「太鼓の達人楽曲募集だドン！」2022</a></br>「春色ファンファーレ」</br>佳作</td></tr>
-								<tr><td>2020年 6月</td><td><a href="https://x.com/a_tari_me/status/1275743606855233536">「太鼓の達人楽曲募集だドン！」</a></br>「かわいくなりたいベイビーアイラブユー！」</br>準佳作</td></tr>
-							</table>
-
-							<b>楽曲提供(敬称略)</b>
-							<table class="table table-bordered">
-								<tr><td>2024年6月</br>
-								めもあ</td>
-								<td><a href="https://x.com/a_tari_me/status/1801903165828161951">
-								new memory</a></br>
-								作詞 作曲 編曲</td></tr>
-
-								<tr><td>2023年10月</br>
-								bararabi</td>
-								<td><a href="https://x.com/a_tari_me/status/1715708129374253346">
-								そわそわ恋心</a></br>
-								作詞 作曲 編曲</td></tr>
-
-								<tr><td>2022年10月</br>
-								Alumina</br>(コラボ楽曲)</td>
-								<td><a href="https://x.com/a_tari_me/status/1583780227485818881">
-								感情ドロップ</a></br>
-								編曲</td></tr>
-
-								<tr><td>2022年10月</br>
-								力石好乃</td>
-								<td><a href="https://x.com/a_tari_me/status/1580858311565451264">
-								Gift</a></br>
-								作詞 作曲 編曲</td></tr>
-
-								<tr><td>2022年10月</br>
-								bararabi</td>
-								<td><a href="https://x.com/a_tari_me/status/1583274210318725120">
-								空に落ちる</a></br>
-								作詞 作曲 編曲</td></tr>
-
-								<tr><td>2022年4月</br>
-								Madoromi Mimi</td>
-								<td><a href="https://x.com/a_tari_me/status/1516383730356539392">
-								私たちの春</a></br>
-								作詞 作曲 編曲</td></tr>
-
-								<tr><td>2021年10月</br>
-								bararabi</td>
-								<td><a href="https://x.com/a_tari_me/status/1451166305826971652">大空とcolor</a></br>
-								作詞 作曲 編曲</td></tr>
-
-								<tr><td>2021年8月</br>
-								liqumo</td>
-								<td><a href="https://x.com/a_tari_me/status/1026108863685095425">ベリーソーダの恋煩い</a></br>
-								作曲 編曲</td></tr>
-
-								<tr><td>2020年10月</br>
-								雨ヶ崎笑虹</td>
-								<td><a href="https://x.com/a_tari_me/status/1319588668084989952">
-								音の葉</a></br>
-								作詞 作曲 編曲</td></tr>
-
-								<tr><td>2020年10月</br>
-								bararabi</td>
-								<td><a href="https://x.com/a_tari_me/status/1312404370005213184">
-								星の恋人、その名はスピカ</a></br>
-								作曲 編曲</td></tr>
-
-								<tr><td>2019年10月</br>
-								力石好乃</td>
-								<td><a href="https://x.com/a_tari_me/status/1183706689612025857">
-								「FULL THROTTLE」</a></br>
-								全4曲 編曲</td></tr>
-
-								<tr><td>2019年10月</br>
-								Magicaliny</td>
-								<td><a href="https://x.com/a_tari_me/status/1184119793525248002">
-								fly day night</a></br>
-								作曲 編曲</td></tr>
-
-								<tr><td>2019年10月</br>
-								Raspberry Milk</td>
-								<td><a href="https://x.com/a_tari_me/status/1185202503610028032">
-								sunday*greetings</a></br>
-								作曲 編曲</td></tr>
-
-								<tr><td>2019年8月
-								</br>あやんち！</td>
-								<td><a href="https://x.com/a_tari_me/status/1159459165984571392">
-								Message</a></br>
-								編曲</td></tr>
-
-								<tr><td>2019年4月</br>
-								もかりく。</td>
-								<td><a href="https://x.com/a_tari_me/status/1121785475117633537">お日さまホリディ</br>ハピネス・メモリアル</a></br>
-								作曲 編曲</td></tr>
-
-								<tr><td>2017年12月</br>Ri9,ＯＲＩ姫
-								</td>
-								<td><a href="https://x.com/a_tari_me/status/944589367602843648">
-								ジングルベル</a></br>
-								編曲</td></tr>
-
-								
-							</table>
-
-							<b>ライブ出演</b>
-							<table class="table table-bordered">
-								<tr><td>2024年 10月</td><td><a href="https://gprofficial.net/live51">Guitar Pop Restaurant vol.51</a></td></tr>
-								<tr><td>2018年 9月</td><td><a href="https://twitter.com/markyataka/status/1019884584308072448">『アキシブアラモード〜Vol.1』</a></td></tr>
-								<tr><td>2017年 9月</td><td>Squirrel★Presents H!B!R! <br>～ first party ～</td></tr>
-								<tr><td>2017年 6月</td><td>をたばん！なな</td></tr>
-								<tr><td>2017年 4月</td><td>DO LIVE02</td></tr>
-								<tr><td>2016年 5月</td><td>池袋ジャズフェスティバル</td></tr>
-							</table>
-
-							<b>イベント参加</b>
-							<table class="table table-bordered">
-								<tr><td>2024年 10月</td><td>M3-2024秋<br/>『raspberry syrup』リリース</td></tr>
-								<tr><td>2024年 4月</td><td>M3-2024春</td></tr>
-								<tr><td>2023年 10月</td><td>M3-2023秋<br/>『monophonic.』リリース</td></tr>
-								<tr><td>2023年 4月</td><td>M3-2023春</td></tr>
-								<tr><td>2022年 10月</td><td>M3-2022秋<br/>『Party Popper』リリース</td></tr>
-								<tr><td>2022年 4月</td><td>M3-2022春</td></tr>
-								<tr><td>2021年 10月</td><td>M3-2021秋<br/>『Tomorrow's Forecast』リリース</td></tr>
-								<tr><td>2021年 4月</td><td>M3-2021春<br/>『Pastel Symphony』リリース</td></tr>
-								<tr><td>2020年 10月</td><td>M3-2020秋<br/>『Baby a Go! Go!』リリース</td></tr>
-								<tr><td>2020年 3月</td><td>M3-2020春<br/>『Wheather satellite』リリース</td></tr>
-								<tr><td>2019年 10月</td><td>M3-2019秋<br/></td></tr>
-								<tr><td>2019年 8月</td><td>コミックマーケット96<br/>『私の気持ち / 白昼夢』リリース</td></tr>
-								<tr><td>2019年 8月</td><td>ガタケット165<br/></td></tr>
-								<tr><td>2019年 4月</td><td>M3-2019春<br/>『Sweet Serenade』リリース</td></tr>
-								<tr><td>2018年 12月</td><td>第２回　音けっと</td></tr>
-								<tr><td>2018年 10月</td><td>M3-2018秋<br/>『RAPTURE CITY』リリース</td></tr>
-								<tr><td>2018年 8月</td><td>コミックマーケット94<br/>『グライダー / ライン』リリース</td></tr>
-								<tr><td>2018年 7月</td><td>みちのくコミティア(郡山)</td></tr>
-								<tr><td>2018年 4月</td><td>M3-2018春<br/>『Monsoon Girl』リリース</td></tr>
-								<tr><td>2017年 10月</td><td>M3-2017秋<br/>『Plastic squid』リリース</td></tr>
-								<tr><td>2017年  8月</td><td>コミックマーケット92<br/>『向日葵 c/w 03:09』リリース</td></tr>
-								<tr><td>2017年  4月</td><td>M3-2017春<br/>『Daydream Pancake』リリース</td></tr>
-								<tr><td>2016年 10月</td><td>M3-2016秋<br/>『アクアリウム』リリース</td></tr>
-								<tr><td>2016年  4月</td><td>M3-2016春<br/>『Mild&Chocolate』リリース</td></tr>
-							</table>
-						</div>
-					</div>
-					<div class="span4"></div>
-				</div>
-			</div>
-		</div> 
-	</div>
-
-	<!-- End About US -->
-	<!-- Features Section -->
-	<!--
-	<div class="section section-alt" id="features">
-		<div class="container">
-			<div class="content">
-				<div class="row">
-					<div class="span12">
-						<div class="title">
-							<h2>Features</h2>
-							<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-							<p>Heading, Buttons &amp; Font Awesome Icons.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="span4">
-						<h1>Heading h1</h1>	
-						<h2>Heading h2</h2>	
-						<h3>Heading h3</h3>	
-						<h4>Heading h4</h4>	
-						<h5>Heading h5</h5>	
-						<h6>Heading h6</h6>	
-					</div>
-					<div class="span8">
-						<table class="table table-bordered table-striped">
-							<thead>
-								<tr>
-									<th>Button</th>
-									<th>class=""</th>
-									<th>Description</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td><button type="button" class="btn">Default</button></td>
-									<td><code>btn</code></td>
-									<td>Standard gray button with gradient</td>
-								</tr>
-								<tr>
-									<td><button type="button" class="btn btn-primary">Primary</button></td>
-									<td><code>btn btn-primary</code></td>
-									<td>Provides extra visual weight and identifies the primary action in a set of buttons</td>
-								</tr>
-								<tr>
-									<td><button type="button" class="btn btn-info">Info</button></td>
-									<td><code>btn btn-info</code></td>
-									<td>Used as an alternative to the default styles</td>
-								</tr>
-								<tr>
-									<td><button type="button" class="btn btn-success">Success</button></td>
-									<td><code>btn btn-success</code></td>
-									<td>Indicates a successful or positive action</td>
-								</tr>
-								<tr>
-									<td><button type="button" class="btn btn-warning">Warning</button></td>
-									<td><code>btn btn-warning</code></td>
-									<td>Indicates caution should be taken with this action</td>
-								</tr>
-								<tr>
-									<td><button type="button" class="btn btn-danger">Danger</button></td>
-									<td><code>btn btn-danger</code></td>
-									<td>Indicates a dangerous or potentially negative action</td>
-								</tr>
-								<tr>
-									<td><button type="button" class="btn btn-inverse">Inverse</button></td>
-									<td><code>btn btn-inverse</code></td>
-									<td>Alternate dark gray button, not tied to a semantic action or use</td>
-								</tr>
-								<tr>
-									<td><button type="button" class="btn btn-link">Link</button></td>
-									<td><code>btn btn-link</code></td>
-									<td>Deemphasize a button by making it look like a link while maintaining button behavior</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div> 
-	-->
-	<!-- End Features -->
-	<!-- Contact Section -->
-	<div class="section section-alt" id="contact" >
-		<div class="container">
-			<div class="content">
-				<div class="row">
-					<div class="span12">
-						<div class="title">
-							<h2>Contact Us</h2>
-							<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-							<p>下記SNSよりお問い合わせください。</p>
-
-						</div>
-					</div>
-					<div class="span6">
-						<h4>Twitter</h4>
-						<p><a href="https://twitter.com/a_tari_me">Official</a></p>
-						<hr class="grey"/>
-					</div>
-					<div class="span6">
-						<h4>SoundCloud</h4>
-						<p><a href="https://soundcloud.com/mix-precure">Official</p>
-						<hr class="grey"/>
-					</div>
-				</div>
-			</div>
-		</div> 
-
-	</div>
-	<!-- End Contact Section -->
-	<div id="footer">
-		&copy; 2024 アタリメ All rights reserved.
-	</div>
-
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-76315611-1', 'auto');
-		ga('send', 'pageview');
-	</script>
-
+  <!-- JavaScript -->
+  <script>
+    $(document).ready(function() {
+      // Particles Animation
+      function createParticles() {
+        const particlesContainer = document.getElementById('particles');
+        if (!particlesContainer) return;
+        
+        const particleCount = Math.min(60, Math.floor(window.innerWidth / 25)); // Fewer particles
+        
+        // Clear existing particles
+        particlesContainer.innerHTML = '';
+        
+        // Create particles in batch for better performance
+        const fragment = document.createDocumentFragment();
+        
+        for (let i = 0; i < particleCount; i++) {
+          const particle = document.createElement('div');
+          particle.classList.add('particle');
+          
+          // Random properties
+          const size = Math.random() * 2 + 1; // 1-3px (smaller)
+          const posX = Math.random() * 100; // 0-100%
+          const posY = Math.random() * 100; // 0-100% 
+          const opacity = Math.random() * 0.3 + 0.1; // 0.1-0.4 (more subtle)
+          const animDuration = Math.random() * 15 + 15; // 15-30s
+          const animDelay = Math.random() * 5; // 0-5s
+          
+          // Set styles
+          particle.style.width = `${size}px`;
+          particle.style.height = `${size}px`;
+          particle.style.left = `${posX}%`;
+          particle.style.top = `${posY}%`;
+          particle.style.opacity = opacity;
+          particle.style.animation = `floatParticle ${animDuration}s ease-in-out ${animDelay}s infinite`;
+          
+          fragment.appendChild(particle);
+        }
+        
+        particlesContainer.appendChild(fragment);
+      }
+      
+      // Add floating animation keyframes
+      if (!document.getElementById('particle-animation')) {
+        const styleElement = document.createElement('style');
+        styleElement.id = 'particle-animation';
+        styleElement.innerHTML = `
+          @keyframes floatParticle {
+            0% {
+              transform: translate(0, 0);
+            }
+            25% {
+              transform: translate(3px, -5px);
+            }
+            50% {
+              transform: translate(-3px, 5px);
+            }
+            75% {
+              transform: translate(5px, 3px);
+            }
+            100% {
+              transform: translate(0, 0);
+            }
+          }
+        `;
+        document.head.appendChild(styleElement);
+      }
+      
+      // Initialize particles
+      createParticles();
+      
+      // Recreate on window resize
+      $(window).on('resize', function() {
+        createParticles();
+      });
+      
+      // Smooth scrolling for anchor links
+      $('a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+        
+        var target = this.hash;
+        var $target = $(target);
+        
+        $('html, body').animate({
+          'scrollTop': $target.offset().top - 80
+        }, 900, 'swing');
+      });
+      
+      // Mobile navigation toggle
+      $('.mobile-nav-toggle').on('click', function() {
+        $('.nav-menu').toggleClass('active');
+        $(this).find('i').toggleClass('fa-bars fa-times');
+      });
+      
+      // Active navigation link based on scroll position
+      $(window).on('scroll', function() {
+        var scrollPosition = $(this).scrollTop();
+        
+        // Header background on scroll
+        if (scrollPosition > 50) {
+          $('#header').css('padding', '10px 0');
+        } else {
+          $('#header').css('padding', '15px 0');
+        }
+        
+        // Update active nav link
+        $('section').each(function() {
+          var targetPosition = $(this).offset().top - 85;
+          var sectionHeight = $(this).outerHeight();
+          var sectionId = $(this).attr('id');
+          
+          if (scrollPosition >= targetPosition && scrollPosition < targetPosition + sectionHeight) {
+            $('.nav-menu li').removeClass('current');
+            $('.nav-menu li a[href="#' + sectionId + '"]').parent().addClass('current');
+          }
+        });
+      });
+      
+      // Load more albums button
+      $('#load-more').on('click', function() {
+        const $button = $(this);
+        const $hiddenAlbums = $('.hidden-albums');
+        
+        // Add button loading state
+        $button.prop('disabled', true).css('opacity', '0.7');
+        
+        // Toggle with animation
+        $hiddenAlbums.slideToggle(400, function() {
+          // Remove button loading state
+          $button.prop('disabled', false).css('opacity', '1');
+          
+          if ($hiddenAlbums.is(':visible')) {
+            $button.text('閉じる');
+            
+            // Smooth scroll to the first album in the hidden section
+            $('html, body').animate({
+              scrollTop: $hiddenAlbums.offset().top - 100
+            }, 600);
+          } else {
+            $button.text('もっと見る');
+            
+            // Scroll back to the end of the visible albums
+            $('html, body').animate({
+              scrollTop: $('.view-more').offset().top - 120
+            }, 600);
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>
