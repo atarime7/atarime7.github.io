@@ -21,10 +21,20 @@
 
 		body {
 			font-family: 'Noto Sans JP', sans-serif;
-			background: #fff url('bg.png') center center fixed;
-			background-size: cover;
+			background: #fff;
 			color: #333;
 			line-height: 1.8;
+			overflow-x: hidden;
+		}
+
+		/* Animated Background Canvas */
+		#bgCanvas {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
 		}
 
 		/* Header Image */
@@ -87,7 +97,7 @@
 			width: 100%;
 			height: auto;
 			box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-			animation: blurToFocus 0.5s ease-out forwards;
+			animation: blurToFocus 2s ease-out forwards;
 			filter: blur(20px);
 			opacity: 0;
 		}
@@ -204,10 +214,11 @@
 		.track {
 			background: rgba(255, 250, 245, 0.95);
 			border-left: 6px solid #c93677;
-			padding: 20px 25px;
+			padding: 20px 25px 20px 100px;
 			margin-bottom: 20px;
 			box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 			transition: all 0.3s;
+			position: relative;
 		}
 
 		.track:hover {
@@ -220,14 +231,23 @@
 		}
 
 		.track-number {
-			font-size: 1em;
-			font-weight: 700;
-			color: #c93677;
-			margin-bottom: 8px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			width: 80px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 3em;
+			font-weight: 900;
+			color: rgba(201, 54, 119, 0.15);
+			background: linear-gradient(135deg, rgba(201, 54, 119, 0.1) 0%, rgba(255, 140, 66, 0.05) 100%);
 		}
 
 		.track.instrumental .track-number {
-			color: #ff8c42;
+			color: rgba(255, 140, 66, 0.15);
+			background: linear-gradient(135deg, rgba(255, 140, 66, 0.1) 0%, rgba(201, 54, 119, 0.05) 100%);
 		}
 
 		.track-title {
@@ -235,6 +255,10 @@
 			font-weight: 700;
 			margin-bottom: 12px;
 			color: #333;
+		}
+
+		.track.instrumental .track-title {
+			font-size: 1.1em;
 		}
 
 		.track-credits {
@@ -406,50 +430,6 @@
 			box-shadow: 0 5px 20px rgba(0,0,0,0.3);
 		}
 
-		/* Background Effects */
-		.bg-effect {
-			position: fixed;
-			pointer-events: none;
-			z-index: 0;
-			opacity: 0.25;
-			filter: blur(60px);
-		}
-
-		.effect-1 {
-			top: 15%;
-			left: -5%;
-			width: 400px;
-			height: 400px;
-			background: radial-gradient(circle, #c93677 0%, transparent 70%);
-			animation: float 20s infinite ease-in-out;
-		}
-
-		.effect-2 {
-			top: 50%;
-			right: -10%;
-			width: 500px;
-			height: 500px;
-			background: radial-gradient(circle, #ff8c42 0%, transparent 70%);
-			animation: float 25s infinite ease-in-out reverse;
-		}
-
-		.effect-3 {
-			bottom: 10%;
-			left: 10%;
-			width: 350px;
-			height: 350px;
-			background: radial-gradient(circle, #c93677 0%, transparent 70%);
-			animation: float 30s infinite ease-in-out;
-		}
-
-		@keyframes float {
-			0%, 100% {
-				transform: translateY(0) translateX(0) scale(1);
-			}
-			50% {
-				transform: translateY(-50px) translateX(30px) scale(1.1);
-			}
-		}
 
 		/* Buy Section */
 		.buy-section {
@@ -614,7 +594,12 @@
 			}
 
 			.track {
-				padding: 18px 20px;
+				padding: 18px 20px 18px 75px;
+			}
+
+			.track-number {
+				width: 60px;
+				font-size: 2em;
 			}
 
 			.credits-section {
@@ -660,14 +645,13 @@
 				margin-right: auto;
 				max-width: 100%;
 			}
+
 		}
 	</style>
 </head>
 <body>
-	<!-- Background Effects -->
-	<div class="bg-effect effect-1"></div>
-	<div class="bg-effect effect-2"></div>
-	<div class="bg-effect effect-3"></div>
+	<!-- Animated Background Canvas -->
+	<canvas id="bgCanvas"></canvas>
 
 	<!-- Header Image -->
 	<div class="header-image">
@@ -708,6 +692,10 @@
 					<td>2025.10.26</td>
 				</tr>
 				<tr>
+					<td>スペース</td>
+					<td>第一展示場　B-20a</td>
+				</tr>
+				<tr>
 					<td>価格</td>
 					<td>会場頒布価格 ¥2,000</td>
 				</tr>
@@ -717,7 +705,7 @@
 				</tr>
 				<tr>
 					<td>Illustration</td>
-					<td>みずは (<a href="https://x.com/megacycle13" target="_blank">@megacycle13</a>)</td>
+					<td>みずは</td>
 				</tr>
 				<tr>
 					<td>Produced by</td>
@@ -934,5 +922,72 @@
 	<div class="footer">
 		<p>&copy; 2025 アタリメ × Atelier LadyBird All rights reserved.</p>
 	</div>
+
+	<script>
+		// Animated background with bezier curves
+		const canvas = document.getElementById('bgCanvas');
+		const ctx = canvas.getContext('2d');
+
+		// Set canvas size
+		function resizeCanvas() {
+			canvas.width = window.innerWidth;
+			canvas.height = window.innerHeight;
+		}
+		resizeCanvas();
+		window.addEventListener('resize', resizeCanvas);
+
+		// Colors from original background
+		const color1 = '#b32f54'; // Pink
+		const color2 = '#f28818'; // Orange
+
+		let time = 0;
+
+		function drawBackground() {
+			const width = canvas.width;
+			const height = canvas.height;
+
+			// Create gradient fills
+			ctx.clearRect(0, 0, width, height);
+
+			// Draw orange base
+			ctx.fillStyle = color1;
+			ctx.fillRect(0, 0, width, height);
+
+			// Create flowing bezier curve similar to bg.png
+			const waveOffset = Math.sin(time * 0.01) * 120;
+			const waveOffset2 = Math.cos(time * 0.008) * 100;
+
+			// Draw single large diagonal wave
+			ctx.fillStyle = color2;
+			ctx.beginPath();
+
+			// Start from top-left
+			ctx.moveTo(0, 0);
+
+			// Big diagonal wave across the canvas
+			ctx.bezierCurveTo(
+				width * 0.2, height * 0.15 + waveOffset,
+				width * 0.4, height * 0.3 + waveOffset2,
+				width * 0.6, height * 0.4
+			);
+
+			ctx.bezierCurveTo(
+				width * 0.75, height * 0.48 - waveOffset2,
+				width * 0.85, height * 0.6 - waveOffset,
+				width, height * 0.65
+			);
+
+			// Complete the shape
+			ctx.lineTo(width, height);
+			ctx.lineTo(0, height);
+			ctx.closePath();
+			ctx.fill();
+
+			time++;
+			requestAnimationFrame(drawBackground);
+		}
+
+		drawBackground();
+	</script>
 </body>
 </html>
