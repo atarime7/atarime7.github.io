@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bitter Sweet Symphony - アタリメ × Atelier LadyBird</title>
+	<meta name="description" content="アタリメとAtelier LadyBirdのコラボアルバム第二弾『Bitter Sweet Symphony』2025秋M3">
+
+	<!-- Favicon -->
+	<link rel="icon" href="../images/favicon.ico">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: 'Noto Sans JP', sans-serif;
+			background: #fff url('bg.png') center center fixed;
+			background-size: cover;
+			color: #333;
+			line-height: 1.8;
+		}
+
+		/* Header Image */
+		.header-image {
+			display: none;
+		}
+
+		/* Container */
+		.container {
+			max-width: 1000px;
+			margin: 0 auto;
+			padding: 0 20px;
+			position: relative;
+			z-index: 1;
+		}
+
+		/* Border Images */
+		.border-top {
+			width: 100%;
+			text-align: center;
+			margin: 40px 0;
+			opacity: 0;
+			animation: fadeIn 0.5s ease-out 0.3s forwards;
+		}
+
+		.border-top img,
+		.border-bottom img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		.border-bottom {
+			width: 100%;
+			text-align: center;
+			margin: 40px 0;
+			opacity: 0;
+			animation: fadeIn 0.5s ease-out 0.3s forwards;
+		}
+
+		@keyframes fadeIn {
+			to {
+				opacity: 1;
+			}
+		}
+
+		/* Main Visual */
+		.main-visual {
+			text-align: center;
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 20px;
+			position: relative;
+			z-index: 1;
+		}
+
+		.jacket-image {
+			max-width: 600px;
+			width: 100%;
+			height: auto;
+			box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+			animation: blurToFocus 0.5s ease-out forwards;
+			filter: blur(20px);
+			opacity: 0;
+		}
+
+		@keyframes blurToFocus {
+			0% {
+				filter: blur(20px);
+				opacity: 0;
+				transform: scale(1.05);
+			}
+			100% {
+				filter: blur(0);
+				opacity: 1;
+				transform: scale(1);
+			}
+		}
+
+		/* Catch Copy */
+		.catch-copy {
+			text-align: center;
+			font-size: 1.3em;
+			line-height: 2;
+			color: #c93677;
+			font-weight: 700;
+			margin: 80px 0 40px;
+			padding: 0 20px;
+			opacity: 0;
+			animation: fadeIn 0.5s ease-out 0.4s forwards;
+		}
+
+		/* Release Date */
+		.release-date {
+			text-align: center;
+			font-size: 3em;
+			font-weight: 900;
+			color: #c93677;
+			padding: 40px 60px;
+			margin: 60px auto 480px;
+			letter-spacing: 4px;
+			opacity: 0;
+			animation: fadeIn 0.5s ease-out 0.45s forwards;
+		}
+
+		/* Section */
+		.section {
+			margin: 60px 0;
+			opacity: 0;
+			animation: fadeIn 0.5s ease-out 0.5s forwards;
+			background: linear-gradient(135deg, rgba(255, 245, 250, 0.95) 0%, rgba(255, 250, 240, 0.95) 100%);
+			padding: 50px;
+			border-radius: 12px;
+			box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+		}
+
+		.section:has(.info-table) {
+			margin-left: auto;
+			margin-right: 0;
+			max-width: 85%;
+		}
+
+		.section:has(.tracklist) {
+			margin-left: 0;
+			margin-right: auto;
+			max-width: 85%;
+		}
+
+		.section-title {
+			font-size: 2em;
+			font-weight: 900;
+			color: #c93677;
+			text-align: center;
+			margin-bottom: 40px;
+			letter-spacing: 2px;
+		}
+
+		/* Album Info Table */
+		.info-table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 30px 0;
+		}
+
+		.info-table tr {
+			border-bottom: 1px solid #eee;
+		}
+
+		.info-table td {
+			padding: 15px 20px;
+			font-size: 1.05em;
+		}
+
+		.info-table td:first-child {
+			font-weight: 700;
+			color: #c93677;
+			width: 180px;
+		}
+
+		.info-table a {
+			color: #ff8c42;
+			text-decoration: none;
+			border-bottom: 1px solid transparent;
+			transition: border-bottom 0.2s;
+		}
+
+		.info-table a:hover {
+			border-bottom: 1px solid #ff8c42;
+		}
+
+		/* Track List */
+		.tracklist {
+			list-style: none;
+		}
+
+		.track {
+			background: rgba(255, 250, 245, 0.95);
+			border-left: 6px solid #c93677;
+			padding: 20px 25px;
+			margin-bottom: 20px;
+			box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+			transition: all 0.3s;
+		}
+
+		.track:hover {
+			box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+			transform: translateX(5px);
+		}
+
+		.track.instrumental {
+			border-left-color: #ff8c42;
+		}
+
+		.track-number {
+			font-size: 1em;
+			font-weight: 700;
+			color: #c93677;
+			margin-bottom: 8px;
+		}
+
+		.track.instrumental .track-number {
+			color: #ff8c42;
+		}
+
+		.track-title {
+			font-size: 1.3em;
+			font-weight: 700;
+			margin-bottom: 12px;
+			color: #333;
+		}
+
+		.track-credits {
+			font-size: 0.95em;
+			line-height: 1.8;
+			color: #666;
+		}
+
+		.track-credits div {
+			margin-bottom: 3px;
+		}
+
+		.track-credits strong {
+			color: #c93677;
+		}
+
+		.track-credits a {
+			color: #ff8c42;
+			text-decoration: none;
+			border-bottom: 1px solid transparent;
+			transition: border-bottom 0.2s;
+		}
+
+		.track-credits a:hover {
+			border-bottom: 1px solid #ff8c42;
+		}
+
+		/* Event Info */
+		.event-info {
+			text-align: center;
+			padding: 20px 0;
+		}
+
+		.event-name {
+			font-size: 1.8em;
+			font-weight: 900;
+			color: #c93677;
+			margin-bottom: 15px;
+		}
+
+		.event-date {
+			font-size: 1.3em;
+			font-weight: 700;
+			color: #333;
+			margin-bottom: 10px;
+		}
+
+		.event-booth {
+			font-size: 1.1em;
+			color: #666;
+		}
+
+		/* YouTube Section */
+		.youtube-container {
+			text-align: center;
+			padding: 40px 0;
+		}
+
+		.youtube-container iframe {
+			border-radius: 12px;
+			box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+		}
+
+		.coming-soon-text {
+			font-size: 1.2em;
+			color: #999;
+			font-weight: 700;
+		}
+
+		/* Shop Section */
+		.shop-section {
+			background: linear-gradient(135deg, rgba(255, 245, 250, 0.95) 0%, rgba(255, 250, 240, 0.95) 100%);
+			padding: 60px 20px;
+			margin: 60px 0;
+			opacity: 0;
+			animation: fadeIn 0.5s ease-out 0.5s forwards;
+		}
+
+		.shop-links {
+			display: flex;
+			gap: 20px;
+			justify-content: center;
+			flex-wrap: wrap;
+			margin: 30px 0;
+		}
+
+		.shop-button {
+			display: inline-flex;
+			align-items: center;
+			gap: 10px;
+			padding: 15px 40px;
+			background: linear-gradient(135deg, #c93677 0%, #ff8c42 100%);
+			color: #fff;
+			text-decoration: none;
+			font-weight: 700;
+			border-radius: 50px;
+			transition: all 0.3s;
+			box-shadow: 0 5px 20px rgba(201, 54, 119, 0.3);
+		}
+
+		.shop-button:hover {
+			transform: translateY(-3px);
+			box-shadow: 0 8px 30px rgba(201, 54, 119, 0.4);
+		}
+
+		.shop-icon {
+			font-size: 1.2em;
+		}
+
+		.streaming-links {
+			display: flex;
+			gap: 15px;
+			justify-content: center;
+			flex-wrap: wrap;
+			margin: 30px 0;
+		}
+
+		.streaming-button {
+			padding: 12px 30px;
+			background: #fff;
+			color: #c93677;
+			border: 2px solid #c93677;
+			text-decoration: none;
+			font-weight: 700;
+			border-radius: 50px;
+			transition: all 0.3s;
+		}
+
+		.streaming-button:hover {
+			background: #c93677;
+			color: #fff;
+		}
+
+		/* Share Section */
+		.share-section {
+			text-align: center;
+			padding: 40px 0;
+			margin: 40px 0;
+		}
+
+		.share-title {
+			font-size: 1.5em;
+			font-weight: 700;
+			color: #c93677;
+			margin-bottom: 20px;
+		}
+
+		.share-buttons {
+			display: flex;
+			gap: 15px;
+			justify-content: center;
+		}
+
+		.share-button {
+			display: inline-flex;
+			align-items: center;
+			gap: 8px;
+			padding: 12px 30px;
+			background: #000;
+			color: #fff;
+			text-decoration: none;
+			font-weight: 700;
+			border-radius: 50px;
+			transition: all 0.3s;
+		}
+
+		.share-button:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+		}
+
+		/* Background Effects */
+		.bg-effect {
+			position: fixed;
+			pointer-events: none;
+			z-index: 0;
+			opacity: 0.25;
+			filter: blur(60px);
+		}
+
+		.effect-1 {
+			top: 15%;
+			left: -5%;
+			width: 400px;
+			height: 400px;
+			background: radial-gradient(circle, #c93677 0%, transparent 70%);
+			animation: float 20s infinite ease-in-out;
+		}
+
+		.effect-2 {
+			top: 50%;
+			right: -10%;
+			width: 500px;
+			height: 500px;
+			background: radial-gradient(circle, #ff8c42 0%, transparent 70%);
+			animation: float 25s infinite ease-in-out reverse;
+		}
+
+		.effect-3 {
+			bottom: 10%;
+			left: 10%;
+			width: 350px;
+			height: 350px;
+			background: radial-gradient(circle, #c93677 0%, transparent 70%);
+			animation: float 30s infinite ease-in-out;
+		}
+
+		@keyframes float {
+			0%, 100% {
+				transform: translateY(0) translateX(0) scale(1);
+			}
+			50% {
+				transform: translateY(-50px) translateX(30px) scale(1.1);
+			}
+		}
+
+		/* Buy Section */
+		.buy-section {
+			text-align: center;
+			padding: 60px 0;
+			background: linear-gradient(135deg, #ffeaf3 0%, #fff5e6 100%);
+			margin: 60px 0;
+		}
+
+		.buy-title {
+			font-size: 1.5em;
+			font-weight: 700;
+			color: #c93677;
+			margin-bottom: 20px;
+		}
+
+		.coming-soon {
+			font-size: 1.2em;
+			color: #999;
+			font-weight: 700;
+		}
+
+		.buy-button {
+			display: inline-block;
+			padding: 18px 60px;
+			background: linear-gradient(135deg, #c93677 0%, #ff8c42 100%);
+			color: #fff;
+			text-decoration: none;
+			font-size: 1.2em;
+			font-weight: 900;
+			border-radius: 50px;
+			transition: all 0.3s;
+			box-shadow: 0 8px 25px rgba(201, 54, 119, 0.3);
+		}
+
+		.buy-button:hover {
+			transform: translateY(-3px);
+			box-shadow: 0 12px 35px rgba(201, 54, 119, 0.4);
+		}
+
+		/* Credits */
+		.credits-section {
+			background: linear-gradient(135deg, rgba(255, 240, 245, 0.95) 0%, rgba(255, 245, 235, 0.95) 100%);
+			padding: 60px 40px;
+			margin: 60px 0;
+			box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+		}
+
+		.credits-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+			gap: 40px;
+			margin-top: 30px;
+		}
+
+		.credit-group h3 {
+			color: #c93677;
+			font-size: 1.1em;
+			margin-bottom: 12px;
+			font-weight: 700;
+			border-bottom: 2px solid #c93677;
+			padding-bottom: 8px;
+		}
+
+		.credit-group p {
+			line-height: 2;
+			color: #555;
+		}
+
+		.credit-group a {
+			color: #ff8c42;
+			text-decoration: none;
+			border-bottom: 1px solid transparent;
+			transition: border-bottom 0.2s;
+		}
+
+		.credit-group a:hover {
+			border-bottom: 1px solid #ff8c42;
+		}
+
+		/* Official Links */
+		.official-links {
+			text-align: center;
+			padding: 60px 0;
+			margin: 60px 0;
+		}
+
+		.official-title {
+			font-size: 1.5em;
+			font-weight: 700;
+			color: #c93677;
+			margin-bottom: 30px;
+		}
+
+		.link-buttons {
+			display: flex;
+			gap: 20px;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		.official-button {
+			display: inline-block;
+			padding: 15px 40px;
+			background: #fff;
+			color: #c93677;
+			border: 2px solid #c93677;
+			text-decoration: none;
+			font-weight: 700;
+			border-radius: 50px;
+			transition: all 0.3s;
+		}
+
+		.official-button:hover {
+			background: #c93677;
+			color: #fff;
+			transform: translateY(-2px);
+		}
+
+		/* Footer */
+		.footer {
+			background: #333;
+			color: #999;
+			text-align: center;
+			padding: 30px;
+		}
+
+		/* Responsive */
+		@media (max-width: 768px) {
+			.main-visual {
+				padding: 60px 0 40px;
+				min-height: 80vh;
+			}
+
+			.jacket-image {
+				max-width: 90%;
+			}
+
+			.release-date {
+				font-size: 1.8em;
+				padding: 30px 40px;
+				letter-spacing: 2px;
+				margin: 40px 20px;
+			}
+
+			.section {
+				padding: 30px 20px;
+			}
+
+			.section-title {
+				font-size: 1.6em;
+			}
+
+			.info-table td:first-child {
+				width: 100px;
+				font-size: 0.9em;
+			}
+
+			.info-table td {
+				padding: 12px 10px;
+				font-size: 1em;
+			}
+
+			.track {
+				padding: 18px 20px;
+			}
+
+			.credits-section {
+				padding: 40px 20px;
+			}
+
+			.credits-grid {
+				grid-template-columns: 1fr;
+				gap: 30px;
+			}
+
+			.shop-links {
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.streaming-links {
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.share-buttons {
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.event-name {
+				font-size: 1.5em;
+			}
+
+			.event-date {
+				font-size: 1.1em;
+			}
+
+			.link-buttons {
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.section:has(.info-table),
+			.section:has(.tracklist) {
+				margin-left: auto;
+				margin-right: auto;
+				max-width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- Background Effects -->
+	<div class="bg-effect effect-1"></div>
+	<div class="bg-effect effect-2"></div>
+	<div class="bg-effect effect-3"></div>
+
+	<!-- Header Image -->
+	<div class="header-image">
+		<img src="album_title.png" alt="Bitter Sweet Symphony">
+	</div>
+
+	<!-- Main Visual -->
+	<div class="main-visual">
+		<img src="jacket.png" alt="Bitter Sweet Symphony ジャケット" class="jacket-image">
+	</div>
+
+	<div class="container">
+		<!-- Catch Copy -->
+		<div class="catch-copy">
+			アタリメとAtelier LadyBirdが再び紡ぐ、<br>
+			甘くて切ない<ruby>交響曲<rt>シンフォニー</rt></ruby>。
+		</div>
+
+		<!-- Release Date -->
+		<div class="release-date">
+			2025.10.26 RELEASE
+		</div>
+
+		<!-- Album Info -->
+		<div class="section">
+			<h2 class="section-title">INFORMATION</h2>
+			<table class="info-table">
+				<tr>
+					<td>タイトル</td>
+					<td>Bitter Sweet Symphony</td>
+				</tr>
+				<tr>
+					<td>サークル</td>
+					<td>アタリメ × Atelier LadyBird</td>
+				</tr>
+				<tr>
+					<td>リリース</td>
+					<td>2025.10.26</td>
+				</tr>
+				<tr>
+					<td>価格</td>
+					<td>会場頒布価格 ¥2,000</td>
+				</tr>
+				<tr>
+					<td>収録曲数</td>
+					<td>全8曲（各曲 + Instrumental）</td>
+				</tr>
+				<tr>
+					<td>Illustration</td>
+					<td>みずは (<a href="https://x.com/megacycle13" target="_blank">@megacycle13</a>)</td>
+				</tr>
+				<tr>
+					<td>Produced by</td>
+					<td>アタリメ (aki, こまっティ)<br>Atelier LadyBird (吉村彰一, 川崎泰弘)</td>
+				</tr>
+				<tr>
+					<td>品番</td>
+					<td>ATRM-0019</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- Border Top -->
+		<div class="border-top">
+			<img src="border_top_bss.png" alt="">
+		</div>
+
+		<!-- YouTube Section -->
+		<div class="section">
+			<h2 class="section-title">CROSSFADE DEMO</h2>
+			<div class="youtube-container">
+				<p class="coming-soon-text">COMING SOON...</p>
+				<!-- <iframe width="100%" height="400" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+			</div>
+		</div>
+
+		<!-- Border Top -->
+		<div class="border-top">
+			<img src="border_top_bss.png" alt="">
+		</div>
+
+		<!-- Track List -->
+		<div class="section">
+			<h2 class="section-title">TRACK LIST</h2>
+			<ul class="tracklist">
+				<li class="track">
+					<div class="track-number">01</div>
+					<div class="track-title">Bitter Sweet Symphony</div>
+					<div class="track-credits">
+						<div><strong>作詞：</strong>Atelier LadyBird</div>
+						<div><strong>作曲：</strong>Atelier LadyBird</div>
+						<div><strong>編曲：</strong>アタリメ、川崎泰弘</div>
+						<div><strong>Vocal：</strong>わかばやし (<a href="https://x.com/waka_nana0413" target="_blank">@waka_nana0413</a>)</div>
+						<div><strong>Guitar：</strong>上杉悟 (<a href="https://x.com/satoru_gt1225" target="_blank">@satoru_gt1225</a>)</div>
+						<div><strong>Bass：</strong>kakeyan (<a href="https://x.com/kakeyan26" target="_blank">@kakeyan26</a>)</div>
+					</div>
+				</li>
+
+				<li class="track">
+					<div class="track-number">02</div>
+					<div class="track-title">Ephemera</div>
+					<div class="track-credits">
+						<div><strong>作詞：</strong>Atelier LadyBird</div>
+						<div><strong>作曲：</strong>Atelier LadyBird</div>
+						<div><strong>編曲：</strong>川崎泰弘</div>
+						<div><strong>Vocal：</strong>ねんね (<a href="https://x.com/H_nenne" target="_blank">@H_nenne</a>)</div>
+						<div><strong>Bass：</strong>今井真之 (<a href="https://x.com/masa_bass" target="_blank">@masa_bass</a>)</div>
+					</div>
+				</li>
+
+				<li class="track">
+					<div class="track-number">03</div>
+					<div class="track-title">未来</div>
+					<div class="track-credits">
+						<div><strong>作詞：</strong>aki</div>
+						<div><strong>作曲：</strong>aki</div>
+						<div><strong>編曲：</strong>こまっティ</div>
+						<div><strong>Vocal：</strong>拠鳥きまゆ (<a href="https://x.com/461Okmy" target="_blank">@461Okmy</a>)</div>
+						<div><strong>Guitar：</strong>サカモトユウ (<a href="https://x.com/sakamoto_56" target="_blank">@sakamoto_56</a>)</div>
+					</div>
+				</li>
+
+				<li class="track">
+					<div class="track-number">04</div>
+					<div class="track-title">ノスタルシンフォニー</div>
+					<div class="track-credits">
+						<div><strong>作詞：</strong>吉村彰一</div>
+						<div><strong>作曲：</strong>aki</div>
+						<div><strong>編曲：</strong>川崎泰弘, こまっティ</div>
+						<div><strong>Vocal：</strong>すずしろ (<a href="https://x.com/suzumisiro" target="_blank">@suzumisiro</a>)</div>
+						<div><strong>Guitar：</strong>フルタヒロノブ (<a href="https://x.com/furutyyyyy" target="_blank">@furutyyyyy</a>)</div>
+						<div><strong>Bass：</strong>屋久拓朗 (<a href="https://x.com/takuroyahisa" target="_blank">@takuroyahisa</a>)</div>
+					</div>
+				</li>
+
+				<li class="track instrumental">
+					<div class="track-number">05</div>
+					<div class="track-title">Bitter Sweet Symphony (Instrumental)</div>
+				</li>
+
+				<li class="track instrumental">
+					<div class="track-number">06</div>
+					<div class="track-title">Ephemera (Instrumental)</div>
+				</li>
+
+				<li class="track instrumental">
+					<div class="track-number">07</div>
+					<div class="track-title">未来 (Instrumental)</div>
+				</li>
+
+				<li class="track instrumental">
+					<div class="track-number">08</div>
+					<div class="track-title">ノスタルシンフォニー (Instrumental)</div>
+				</li>
+			</ul>
+		</div>
+
+		<!-- Border Bottom -->
+		<div class="border-bottom">
+			<img src="border_bottom_bss.png" alt="">
+		</div>
+	</div>
+
+	<!-- Shop Section -->
+	<div class="shop-section">
+		<h2 class="section-title">SHOP</h2>
+		<div class="shop-links">
+			<p class="coming-soon-text">オンラインショップは近日公開予定です</p>
+			<!--
+			<a href="#" class="shop-button booth" target="_blank">
+				<span class="shop-icon">🛒</span>
+				BOOTH
+			</a>
+			<a href="#" class="shop-button toranoana" target="_blank">
+				<span class="shop-icon">🐯</span>
+				とらのあな
+			</a>
+			<a href="#" class="shop-button melonbooks" target="_blank">
+				<span class="shop-icon">🍈</span>
+				メロンブックス
+			</a>
+			-->
+		</div>
+	</div>
+
+	<!-- Border Bottom -->
+	<div class="border-bottom">
+		<img src="border_bottom_bss.png" alt="">
+	</div>
+
+	<div class="container">
+		<!-- Credits -->
+		<div class="credits-section">
+			<h2 class="section-title">STAFF</h2>
+			<div class="credits-grid">
+				<div class="credit-group">
+					<h3>アタリメ</h3>
+					<p>aki<br>こまっティ</p>
+				</div>
+
+				<div class="credit-group">
+					<h3>Atelier LadyBird</h3>
+					<p>吉村彰一<br>川崎泰弘</p>
+				</div>
+
+				<div class="credit-group">
+					<h3>Illustration</h3>
+					<p>みずは (<a href="https://x.com/megacycle13" target="_blank">@megacycle13</a>)</p>
+				</div>
+
+				<div class="credit-group">
+					<h3>Vocals</h3>
+					<p>
+						<a href="https://x.com/waka_nana0413" target="_blank">わかばやし</a><br>
+						<a href="https://x.com/H_nenne" target="_blank">ねんね</a><br>
+						<a href="https://x.com/461Okmy" target="_blank">拠鳥きまゆ</a><br>
+						<a href="https://x.com/suzumisiro" target="_blank">すずしろ</a>
+					</p>
+				</div>
+
+				<div class="credit-group">
+					<h3>Instruments</h3>
+					<p>
+						<a href="https://x.com/satoru_gt1225" target="_blank">上杉悟</a> (Gt)<br>
+						<a href="https://x.com/sakamoto_56" target="_blank">サカモトユウ</a> (Gt)<br>
+						<a href="https://x.com/furutyyyyy" target="_blank">フルタヒロノブ</a> (Gt)<br>
+						<a href="https://x.com/kakeyan26" target="_blank">kakeyan</a> (Ba)<br>
+						<a href="https://x.com/masa_bass" target="_blank">今井真之</a> (Ba)<br>
+						<a href="https://x.com/takuroyahisa" target="_blank">屋久拓朗</a> (Ba)
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Border Bottom -->
+		<div class="border-bottom">
+			<img src="border_bottom_bss.png" alt="">
+		</div>
+
+		<!-- Share Buttons -->
+		<div class="share-section">
+			<h3 class="share-title">SHARE</h3>
+			<div class="share-buttons">
+				<a href="https://twitter.com/intent/tweet?text=Bitter%20Sweet%20Symphony%20-%20%E3%82%A2%E3%82%BF%E3%83%AA%E3%83%A1%20%C3%97%20Atelier%20LadyBird&url=https://atarime.jp/bitter-sweet-symphony/" target="_blank" class="share-button twitter">
+					<svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+						<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+					</svg>
+					Post
+				</a>
+			</div>
+		</div>
+
+		<!-- Official Links -->
+		<div class="official-links">
+			<h3 class="official-title">OFFICIAL SITES</h3>
+			<div class="link-buttons">
+				<a href="https://atarime7.github.io/" class="official-button" target="_blank">アタリメ</a>
+				<a href="https://atelierladybird.wixsite.com/alb-works" class="official-button" target="_blank">Atelier LadyBird</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="footer">
+		<p>&copy; 2025 アタリメ × Atelier LadyBird All rights reserved.</p>
+	</div>
+</body>
+</html>
