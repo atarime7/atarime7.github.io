@@ -125,7 +125,7 @@ header {
 /* ===== HERO SECTION ===== */
 .hero {
   height: 100vh;
-  background: url('../images/bg_18.png');
+  background: url('../bitter-sweet-symphony/helo.png');
   background-size: cover;
   background-position: center;
   display: flex;
