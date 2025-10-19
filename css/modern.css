@@ -320,12 +320,12 @@ section:nth-child(even) {
 }
 
 .album-info .album-links a.special-link {
-  background: linear-gradient(135deg, var(--secondary) 0%, var(--accent) 100%);
+  background: var(--primary);
   font-weight: 600;
 }
 
 .album-info .album-links a.special-link:hover {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--highlight) 100%);
+  background: var(--accent);
 }
 
 /* ===== VIEW MORE BUTTON ===== */
