@@ -319,6 +319,15 @@ section:nth-child(even) {
   background: var(--accent);
 }
 
+.album-info .album-links a.special-link {
+  background: var(--accent);
+  font-weight: 600;
+}
+
+.album-info .album-links a.special-link:hover {
+  background: var(--highlight);
+}
+
 /* ===== VIEW MORE BUTTON ===== */
 .view-more {
   text-align: center;
