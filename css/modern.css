@@ -320,7 +320,7 @@ section:nth-child(even) {
 }
 
 .album-info .album-links a.special-link {
-  background: var(--primary);
+  background: #2557a7;
   font-weight: 600;
 }
 
