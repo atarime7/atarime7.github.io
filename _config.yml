@@ -20,6 +20,10 @@ defaults:
       type: lyrics
     values:
       layout: lyrics
+  - scope:
+      path: "google*.html"
+    values:
+      sitemap: false
 
 plugins:
   - jekyll-sitemap
