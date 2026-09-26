@@ -6,7 +6,7 @@ album: アクアリウム
 album_slug: aquarium
 album_id: ATRM-0002
 track: 1
-lyrics: ''
+lyrics: aki
 music: aki
 arrange: こまっティ
 vocal: ''
@@ -22,7 +22,7 @@ versions:
   track: 1
   title_on_disc: スーパースターフィッシュ
   version_label: ''
-  lyrics: ''
+  lyrics: aki
   music: aki
   arrange: こまっティ
   vocal: ''

@@ -19,7 +19,7 @@
   album_id: ATRM-0018
   release_date: 2024-10-27
   linkcore: https://linkco.re/upSRbAYy
-  tracks:  # ロケットモードは配信版に未収録
+  tracks:  # ロケットモードは権利上の理由で配信不可（CD限定）
     - slug: yugata-last-summertime
     - slug: chiguhagu
     - slug: surreal-realm

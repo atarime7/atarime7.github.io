@@ -6,7 +6,7 @@ album: アクアリウム
 album_slug: aquarium
 album_id: ATRM-0002
 track: 3
-lyrics: ''
+lyrics: ハレルヤ
 music: aki
 arrange: こまっティ
 vocal: ''
@@ -21,7 +21,7 @@ versions:
   track: 3
   title_on_disc: なみだ
   version_label: ''
-  lyrics: ''
+  lyrics: ハレルヤ
   music: aki
   arrange: こまっティ
   vocal: ''

@@ -6,7 +6,7 @@ album: mild&chocolate
 album_slug: mild-chocolate
 album_id: ATRM-0001
 track: 3
-lyrics: ''
+lyrics: ハレルヤ
 music: aki
 arrange: こまっティ
 vocal: ハレルヤ
@@ -21,7 +21,7 @@ versions:
   track: 3
   title_on_disc: papua
   version_label: ''
-  lyrics: ''
+  lyrics: ハレルヤ
   music: aki
   arrange: こまっティ
   vocal: ハレルヤ

@@ -6,7 +6,7 @@ album: アクアリウム
 album_slug: aquarium
 album_id: ATRM-0002
 track: 2
-lyrics: ''
+lyrics: ハレルヤ
 music: aki
 arrange: こまっティ
 vocal: ''
@@ -22,7 +22,7 @@ versions:
   track: 2
   title_on_disc: シアワセ
   version_label: ''
-  lyrics: ''
+  lyrics: ハレルヤ
   music: aki
   arrange: こまっティ
   vocal: ''

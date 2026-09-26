@@ -6,7 +6,7 @@ album: mild&chocolate
 album_slug: mild-chocolate
 album_id: ATRM-0001
 track: 1
-lyrics: ''
+lyrics: aki
 music: aki
 arrange: こまっティ
 vocal: ハレルヤ
@@ -21,7 +21,7 @@ versions:
   track: 1
   title_on_disc: グッバイプレッツェルガール
   version_label: ''
-  lyrics: ''
+  lyrics: aki
   music: aki
   arrange: こまっティ
   vocal: ハレルヤ
