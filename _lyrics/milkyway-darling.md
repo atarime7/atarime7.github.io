@@ -1,0 +1,87 @@
+---
+title: Milkyway Darling
+slug: milkyway-darling
+status: ok
+album: Weather satellite
+album_slug: weather-satellite
+album_id: ATRM-0012
+track: 2
+lyrics: 力石好乃
+music: aki
+arrange: こまっティ
+vocal: 力石好乃
+guests:
+- 'Guitar: Tamken'
+soundcloud: ''
+streaming:
+  spotify: ''
+  apple_music: ''
+  youtube_music: ''
+versions:
+- album: Weather satellite
+  album_id: ATRM-0012
+  album_slug: weather-satellite
+  track: 2
+  title_on_disc: Milkyway Darling
+  version_label: ''
+  lyrics: 力石好乃
+  music: aki
+  arrange: こまっティ
+  vocal: 力石好乃
+  other_credits:
+  - 'Guitar: Tamken'
+- album: monophonic.
+  album_id: ATRM-0017
+  album_slug: monophonic
+  track: 2
+  title_on_disc: Milkyway Darling
+  version_label: ''
+  lyrics: 力石好乃 (@ysnysnc)
+  music: aki
+  arrange: こまっティ
+  vocal: 力石好乃 (@ysnysnc)
+  other_credits:
+  - 'Illustration: _hanaco_'
+  lyrics_text: same
+---
+アーバンミステリー　東海道線が
+乗客を乗せたまま　銀河鉄道
+心奪われたから
+辿り着くまで引き返せない
+
+オーロラプラチナム　着飾る胸元に
+少し自信がついて　頬緩んだ
+短く切り過ぎた前髪は
+まだ少し気にしてる
+
+秘密の通路に
+間近な奇跡
+ねぇ待ち合わせしよう?
+
+Milkyway Darling
+閉じこもっていた毎日に
+ためらう理由なんてないでしょう
+Milkyway Darling
+夜空の窓開けたら
+そこには地図にはない
+
+ミラージュミステリー　透き通る身体に
+無防備な鏡は　光をさして
+臆病な心が　いつか転ぶなら
+早ければいいさ
+
+オーロラサイキック　文明飛び越えて
+未知の惑星まで　Do you wanna go around?
+明日の天気なんて
+当然僕らには　関係ない
+
+歪なメロディ
+新しい味
+さぁおもてなししよう
+
+Milkyway Darling
+少し近づく宇宙に
+限りなく映るのは未来
+Milkyway Darling
+君を守る星屑
+全てが惹かれ合う今
