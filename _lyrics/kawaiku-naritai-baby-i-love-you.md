@@ -16,7 +16,12 @@ guests:
 - 'Keyboard: aki'
 - 'Mixing, Mastering: こまっティ'
 - 'Illustration: Sakura AT （スイモク）'
-description: アタリメ「可愛くなりたいベイビーアイラブユー！」の歌詞。「朝日で目覚めた時計は昼過ぎ だけど大丈夫日曜日だし」 作詞：彩水／作曲：aki
+description: アタリメ「可愛くなりたいベイビーアイラブユー！」の歌詞。「太鼓の達人楽曲募集だドン！」準佳作受賞曲。「朝日で目覚めた時計は昼過ぎ だけど大丈夫日曜日だし」 作詞：彩水／作曲：aki
+highlights:
+- date: 2020年6月
+  text: 「太鼓の達人楽曲募集だドン！」準佳作
+  url: https://x.com/a_tari_me/status/1275743606855233536
+  award: true
 versions:
 - album: Baby a Go! Go!
   album_id: ATRM-0013

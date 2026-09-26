@@ -34,6 +34,21 @@ layout: default
 			</div>
 		</div>
 
+		<!-- About this song -->
+		{%- if page.highlights %}
+		<section class="lyrics-about">
+			<h2>この曲について</h2>
+			<ul class="lyrics-highlights">
+				{%- for h in page.highlights %}
+				<li>
+					<span class="highlight-date">{{ h.date }}</span>
+					{% if h.url %}<a href="{{ h.url }}" target="_blank" rel="noopener">{{ h.text }}</a>{% else %}{{ h.text }}{% endif %}
+				</li>
+				{%- endfor %}
+			</ul>
+		</section>
+		{%- endif %}
+
 		<!-- Lyrics -->
 		<section class="lyrics-body">
 			<h2>歌詞</h2>
@@ -122,6 +137,10 @@ layout: default
 	"name": {{ page.title | jsonify }},
 	"url": {{ page.url | absolute_url | jsonify }},
 	"inLanguage": "ja",
+	{%- assign awards = page.highlights | where: "award", true -%}
+	{%- if awards.size > 0 %}
+	"award": {{ awards | map: "text" | jsonify }},
+	{%- endif %}
 	{%- if page.lyrics != "" %}
 	"lyricist": { "@type": "Person", "name": {{ page.lyrics | jsonify }} },
 	{%- endif %}

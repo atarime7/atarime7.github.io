@@ -128,6 +128,46 @@
   font-weight: 600;
 }
 
+/* About this song */
+.lyrics-highlights {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lyrics-highlights li {
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  background: white;
+  border-left: 4px solid var(--highlight);
+  border-radius: 4px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+  font-size: 15px;
+}
+
+.lyrics-highlights .highlight-date {
+  display: inline-block;
+  min-width: 7em;
+  font-size: 13px;
+  color: #888;
+}
+
+.lyrics-highlights a {
+  font-weight: 600;
+}
+
+.track-highlight {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 0 8px;
+  border-radius: 10px;
+  background: rgba(247, 154, 100, 0.18);
+  color: #b85a1f;
+  font-size: 11px;
+  line-height: 1.8;
+  vertical-align: middle;
+}
+
 /* Lyrics text: keep line breaks from the lyric card */
 .lyrics-text {
   font-size: 16px;

@@ -26,7 +26,7 @@ description: アタリメの楽曲の歌詞一覧。M3などで頒布したCD全
 						{%- assign doc = site.lyrics | where: "slug", t.slug | first -%}
 						{%- if doc -%}
 							{%- assign v = doc.versions | where: "album_id", album.id | first %}
-					<li value="{{ t.track }}"><a href="{{ doc.url }}">{{ doc.title }}</a>{% if t.version_label %} <span class="version-label">({{ t.version_label }})</span>{% endif %}{% if v.vocal != "" %} <span class="track-vocal">Vo. {{ v.vocal }}</span>{% endif %}</li>
+					<li value="{{ t.track }}"><a href="{{ doc.url }}">{{ doc.title }}</a>{% if t.version_label %} <span class="version-label">({{ t.version_label }})</span>{% endif %}{% if v.vocal != "" %} <span class="track-vocal">Vo. {{ v.vocal }}</span>{% endif %}{% for h in doc.highlights %} <span class="track-highlight">{{ h.text }}</span>{% endfor %}</li>
 						{%- endif -%}
 					{%- endfor %}
 				</ol>

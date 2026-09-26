@@ -16,7 +16,11 @@ guests:
 - 'Guitar: tamken'
 - 'Illust: みなり'
 - 'Visual Design: こまっティ'
-description: アタリメ「シアワセ」の歌詞。「だってふたり出会っちゃったんだもん 正義のヒーローなんているわけないじゃない」 作詞：ハレルヤ／作曲：aki
+description: アタリメ「シアワセ」の歌詞。「MASH VP! Re:VISION」収録曲。「だってふたり出会っちゃったんだもん 正義のヒーローなんているわけないじゃない」 作詞：ハレルヤ／作曲：aki
+highlights:
+- date: 2024年10月
+  text: 「MASH VP! Re:VISION」収録
+  url: https://x.com/a_tari_me/status/1842884131556151726
 versions:
 - album: アクアリウム
   album_id: ATRM-0002

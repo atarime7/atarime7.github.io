@@ -13,7 +13,12 @@ arrange: こまっティ
 vocal: 力石好乃(@ysnysnc)
 guests:
 - 'Illustration: もけお (@mokeooo)'
-description: アタリメ「ロケットモード」の歌詞。「さぁ準備して 空が暗くなってからは」 作詞：力石好乃(@ysnysnc)／作曲：aki
+description: アタリメ「ロケットモード」の歌詞。「太鼓の達人楽曲募集だドン！」2023 採用曲。「さぁ準備して 空が暗くなってからは」 作詞：力石好乃(@ysnysnc)／作曲：aki
+highlights:
+- date: 2023年9月
+  text: 「太鼓の達人楽曲募集だドン！」2023 採用
+  url: https://x.com/a_tari_me/status/1698295926060966049
+  award: true
 streaming_available: false
 versions:
 - album: raspberry syrup

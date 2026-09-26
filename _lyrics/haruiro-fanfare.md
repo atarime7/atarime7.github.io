@@ -14,7 +14,12 @@ vocal: 駄々子（@dadacomplex）
 guests:
 - 'Guitar: Tamken'
 - 'Illustration: もけお (@mokeooo)'
-description: アタリメ「春色ファンファーレ」の歌詞。「春風そよぎ 頬を撫でたら 深呼吸して 前髪と呼吸整えて」 作詞：駄々子（@dadacomplex）／作曲：aki
+description: アタリメ「春色ファンファーレ」の歌詞。「太鼓の達人楽曲募集だドン！」2022 佳作受賞曲。「春風そよぎ 頬を撫でたら 深呼吸して 前髪と呼吸整えて」 作詞：駄々子（@dadacomplex）／作曲：aki
+highlights:
+- date: 2022年7月
+  text: 「太鼓の達人楽曲募集だドン！」2022 佳作
+  url: https://x.com/a_tari_me/status/1552989782354980864
+  award: true
 versions:
 - album: Party Popper
   album_id: ATRM-0016

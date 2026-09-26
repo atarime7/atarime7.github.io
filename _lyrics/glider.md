@@ -12,6 +12,10 @@ music: ''
 arrange: ''
 vocal: ''
 guests: []
+highlights:
+- date: 2024年10月
+  text: 「MASH VP! Re:VISION」収録
+  url: https://x.com/a_tari_me/status/1842884131556151726
 versions:
 - album: グライダー / ライン
   album_id: ATRM-0007

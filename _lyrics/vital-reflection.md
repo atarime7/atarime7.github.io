@@ -12,7 +12,11 @@ music: aki
 arrange: こまっティ
 vocal: 力石好乃
 guests: []
-description: アタリメ「Vital Reflection」の歌詞。「その 雫さえも 気配 呼んでみる ただ 止まらないで 明日を探しても   刹那」 作詞：こまっティ／作曲：aki
+description: アタリメ「Vital Reflection」の歌詞。「MASH VP! Re:VISION」収録曲。「その 雫さえも 気配 呼んでみる ただ 止まらないで 明日を探しても   刹那」 作詞：こまっティ／作曲：aki
+highlights:
+- date: 2024年10月
+  text: 「MASH VP! Re:VISION」収録
+  url: https://x.com/a_tari_me/status/1842884131556151726
 versions:
 - album: Sweet Serenade
   album_id: ATRM-0009
