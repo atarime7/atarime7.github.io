@@ -25,6 +25,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 橘田ほのか
+  vocal_short: 橘田ほのか
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: 吉村彰一(Atelier LadyBird)'
 - album: Weather Satellite
@@ -37,6 +39,8 @@ versions:
   music: aki
   arrange: ''
   vocal: 橘田ほのか
+  vocal_short: 橘田ほのか
+  arrange_short: ''
   other_credits:
   - 'Remix: 川崎泰弘(Atelier LadyBird)'
   lyrics_text: |

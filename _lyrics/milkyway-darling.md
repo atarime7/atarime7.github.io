@@ -25,6 +25,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 力石好乃
+  vocal_short: 力石好乃
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: Tamken'
 - album: monophonic.
@@ -37,6 +39,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 力石好乃 (@ysnysnc)
+  vocal_short: 力石好乃
+  arrange_short: こまっティ
   other_credits:
   - 'Illustration: _hanaco_'
   lyrics_text: same

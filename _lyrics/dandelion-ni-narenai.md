@@ -24,6 +24,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: ハレルヤ
+  vocal_short: ハレルヤ
+  arrange_short: こまっティ
   other_credits: []
 - album: monophonic.
   album_id: ATRM-0017
@@ -35,6 +37,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 彩水
+  vocal_short: 彩水
+  arrange_short: こまっティ
   other_credits:
   - 'Illustration: _hanaco_'
   lyrics_text: same

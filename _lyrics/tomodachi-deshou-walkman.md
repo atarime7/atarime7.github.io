@@ -28,6 +28,8 @@ versions:
   music: 吉村彰一
   arrange: 川崎泰弘
   vocal: ねんね
+  vocal_short: ねんね
+  arrange_short: 川崎泰弘
   other_credits:
   - 'Guitar: Hayata Satoh (@gradationsjpn)'
   - 'Bass: kakeyan (@kakeyan26)'

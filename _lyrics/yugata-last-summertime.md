@@ -26,6 +26,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 力石好乃(@ysnysnc)
+  vocal_short: 力石好乃
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: サカモトユウ(@sakamoto_56)'
   - 'Illustration: もけお (@mokeooo)'

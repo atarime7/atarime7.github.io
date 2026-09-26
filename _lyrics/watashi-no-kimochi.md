@@ -24,6 +24,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: いえねこ
+  vocal_short: いえねこ
+  arrange_short: こまっティ
   other_credits: []
 - album: raspberry syrup
   album_id: ATRM-0018
@@ -35,6 +37,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 彩水
+  vocal_short: 彩水
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: 庄司陽太(@shouji_porgy)'
   - 'Illustration: もけお (@mokeooo)'

@@ -25,6 +25,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 彩水
+  vocal_short: 彩水
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: 庄司陽太'
 - album: Baby a Go! Go!
@@ -37,6 +39,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 黒蝶アゲハ
+  vocal_short: 黒蝶アゲハ
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: 庄司陽太'
   - 'Keyboard: aki'

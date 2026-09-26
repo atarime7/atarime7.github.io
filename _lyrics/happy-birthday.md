@@ -25,6 +25,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: ハレルヤ, 水彩
+  vocal_short: ハレルヤ, 水彩
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: tamken'
 - album: Party Popper
@@ -37,6 +39,8 @@ versions:
   music: aki
   arrange: 川崎泰弘(Atelier LadyBird)
   vocal: ハレルヤ, 彩水
+  vocal_short: ハレルヤ, 彩水
+  arrange_short: 川崎泰弘(Atelier LadyBird)
   other_credits:
   - 'Remix: 川崎泰弘(Atelier LadyBird)'
   - 'Illustration: もけお (@mokeooo)'

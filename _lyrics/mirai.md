@@ -26,6 +26,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 拠鳥きまゆ (@461Okmy)
+  vocal_short: 拠鳥きまゆ
+  arrange_short: こまっティ
   other_credits:
   - 'Gt: サカモトユウ (@sakamoto_56)'
   - 'Illustration: みずは (@megacycle13)'

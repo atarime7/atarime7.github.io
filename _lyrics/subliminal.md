@@ -25,6 +25,8 @@ versions:
   music: aki
   arrange: メリッサ(@LockP_melissa)
   vocal: 力石好乃(@ysnysnc)
+  vocal_short: 力石好乃
+  arrange_short: メリッサ
   other_credits:
   - 'Illustration: もけお (@mokeooo)'
 ---

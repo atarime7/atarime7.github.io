@@ -28,6 +28,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 力石好乃
+  vocal_short: 力石好乃
+  arrange_short: こまっティ
   other_credits: []
 ---
 その 雫さえも 気配 呼んでみる

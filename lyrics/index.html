@@ -10,22 +10,6 @@ description: アタリメの楽曲の歌詞一覧。M3などで頒布したCD全
 			<p>アタリメの楽曲の歌詞とクレジット</p>
 		</div>
 
-		<!-- 採用・収録 -->
-		{%- assign achievement_groups = site.data.achievements | group_by: "text" %}
-		<div class="lyrics-achievements">
-			<h3>採用・収録</h3>
-			<ul>
-				{%- for g in achievement_groups -%}
-				{%- assign first = g.items | first %}
-				<li>
-					<span class="highlight-date">{{ first.date }}</span>
-					<span class="achievement-text">{% if first.url != "" %}<a href="{{ first.url }}" target="_blank" rel="noopener">{{ g.name }}</a>{% else %}{{ g.name }}{% endif %}</span>
-					<span class="achievement-songs">{% for a in g.items %}<a href="/lyrics/{{ a.slug }}/">{{ a.title }}</a>{% unless forloop.last %}／{% endunless %}{% endfor %}</span>
-				</li>
-				{%- endfor %}
-			</ul>
-		</div>
-
 		{%- assign albums = site.data.albums | reverse -%}
 		<div class="lyrics-album-list">
 			{%- for album in albums -%}
@@ -42,7 +26,7 @@ description: アタリメの楽曲の歌詞一覧。M3などで頒布したCD全
 						{%- assign doc = site.lyrics | where: "slug", t.slug | first -%}
 						{%- if doc -%}
 							{%- assign v = doc.versions | where: "album_id", album.id | first %}
-					<li value="{{ t.track }}"><a href="{{ doc.url }}">{{ doc.title }}</a>{% if t.version_label %} <span class="version-label">({{ t.version_label }})</span>{% endif %}{% if v.vocal != "" %} <span class="track-vocal">Vo. {{ v.vocal }}</span>{% endif %}{% for h in doc.highlights %} <span class="track-highlight">{{ h.text }}</span>{% endfor %}</li>
+					<li value="{{ t.track }}"><a href="{{ doc.url }}">{{ doc.title }}</a>{% if t.version_label %} <span class="version-label">({{ t.version_label }})</span>{% endif %}{% if v.vocal_short != "" %} <span class="track-vocal">Vo. {{ v.vocal_short }}</span>{% endif %}{% for h in doc.highlights %} <span class="track-highlight">{{ h.text }}</span>{% endfor %}</li>
 						{%- endif -%}
 					{%- endfor %}
 				</ol>

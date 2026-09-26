@@ -28,6 +28,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: ''
+  vocal_short: ''
+  arrange_short: こまっティ
   other_credits:
   - 'Keyboard: aki'
   - 'Guitar: tamken'

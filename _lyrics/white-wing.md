@@ -23,5 +23,7 @@ versions:
   music: こまっティ
   arrange: こまっティ
   vocal: ''
+  vocal_short: ''
+  arrange_short: こまっティ
   other_credits: []
 ---

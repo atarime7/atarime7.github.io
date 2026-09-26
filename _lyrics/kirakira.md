@@ -26,6 +26,8 @@ versions:
   music: aki
   arrange: こまっティ, aki
   vocal: 猫雷にゃる
+  vocal_short: 猫雷にゃる
+  arrange_short: こまっティ, aki
   other_credits:
   - 'Guitar: ゆっきー (@yuckey_gtr)'
   - 'Illustration: もけお(@mokeooo)'

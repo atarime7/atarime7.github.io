@@ -31,6 +31,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 駄々子（@dadacomplex）
+  vocal_short: 駄々子
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: Tamken'
   - 'Illustration: もけお (@mokeooo)'

@@ -26,6 +26,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 雨ヶ崎笑虹
+  vocal_short: 雨ヶ崎笑虹
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: Tamken'
   - 'Illustration: もけお(@mokeooo)'

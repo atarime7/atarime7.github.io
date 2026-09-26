@@ -27,6 +27,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: ''
+  vocal_short: ''
+  arrange_short: こまっティ
   other_credits:
   - 'Keyboard: aki'
   - 'Guitar: tamken'
@@ -41,6 +43,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: ハレルヤ, 水彩
+  vocal_short: ハレルヤ, 水彩
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: tamken'
   lyrics_text: |

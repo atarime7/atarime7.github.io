@@ -27,6 +27,8 @@ versions:
   music: Atelier LadyBird
   arrange: アタリメ、川崎泰弘
   vocal: わかばやし (@waka_nana0413)
+  vocal_short: わかばやし
+  arrange_short: アタリメ、川崎泰弘
   other_credits:
   - 'Gt: 上杉悟 (@satoru_gt1225)'
   - 'Ba: kakeyan (@kakeyan26)'

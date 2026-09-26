@@ -31,6 +31,8 @@ versions:
   music: aki
   arrange: 川崎泰弘
   vocal: 雨ヶ崎笑虹
+  vocal_short: 雨ヶ崎笑虹
+  arrange_short: 川崎泰弘
   other_credits:
   - 'Guitar: Tamken'
   - 'Piano, Percussion, Programming: 川崎泰弘'

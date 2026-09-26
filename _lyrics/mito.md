@@ -24,6 +24,8 @@ versions:
   music: aki
   arrange: ''
   vocal: ''
+  vocal_short: ''
+  arrange_short: ''
   other_credits:
   - 'Illustration: もけお(@mokeooo)'
 ---

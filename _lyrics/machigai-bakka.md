@@ -28,6 +28,8 @@ versions:
   music: 吉村彰一, aki
   arrange: 川崎泰弘, こまっティ
   vocal: 月乃
+  vocal_short: 月乃
+  arrange_short: 川崎泰弘, こまっティ
   other_credits:
   - 'Electric Guitar: 山下孝史 ( @gi_LEDguitar )'
   - 'Piano, Programming: 川崎泰弘'

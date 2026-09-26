@@ -25,6 +25,8 @@ versions:
   music: aki
   arrange: 谷高マーク(@markyataka)
   vocal: 鳴紗(@may_chatte)
+  vocal_short: 鳴紗
+  arrange_short: 谷高マーク
   other_credits:
   - 'Illustration: もけお (@mokeooo)'
 ---

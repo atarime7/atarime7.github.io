@@ -24,6 +24,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 葉月菜友
+  vocal_short: 葉月菜友
+  arrange_short: こまっティ
   other_credits: []
 ---
 月並みな日常を 切り抜いた窓に

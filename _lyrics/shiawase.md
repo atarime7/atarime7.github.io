@@ -32,6 +32,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: ''
+  vocal_short: ''
+  arrange_short: こまっティ
   other_credits:
   - 'Keyboard: aki'
   - 'Guitar: tamken'
@@ -47,6 +49,8 @@ versions:
   music: aki
   arrange: 川崎泰弘(@don0924)
   vocal: ハレルヤ＆彩水
+  vocal_short: ハレルヤ＆彩水
+  arrange_short: 川崎泰弘
   other_credits:
   - 'Remix: 川崎泰弘(@don0924)'
   - 'Illustration: もけお (@mokeooo)'

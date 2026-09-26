@@ -28,6 +28,8 @@ versions:
   music: 谷高マーク
   arrange: aki・こまっティ
   vocal: 彩水
+  vocal_short: 彩水
+  arrange_short: aki・こまっティ
   other_credits:
   - 'Guitar: ゆっきー'
   - 'Keyboard: aki'

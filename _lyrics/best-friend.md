@@ -25,6 +25,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: ハレルヤ, 彩水
+  vocal_short: ハレルヤ, 彩水
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: tamken'
 ---

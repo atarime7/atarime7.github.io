@@ -26,6 +26,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: めもあ(@memoa_923)
+  vocal_short: めもあ
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: なっさん（@nassan_2501）'
   - 'Illustration: もけお (@mokeooo)'

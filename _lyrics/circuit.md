@@ -27,6 +27,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 力石好乃
+  vocal_short: 力石好乃
+  arrange_short: こまっティ
   other_credits:
   - 'Keyboard: aki'
   - 'Mixing, Mastering: こまっティ'

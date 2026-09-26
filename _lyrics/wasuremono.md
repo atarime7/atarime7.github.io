@@ -25,6 +25,8 @@ versions:
   music: aki, こまっティ
   arrange: こまっティ
   vocal: 彩水
+  vocal_short: 彩水
+  arrange_short: こまっティ
   other_credits:
   - 'Illustration: もけお(@mokeooo)'
 ---

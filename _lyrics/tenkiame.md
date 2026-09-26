@@ -25,6 +25,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: あやん
+  vocal_short: あやん
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: 庄司陽太'
 - album: Party Popper
@@ -37,6 +39,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 彩水
+  vocal_short: 彩水
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: 庄司陽太(@shouji_porgy)'
   - 'Illustration: もけお (@mokeooo)'

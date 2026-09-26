@@ -24,6 +24,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 橘田ほのか
+  vocal_short: 橘田ほのか
+  arrange_short: こまっティ
   other_credits: []
 ---
 いつの時も大切にしてた思い出

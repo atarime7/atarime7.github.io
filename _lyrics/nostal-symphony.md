@@ -27,6 +27,8 @@ versions:
   music: aki
   arrange: 川崎泰弘, こまっティ
   vocal: すずしろ (@suzumisiro)
+  vocal_short: すずしろ
+  arrange_short: 川崎泰弘, こまっティ
   other_credits:
   - 'Gt: フルタヒロノブ (@furutyyyyy)'
   - 'Ba: 屋久拓朗 (@takuroyahisa)'

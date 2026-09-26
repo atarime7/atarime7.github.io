@@ -33,6 +33,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 彩水
+  vocal_short: 彩水
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: Tamken'
   - 'Keyboard: aki'

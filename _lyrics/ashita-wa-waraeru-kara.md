@@ -27,6 +27,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: ハレルヤ, 水彩
+  vocal_short: ハレルヤ, 水彩
+  arrange_short: こまっティ
   other_credits:
   - 'Keyboard: aki'
   - 'Illust: まつり'

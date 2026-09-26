@@ -27,6 +27,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: ハレルヤ
+  vocal_short: ハレルヤ
+  arrange_short: こまっティ
   other_credits:
   - 'Keyboard: aki'
   - 'Illustration: ハレルヤ'
@@ -41,6 +43,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: ハレルヤ
+  vocal_short: ハレルヤ
+  arrange_short: こまっティ
   other_credits: []
   lyrics_text: same
 ---

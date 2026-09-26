@@ -28,6 +28,8 @@ versions:
   music: aki, 吉村彰一
   arrange: こまっティ, 川崎泰弘
   vocal: ななひら
+  vocal_short: ななひら
+  arrange_short: こまっティ, 川崎泰弘
   other_credits:
   - 'Guitar: 丹下義寛 (@_CHANK_)'
   - 'Bass: 屋久拓郎 (@takuroyahisa)'

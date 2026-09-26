@@ -26,6 +26,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 雨汰。(@_uta3)
+  vocal_short: 雨汰。
+  arrange_short: こまっティ
   other_credits:
   - 'Guitar: サカモトユウ(@sakamoto_56)'
   - 'Illustration: もけお (@mokeooo)'

@@ -25,6 +25,8 @@ versions:
   music: aki
   arrange: こまっティ
   vocal: 彩水, ゆう
+  vocal_short: 彩水, ゆう
+  arrange_short: こまっティ
   other_credits:
   - 'Guest Vocal: ゆう (Twitter: @yuu_LC)'
 ---

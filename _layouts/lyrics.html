@@ -108,8 +108,8 @@ layout: default
 						<td>{{ v_album.title }}<span class="album-id">{{ v.album_id }}</span></td>
 						<td>{{ v.track }}</td>
 						<td>{% if v.version_label != "" %}{{ v.version_label }}{% else %}オリジナル{% endif %}</td>
-						<td>{{ v.vocal }}</td>
-						<td>{{ v.arrange }}</td>
+						<td>{{ v.vocal_short | default: v.vocal }}</td>
+						<td>{{ v.arrange_short | default: v.arrange }}</td>
 					</tr>
 					{%- endfor %}
 				</tbody>

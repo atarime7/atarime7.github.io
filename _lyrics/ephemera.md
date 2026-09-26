@@ -26,6 +26,8 @@ versions:
   music: Atelier LadyBird
   arrange: 川崎泰弘
   vocal: ねんね (@H_nenne)
+  vocal_short: ねんね
+  arrange_short: 川崎泰弘
   other_credits:
   - 'Ba: 今井真之 (@masa_bass)'
   - 'Illustration: みずは (@megacycle13)'

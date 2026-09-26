@@ -30,6 +30,8 @@ versions:
   music: 吉村彰一
   arrange: こまっティ
   vocal: 美波七海
+  vocal_short: 美波七海
+  arrange_short: こまっティ
   other_credits:
   - 'Band: All You Can Eat'
   - 'Guitar: 前谷尚幸 (@Gt_Maetani)'
