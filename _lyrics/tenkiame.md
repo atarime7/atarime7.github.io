@@ -41,7 +41,7 @@ versions:
   album_slug: party-popper
   track: 5
   title_on_disc: 天気雨
-  version_label: ''
+  version_label: 彩水Ver.
   lyrics: aki
   music: aki
   arrange: こまっティ
