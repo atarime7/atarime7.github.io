@@ -41,6 +41,18 @@
     - slug: dandelion-ni-narenai
       version_label: 彩水Ver.
 
+- title: RAPTURE CITY
+  type: album
+  album_id: ATRM-0008
+  release_date: 2018-10-28
+  linkcore: https://linkco.re/xDXDZGSs
+  tracks:  # Sichuan / postlude はインスト曲（歌詞ページなし）
+    - slug: the-dawn-is-breaking
+    - slug: hoshizora-lullaby
+    - slug: namida
+      version_label: 彩水Ver.
+    - slug: line
+
 - title: Party Popper
   type: album
   album_id: ATRM-0016
