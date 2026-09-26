@@ -14,6 +14,13 @@ vocal: 彩水
 guests:
 - 'Programming: こまっティ'
 - 'Illustration: みずは (@megacycle13)'
+credits_html:
+  lyrics: 彩水
+  music: aki
+  arrange: こまっティ
+  vocal: 彩水
+lyricist_name: 彩水
+composer_name: aki
 description: アタリメ「永劫」の歌詞。「白が溶けて 思い出す淡い面影 リフレクション 盲目を辿る」 作詞：彩水／作曲：aki
 versions:
 - album: Pastel Symphony

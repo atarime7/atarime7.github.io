@@ -12,6 +12,13 @@ music: aki
 arrange: こまっティ
 vocal: 力石好乃
 guests: []
+credits_html:
+  lyrics: こまっティ
+  music: aki
+  arrange: こまっティ
+  vocal: 力石好乃
+lyricist_name: こまっティ
+composer_name: aki
 description: アタリメ「Vital Reflection」の歌詞。「MASH VP! Re:VISION」収録曲。「その 雫さえも 気配 呼んでみる ただ 止まらないで 明日を探しても   刹那」 作詞：こまっティ／作曲：aki
 highlights:
 - date: 2024年10月

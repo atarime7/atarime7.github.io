@@ -13,6 +13,13 @@ arrange: こまっティ
 vocal: 彩水, ゆう
 guests:
 - 'Guest Vocal: ゆう (Twitter: @yuu_LC)'
+credits_html:
+  lyrics: aki
+  music: aki
+  arrange: こまっティ
+  vocal: 彩水, ゆう
+lyricist_name: aki
+composer_name: aki
 description: アタリメ「タルト・タタンの恋人」の歌詞。「新しい事を待ってた 恋心が いつもと違う オーブンをあける」 作詞：aki／作曲：aki
 versions:
 - album: Monsoon Girl

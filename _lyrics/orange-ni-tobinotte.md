@@ -16,6 +16,13 @@ guests:
 - 'Keyboard: aki'
 - 'Mixing, Mastering: こまっティ'
 - 'Illustration: Sakura AT （スイモク）'
+credits_html:
+  lyrics: 谷高マーク
+  music: 谷高マーク
+  arrange: aki・こまっティ
+  vocal: 彩水
+lyricist_name: 谷高マーク
+composer_name: 谷高マーク
 description: アタリメ「オレンジに飛び乗って」の歌詞。「少し物憂げな午前2時 涙の訳は聞かないで」 作詞：谷高マーク／作曲：谷高マーク
 versions:
 - album: Baby a Go! Go!

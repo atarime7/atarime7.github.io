@@ -13,6 +13,13 @@ arrange: こまっティ
 vocal: ハレルヤ, 水彩
 guests:
 - 'Guitar: tamken'
+credits_html:
+  lyrics: ハレルヤ
+  music: aki
+  arrange: こまっティ
+  vocal: ハレルヤ, 水彩
+lyricist_name: ハレルヤ
+composer_name: aki
 description: アタリメ「ハッピーバースデー」の歌詞。「眠い目こすって めくりめくカレンダー 指差し確認 年イチのスーパースペシャルデー」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: Plastic squid

@@ -15,6 +15,13 @@ guests:
 - 'Keyboard: aki'
 - 'Mixing, Mastering: こまっティ'
 - 'Illustration: Sakura AT （スイモク）'
+credits_html:
+  lyrics: 力石好乃
+  music: aki
+  arrange: こまっティ
+  vocal: 力石好乃
+lyricist_name: 力石好乃
+composer_name: aki
 description: アタリメ「Circuit?」の歌詞。「サーキットベイビー 光も追い越して 溶けちゃう前に早く召しませ」 作詞：力石好乃／作曲：aki
 versions:
 - album: Baby a Go! Go!

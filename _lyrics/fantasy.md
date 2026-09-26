@@ -13,6 +13,13 @@ arrange: こまっティ
 vocal: 彩水
 guests:
 - 'Illustration: _hanaco_'
+credits_html:
+  lyrics: 彩水
+  music: aki
+  arrange: こまっティ
+  vocal: 彩水
+lyricist_name: 彩水
+composer_name: aki
 description: アタリメ「ファンタジー」の歌詞。「コーヒーにたっぷりのミルク入れて目を覚ましてる シュガーはまだいらないと思ってたけど入れちゃお」 作詞：彩水／作曲：aki
 versions:
 - album: monophonic.

@@ -13,6 +13,13 @@ arrange: こまっティ
 vocal: 彩水
 guests:
 - 'Illustration: もけお(@mokeooo)'
+credits_html:
+  lyrics: 彩水
+  music: aki, こまっティ
+  arrange: こまっティ
+  vocal: 彩水
+lyricist_name: 彩水
+composer_name: aki, こまっティ
 description: アタリメ「わすれもの」の歌詞。「悠々と泳ぐ未来へ シーサイドとブルースカイ」 作詞：彩水／作曲：aki, こまっティ
 versions:
 - album: Tomorrow’s Forecast

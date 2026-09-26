@@ -13,7 +13,14 @@ arrange: こまっティ
 vocal: 力石好乃(@ysnysnc)
 guests:
 - 'Illustration: もけお (@mokeooo)'
-description: アタリメ「ロケットモード」の歌詞。「太鼓の達人楽曲募集だドン！」2023 採用曲。「さぁ準備して 空が暗くなってからは」 作詞：力石好乃(@ysnysnc)／作曲：aki
+credits_html:
+  lyrics: <a class="x-link" href="https://x.com/ysnysnc" target="_blank" rel="noopener">力石好乃 <span class="x-handle">@ysnysnc</span></a>
+  music: aki
+  arrange: こまっティ
+  vocal: <a class="x-link" href="https://x.com/ysnysnc" target="_blank" rel="noopener">力石好乃 <span class="x-handle">@ysnysnc</span></a>
+lyricist_name: 力石好乃
+composer_name: aki
+description: アタリメ「ロケットモード」の歌詞。「太鼓の達人楽曲募集だドン！」2023 採用曲。「さぁ準備して 空が暗くなってからは」 作詞：力石好乃／作曲：aki
 highlights:
 - date: 2023年9月
   text: 「太鼓の達人楽曲募集だドン！」2023 採用

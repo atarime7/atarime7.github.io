@@ -13,7 +13,14 @@ arrange: 谷高マーク(@markyataka)
 vocal: 鳴紗(@may_chatte)
 guests:
 - 'Illustration: もけお (@mokeooo)'
-description: アタリメ「Surreal realm」の歌詞。「うさぎのタクシー 行こうRide on time」 作詞：谷高マーク(@markyataka)／作曲：aki
+credits_html:
+  lyrics: <a class="x-link" href="https://x.com/markyataka" target="_blank" rel="noopener">谷高マーク <span class="x-handle">@markyataka</span></a>
+  music: aki
+  arrange: <a class="x-link" href="https://x.com/markyataka" target="_blank" rel="noopener">谷高マーク <span class="x-handle">@markyataka</span></a>
+  vocal: <a class="x-link" href="https://x.com/may_chatte" target="_blank" rel="noopener">鳴紗 <span class="x-handle">@may_chatte</span></a>
+lyricist_name: 谷高マーク
+composer_name: aki
+description: アタリメ「Surreal realm」の歌詞。「うさぎのタクシー 行こうRide on time」 作詞：谷高マーク／作曲：aki
 versions:
 - album: raspberry syrup
   album_id: ATRM-0018

@@ -15,6 +15,13 @@ guests:
 - 'Keyboard: aki'
 - 'Illustration: ハレルヤ'
 - 'Visual Design: こまっティ'
+credits_html:
+  lyrics: ハレルヤ
+  music: aki
+  arrange: こまっティ
+  vocal: ハレルヤ
+lyricist_name: ハレルヤ
+composer_name: aki
 description: アタリメ「レモネード」の歌詞。「恋の特効薬 ビンのフタ開けたら 魔法がはじける」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: mild&chocolate

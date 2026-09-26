@@ -12,6 +12,13 @@ music: aki
 arrange: こまっティ
 vocal: 橘田ほのか
 guests: []
+credits_html:
+  lyrics: aki
+  music: aki
+  arrange: こまっティ
+  vocal: 橘田ほのか
+lyricist_name: aki
+composer_name: aki
 description: アタリメ「パステル」の歌詞。「いつの時も大切にしてた思い出 煌めく瞬間覚えてる？」 作詞：aki／作曲：aki
 versions:
 - album: Sweet Serenade

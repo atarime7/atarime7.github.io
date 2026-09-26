@@ -15,6 +15,13 @@ guests:
 - 'Keyboard: aki'
 - 'Illustration: ハレルヤ'
 - 'Visual Design: こまっティ'
+credits_html:
+  lyrics: ハレルヤ
+  music: aki
+  arrange: こまっティ
+  vocal: ハレルヤ
+lyricist_name: ハレルヤ
+composer_name: aki
 description: アタリメ「papua」の歌詞。「真夜中 隕石が落っこちて 全部なくなって」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: mild&chocolate

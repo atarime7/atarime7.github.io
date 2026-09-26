@@ -15,6 +15,13 @@ guests:
 - 'Guitar: Tamken'
 - 'Piano, Percussion, Programming: 川崎泰弘'
 - 'Illustration: みずは (@megacycle13)'
+credits_html:
+  lyrics: aki
+  music: aki
+  arrange: 川崎泰弘
+  vocal: 雨ヶ崎笑虹
+lyricist_name: aki
+composer_name: aki
 description: アタリメ「七色プリズム」の歌詞。『TOKYO IDOL FESTIVAL 2023』『INFO CENTRE』テーマソング 採用曲。「七色プリズム 走り出す未来 いつも どんな時もずっと きっとプリンセス 描いてゆく」 作詞：aki／作曲：aki
 highlights:
 - date: 2023年7月

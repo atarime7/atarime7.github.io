@@ -12,6 +12,13 @@ music: aki
 arrange: こまっティ
 vocal: ハレルヤ
 guests: []
+credits_html:
+  lyrics: ハレルヤ
+  music: aki
+  arrange: こまっティ
+  vocal: ハレルヤ
+lyricist_name: ハレルヤ
+composer_name: aki
 description: アタリメ「ダンデライオンになれない」の歌詞。「傷だらけの素足 隠して歩いていく 笑ってごまかせば 大抵なんとかなる」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: Plastic squid

@@ -18,6 +18,13 @@ guests:
 - 'Piano: 眞﨑康尚 (@john_dajohn)'
 - 'Chorus: 菅崎樹里 (@juri_k0406)'
 - 'Illustration: みずは (@megacycle13)'
+credits_html:
+  lyrics: 吉村彰一
+  music: 吉村彰一
+  arrange: こまっティ
+  vocal: 美波七海
+lyricist_name: 吉村彰一
+composer_name: 吉村彰一
 description: アタリメ「Realize」の歌詞。「誰も信じられなくて すれ違う人全部 私の 敵に感じて」 作詞：吉村彰一／作曲：吉村彰一
 versions:
 - album: Pastel Symphony

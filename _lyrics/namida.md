@@ -15,6 +15,12 @@ guests:
 - 'Keyboard: aki'
 - 'Illust: みなり'
 - 'Visual Design: こまっティ'
+credits_html:
+  lyrics: ハレルヤ
+  music: aki
+  arrange: こまっティ
+lyricist_name: ハレルヤ
+composer_name: aki
 description: アタリメ「なみだ」の歌詞。「12番ホーム  まだ来ないテレパシー どうやらもう二度と会えないらしい」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: アクアリウム

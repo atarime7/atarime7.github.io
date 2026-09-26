@@ -12,6 +12,11 @@ music: aki
 arrange: こまっティ
 vocal: ''
 guests: []
+credits_html:
+  music: aki
+  arrange: こまっティ
+lyricist_name: ''
+composer_name: aki
 versions:
 - album: Monsoon Girl
   album_id: ATRM-0006

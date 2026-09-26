@@ -12,6 +12,11 @@ music: こまっティ
 arrange: こまっティ
 vocal: ''
 guests: []
+credits_html:
+  music: こまっティ
+  arrange: こまっティ
+lyricist_name: ''
+composer_name: こまっティ
 versions:
 - album: Sweet Serenade
   album_id: ATRM-0009

@@ -119,6 +119,19 @@
   margin: 0;
 }
 
+.lyrics-credits .x-link {
+  border-bottom: 1px dotted #aaa;
+}
+
+.lyrics-credits .x-link:hover {
+  border-bottom-color: var(--accent);
+}
+
+.lyrics-credits .x-handle {
+  font-size: 12px;
+  color: #888;
+}
+
 .lyrics-album-link {
   font-size: 14px;
   margin: 0;

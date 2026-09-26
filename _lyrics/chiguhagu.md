@@ -14,6 +14,13 @@ vocal: 雨汰。(@_uta3)
 guests:
 - 'Guitar: サカモトユウ(@sakamoto_56)'
 - 'Illustration: もけお (@mokeooo)'
+credits_html:
+  lyrics: aki
+  music: aki
+  arrange: こまっティ
+  vocal: <a class="x-link" href="https://x.com/_uta3" target="_blank" rel="noopener">雨汰。 <span class="x-handle">@_uta3</span></a>
+lyricist_name: aki
+composer_name: aki
 description: アタリメ「チグハグ」の歌詞。「君とロマンス わからないまま 別の世界に憧れていた」 作詞：aki／作曲：aki
 versions:
 - album: raspberry syrup

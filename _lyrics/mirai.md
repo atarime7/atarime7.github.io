@@ -14,6 +14,13 @@ vocal: 拠鳥きまゆ (@461Okmy)
 guests:
 - 'Gt: サカモトユウ (@sakamoto_56)'
 - 'Illustration: みずは (@megacycle13)'
+credits_html:
+  lyrics: aki
+  music: aki
+  arrange: こまっティ
+  vocal: <a class="x-link" href="https://x.com/461Okmy" target="_blank" rel="noopener">拠鳥きまゆ <span class="x-handle">@461Okmy</span></a>
+lyricist_name: aki
+composer_name: aki
 description: アタリメ「未来」の歌詞。「複雑な心の行き先は 会いたいとか言えないのと同じような気がする」 作詞：aki／作曲：aki
 versions:
 - album: Bitter Sweet Symphony

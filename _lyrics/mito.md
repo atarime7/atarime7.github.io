@@ -13,6 +13,10 @@ arrange: ''
 vocal: ''
 guests:
 - 'Illustration: もけお(@mokeooo)'
+credits_html:
+  music: aki
+lyricist_name: ''
+composer_name: aki
 versions:
 - album: Tomorrow’s Forecast
   album_id: ATRM-0015

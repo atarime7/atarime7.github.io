@@ -16,6 +16,13 @@ guests:
 - 'Bass: 屋久拓郎 (@takuroyahisa)'
 - 'Piano, Organ, Programming: 川崎泰弘'
 - 'Illustration: みずは (@megacycle13)'
+credits_html:
+  lyrics: Atelier LadyBird
+  music: aki, 吉村彰一
+  arrange: こまっティ, 川崎泰弘
+  vocal: ななひら
+lyricist_name: Atelier LadyBird
+composer_name: aki, 吉村彰一
 description: アタリメ「パステルシンフォニー」の歌詞。「いつか 一緒に手を繋いで 歩いてみたいな」 作詞：Atelier LadyBird／作曲：aki, 吉村彰一
 versions:
 - album: Pastel Symphony

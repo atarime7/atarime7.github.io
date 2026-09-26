@@ -13,7 +13,14 @@ arrange: メリッサ(@LockP_melissa)
 vocal: 力石好乃(@ysnysnc)
 guests:
 - 'Illustration: もけお (@mokeooo)'
-description: アタリメ「サブリミナル」の歌詞。「いつからか逸らせない 見つめていたいな」 作詞：力石好乃(@ysnysnc)／作曲：aki
+credits_html:
+  lyrics: <a class="x-link" href="https://x.com/ysnysnc" target="_blank" rel="noopener">力石好乃 <span class="x-handle">@ysnysnc</span></a>
+  music: aki
+  arrange: <a class="x-link" href="https://x.com/LockP_melissa" target="_blank" rel="noopener">メリッサ <span class="x-handle">@LockP_melissa</span></a>
+  vocal: <a class="x-link" href="https://x.com/ysnysnc" target="_blank" rel="noopener">力石好乃 <span class="x-handle">@ysnysnc</span></a>
+lyricist_name: 力石好乃
+composer_name: aki
+description: アタリメ「サブリミナル」の歌詞。「いつからか逸らせない 見つめていたいな」 作詞：力石好乃／作曲：aki
 versions:
 - album: Party Popper
   album_id: ATRM-0016

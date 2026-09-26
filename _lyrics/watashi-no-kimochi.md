@@ -12,6 +12,13 @@ music: aki
 arrange: こまっティ
 vocal: いえねこ
 guests: []
+credits_html:
+  lyrics: aki
+  music: aki
+  arrange: こまっティ
+  vocal: いえねこ
+lyricist_name: aki
+composer_name: aki
 description: アタリメ「私の気持ち」の歌詞。「初めて買った本のストーリー 楽しそうに ねぇ 声を聞かせて 偶然出会ったそんなハーモニー 同じ景色だね 走り続ける」 作詞：aki／作曲：aki
 versions:
 - album: 私の気持ち / 白昼夢

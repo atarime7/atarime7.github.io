@@ -14,6 +14,13 @@ vocal: ねんね (@H_nenne)
 guests:
 - 'Ba: 今井真之 (@masa_bass)'
 - 'Illustration: みずは (@megacycle13)'
+credits_html:
+  lyrics: Atelier LadyBird
+  music: Atelier LadyBird
+  arrange: 川崎泰弘
+  vocal: <a class="x-link" href="https://x.com/H_nenne" target="_blank" rel="noopener">ねんね <span class="x-handle">@H_nenne</span></a>
+lyricist_name: Atelier LadyBird
+composer_name: Atelier LadyBird
 description: アタリメ「Ephemera」の歌詞。「すれ違う電車の轟音に 言葉を乗せて運ぶように」 作詞：Atelier LadyBird／作曲：Atelier LadyBird
 versions:
 - album: Bitter Sweet Symphony

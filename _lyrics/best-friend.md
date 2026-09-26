@@ -13,6 +13,13 @@ arrange: こまっティ
 vocal: ハレルヤ, 彩水
 guests:
 - 'Guitar: tamken'
+credits_html:
+  lyrics: ハレルヤ
+  music: aki
+  arrange: こまっティ
+  vocal: ハレルヤ, 彩水
+lyricist_name: ハレルヤ
+composer_name: aki
 description: アタリメ「Best Friend」の歌詞。「「あー今日も疲れた」 ってベッドにダイヴする」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: Monsoon Girl

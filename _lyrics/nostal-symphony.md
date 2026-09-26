@@ -15,6 +15,13 @@ guests:
 - 'Gt: フルタヒロノブ (@furutyyyyy)'
 - 'Ba: 屋久拓朗 (@takuroyahisa)'
 - 'Illustration: みずは (@megacycle13)'
+credits_html:
+  lyrics: 吉村彰一
+  music: aki
+  arrange: 川崎泰弘, こまっティ
+  vocal: <a class="x-link" href="https://x.com/suzumisiro" target="_blank" rel="noopener">すずしろ <span class="x-handle">@suzumisiro</span></a>
+lyricist_name: 吉村彰一
+composer_name: aki
 description: アタリメ「ノスタルシンフォニー」の歌詞。「オレンジの空が二人引き合わせたんだ 偶然って運命に胸がきゅんと高鳴る」 作詞：吉村彰一／作曲：aki
 versions:
 - album: Bitter Sweet Symphony

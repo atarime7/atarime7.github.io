@@ -13,6 +13,13 @@ arrange: こまっティ
 vocal: 彩水
 guests:
 - 'Guitar: tamken'
+credits_html:
+  lyrics: ハレルヤ
+  music: aki
+  arrange: こまっティ
+  vocal: 彩水
+lyricist_name: ハレルヤ
+composer_name: aki
 description: アタリメ「つぼみの桜」の歌詞。「いつも通りの日が 明日から二度ともう来ないなんて とっくのとうに わかっていたけど」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: Monsoon Girl

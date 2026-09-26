@@ -16,6 +16,13 @@ guests:
 - 'Bass: kakeyan (@kakeyan26)'
 - 'Electric Piano, Percussion, Programming: 川崎泰弘'
 - 'Illustration: みずは (@megacycle13)'
+credits_html:
+  lyrics: Atelier LadyBird
+  music: 吉村彰一
+  arrange: 川崎泰弘
+  vocal: ねんね
+lyricist_name: Atelier LadyBird
+composer_name: 吉村彰一
 description: アタリメ「友達でしょう？ウォークマン」の歌詞。「懐かしいあの頃のMusic すっかり手放しちゃって 何となく流行りのMovie 流して 知ったふりして Ah」 作詞：Atelier LadyBird／作曲：吉村彰一
 versions:
 - album: Pastel Symphony

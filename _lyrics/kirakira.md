@@ -14,6 +14,13 @@ vocal: 猫雷にゃる
 guests:
 - 'Guitar: ゆっきー (@yuckey_gtr)'
 - 'Illustration: もけお(@mokeooo)'
+credits_html:
+  lyrics: aki
+  music: aki
+  arrange: こまっティ, aki
+  vocal: 猫雷にゃる
+lyricist_name: aki
+composer_name: aki
 description: アタリメ「キラキラ」の歌詞。「いつでもドキドキ 最高潮 2キロ以内 近づき過ぎじゃない？」 作詞：aki／作曲：aki
 versions:
 - album: Tomorrow’s Forecast

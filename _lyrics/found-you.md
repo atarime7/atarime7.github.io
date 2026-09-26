@@ -15,6 +15,10 @@ guests:
 - 'Keyboard: aki'
 - 'Mixing, Mastering: こまっティ'
 - 'Illustration: Sakura AT （スイモク）'
+credits_html:
+  music: aki
+lyricist_name: ''
+composer_name: aki
 versions:
 - album: Baby a Go! Go!
   album_id: ATRM-0013

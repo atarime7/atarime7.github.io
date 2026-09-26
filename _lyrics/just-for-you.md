@@ -14,6 +14,13 @@ vocal: めもあ(@memoa_923)
 guests:
 - 'Guitar: なっさん（@nassan_2501）'
 - 'Illustration: もけお (@mokeooo)'
+credits_html:
+  lyrics: aki
+  music: aki
+  arrange: こまっティ
+  vocal: <a class="x-link" href="https://x.com/memoa_923" target="_blank" rel="noopener">めもあ <span class="x-handle">@memoa_923</span></a>
+lyricist_name: aki
+composer_name: aki
 description: アタリメ「Just for you」の歌詞。「胸躍るリズム刻む どこへでも行けるさ 大丈夫 きっと」 作詞：aki／作曲：aki
 versions:
 - album: Party Popper

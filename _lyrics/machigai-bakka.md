@@ -16,6 +16,13 @@ guests:
 - 'Piano, Programming: 川崎泰弘'
 - 'Programming: こまっティ'
 - 'Illustration: みずは (@megacycle13)'
+credits_html:
+  lyrics: 吉村彰一
+  music: 吉村彰一, aki
+  arrange: 川崎泰弘, こまっティ
+  vocal: 月乃
+lyricist_name: 吉村彰一
+composer_name: 吉村彰一, aki
 description: アタリメ「まちがいばっか」の歌詞。「まちがいばっか まちがいばっか繰り返して まちがいばっか 気づいたらまた」 作詞：吉村彰一／作曲：吉村彰一, aki
 versions:
 - album: Pastel Symphony

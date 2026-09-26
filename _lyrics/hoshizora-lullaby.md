@@ -13,6 +13,13 @@ arrange: こまっティ
 vocal: 橘田ほのか
 guests:
 - 'Guitar: 吉村彰一(Atelier LadyBird)'
+credits_html:
+  lyrics: aki
+  music: aki
+  arrange: こまっティ
+  vocal: 橘田ほのか
+lyricist_name: aki
+composer_name: aki
 description: アタリメ「星空ララバイ」の歌詞。「あのねあのね 君にかける言葉少しだけ ちょっと恥ずかしいな なんて待ってくれないな」 作詞：aki／作曲：aki
 versions:
 - album: RAPTURE CITY

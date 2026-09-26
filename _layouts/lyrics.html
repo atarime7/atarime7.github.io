@@ -22,10 +22,10 @@ layout: default
 				<h1>{{ page.title }}</h1>
 				<p class="lyrics-artist">アタリメ</p>
 				<dl class="lyrics-credits">
-					{%- if page.lyrics != "" %}<dt>作詞</dt><dd>{{ page.lyrics }}</dd>{% endif %}
-					{%- if page.music != "" %}<dt>作曲</dt><dd>{{ page.music }}</dd>{% endif %}
-					{%- if page.arrange != "" %}<dt>編曲</dt><dd>{{ page.arrange }}</dd>{% endif %}
-					{%- if page.vocal != "" %}<dt>Vocal</dt><dd>{{ page.vocal }}</dd>{% endif %}
+					{%- if page.lyrics != "" %}<dt>作詞</dt><dd>{{ page.credits_html.lyrics | default: page.lyrics }}</dd>{% endif %}
+					{%- if page.music != "" %}<dt>作曲</dt><dd>{{ page.credits_html.music | default: page.music }}</dd>{% endif %}
+					{%- if page.arrange != "" %}<dt>編曲</dt><dd>{{ page.credits_html.arrange | default: page.arrange }}</dd>{% endif %}
+					{%- if page.vocal != "" %}<dt>Vocal</dt><dd>{{ page.credits_html.vocal | default: page.vocal }}</dd>{% endif %}
 				</dl>
 				<p class="lyrics-album-link">
 					収録：<a href="/#discography">{{ album.title }}</a>
@@ -142,10 +142,10 @@ layout: default
 	"award": {{ awards | map: "text" | jsonify }},
 	{%- endif %}
 	{%- if page.lyrics != "" %}
-	"lyricist": { "@type": "Person", "name": {{ page.lyrics | jsonify }} },
+	"lyricist": { "@type": "Person", "name": {{ page.lyricist_name | default: page.lyrics | jsonify }} },
 	{%- endif %}
 	{%- if page.music != "" %}
-	"composer": { "@type": "Person", "name": {{ page.music | jsonify }} },
+	"composer": { "@type": "Person", "name": {{ page.composer_name | default: page.music | jsonify }} },
 	{%- endif %}
 	"lyrics": {
 		"@type": "CreativeWork",

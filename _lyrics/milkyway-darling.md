@@ -13,6 +13,13 @@ arrange: こまっティ
 vocal: 力石好乃
 guests:
 - 'Guitar: Tamken'
+credits_html:
+  lyrics: 力石好乃
+  music: aki
+  arrange: こまっティ
+  vocal: 力石好乃
+lyricist_name: 力石好乃
+composer_name: aki
 description: アタリメ「Milkyway Darling」の歌詞。「アーバンミステリー 東海道線が 乗客を乗せたまま 銀河鉄道」 作詞：力石好乃／作曲：aki
 versions:
 - album: Weather Satellite

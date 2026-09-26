@@ -15,6 +15,13 @@ guests:
 - 'Gt: 上杉悟 (@satoru_gt1225)'
 - 'Ba: kakeyan (@kakeyan26)'
 - 'Illustration: みずは (@megacycle13)'
+credits_html:
+  lyrics: Atelier LadyBird
+  music: Atelier LadyBird
+  arrange: アタリメ、川崎泰弘
+  vocal: <a class="x-link" href="https://x.com/waka_nana0413" target="_blank" rel="noopener">わかばやし <span class="x-handle">@waka_nana0413</span></a>
+lyricist_name: Atelier LadyBird
+composer_name: Atelier LadyBird
 description: アタリメ「Bitter Sweet Symphony」の歌詞。「続いていくシンフォニー 手紙に綴るように」 作詞：Atelier LadyBird／作曲：Atelier LadyBird
 versions:
 - album: Bitter Sweet Symphony

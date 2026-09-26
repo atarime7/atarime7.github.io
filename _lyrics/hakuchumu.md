@@ -16,6 +16,13 @@ guests:
 - 'Guitar: tamken'
 - 'Illust: まつり'
 - 'Visual Design: こまっティ'
+credits_html:
+  lyrics: ハレルヤ
+  music: aki
+  arrange: こまっティ
+  vocal: 水彩
+lyricist_name: ハレルヤ
+composer_name: aki
 description: アタリメ「白昼夢」の歌詞。「ひどい火傷のよう うなされて起きる 涙も全然頬を伝わない」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: Daydream Pancake

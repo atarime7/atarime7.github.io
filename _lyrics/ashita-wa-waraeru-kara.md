@@ -15,6 +15,13 @@ guests:
 - 'Keyboard: aki'
 - 'Illust: まつり'
 - 'Visual Design: こまっティ'
+credits_html:
+  lyrics: ハレルヤ
+  music: aki
+  arrange: こまっティ
+  vocal: ハレルヤ, 水彩
+lyricist_name: ハレルヤ
+composer_name: aki
 description: アタリメ「明日は笑えるから」の歌詞。「「だけどどうせ」 「あのコはいいな」」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: Daydream Pancake
