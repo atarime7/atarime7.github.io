@@ -174,7 +174,8 @@
   event: 2019秋M3
   jacket: /images/jackets/full-throttle.jpg
   soundcloud_track_id: ''
-  shop: []
+  shop:
+  - https://booth.pm/ja/items/1652570  # DL版（YOSHINO - online store-）
   tracks: []
 - id: ATRM-0012
   slug: weather-satellite
