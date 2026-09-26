@@ -167,6 +167,15 @@
     slug: watashi-no-kimochi
   - track: 2
     slug: hakuchumu
+- id: ATRM-0011
+  slug: full-throttle
+  title: FULL THROTTLE
+  artist: 力石好乃  # drop dorothy records DOLL002 / アタリメは全4曲の編曲
+  event: 2019秋M3
+  jacket: /images/jackets/full-throttle.jpg
+  soundcloud_track_id: ''
+  shop: []
+  tracks: []
 - id: ATRM-0012
   slug: weather-satellite
   title: Weather Satellite
