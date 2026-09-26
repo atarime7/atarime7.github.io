@@ -11,11 +11,6 @@ music: ''
 arrange: ''
 vocal: ''
 guests: []
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: グライダー / ライン
   album_id: ATRM-0007

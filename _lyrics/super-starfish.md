@@ -15,11 +15,6 @@ guests:
 - 'Guitar: tamken'
 - 'Illust: みなり'
 - 'Visual Design: こまっティ'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: アクアリウム
   album_id: ATRM-0002

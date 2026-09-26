@@ -12,11 +12,6 @@ arrange: こまっティ
 vocal: 彩水
 guests:
 - 'Guitar: tamken'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: RAPTURE CITY
   album_id: ATRM-0008

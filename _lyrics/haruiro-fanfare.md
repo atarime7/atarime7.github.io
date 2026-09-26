@@ -13,11 +13,6 @@ vocal: 駄々子（@dadacomplex）
 guests:
 - 'Guitar: Tamken'
 - 'Illustration: もけお (@mokeooo)'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Party Popper
   album_id: ATRM-0016

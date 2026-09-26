@@ -14,11 +14,6 @@ guests:
 - 'Keyboard: aki'
 - 'Illustration: ハレルヤ'
 - 'Visual Design: こまっティ'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: mild&chocolate
   album_id: ATRM-0001

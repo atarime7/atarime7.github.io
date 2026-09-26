@@ -12,11 +12,6 @@ arrange: ''
 vocal: ''
 guests:
 - 'Illustration: もけお(@mokeooo)'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Tomorrow’s Forecast
   album_id: ATRM-0015

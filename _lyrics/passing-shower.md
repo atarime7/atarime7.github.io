@@ -11,11 +11,6 @@ music: aki
 arrange: こまっティ
 vocal: ''
 guests: []
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Weather satellite
   album_id: ATRM-0012

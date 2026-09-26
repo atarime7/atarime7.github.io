@@ -12,11 +12,6 @@ arrange: こまっティ
 vocal: ハレルヤ, 水彩
 guests:
 - 'Guitar: tamken'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Plastic squid
   album_id: ATRM-0005

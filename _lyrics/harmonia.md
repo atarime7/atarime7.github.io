@@ -11,11 +11,6 @@ music: aki
 arrange: こまっティ
 vocal: ''
 guests: []
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Monsoon Girl
   album_id: ATRM-0006

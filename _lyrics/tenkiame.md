@@ -12,11 +12,6 @@ arrange: こまっティ
 vocal: あやん
 guests:
 - 'Guitar: 庄司陽太'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Weather satellite
   album_id: ATRM-0012

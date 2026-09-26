@@ -14,11 +14,6 @@ guests:
 - 'Gt: フルタヒロノブ (@furutyyyyy)'
 - 'Ba: 屋久拓朗 (@takuroyahisa)'
 - 'Illustration: みずは (@megacycle13)'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Bitter Sweet Symphony
   album_id: ATRM-0019

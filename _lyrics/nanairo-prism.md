@@ -14,11 +14,6 @@ guests:
 - 'Guitar: Tamken'
 - 'Piano, Percussion, Programming: 川崎泰弘'
 - 'Illustration: みずは (@megacycle13)'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Pastel Symphony
   album_id: ATRM-0014

@@ -12,11 +12,6 @@ arrange: メリッサ(@LockP_melissa)
 vocal: 力石好乃(@ysnysnc)
 guests:
 - 'Illustration: もけお (@mokeooo)'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Party Popper
   album_id: ATRM-0016

@@ -15,11 +15,6 @@ guests:
 - 'Keyboard: aki'
 - 'Mixing, Mastering: こまっティ'
 - 'Illustration: Sakura AT （スイモク）'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Baby a Go! Go!
   album_id: ATRM-0013

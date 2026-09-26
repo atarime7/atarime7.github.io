@@ -1,0 +1,88 @@
+# 配信リリース一覧（TuneCore）
+# 歌詞ページは tracks の slug で曲とリリースを紐付ける。
+# 過去作を1枚ずつ配信したら、ここに1件追加する（linkcore と tracks だけ埋めればよい）。
+# 配信の差し替え・取り下げ時はこのファイルだけ直せばよい。
+
+- title: Bitter Sweet Symphony
+  type: album
+  album_id: ATRM-0019
+  release_date: 2025-10-26
+  linkcore: https://linkco.re/c0NpC6hG
+  tracks:
+    - slug: bitter-sweet-symphony
+    - slug: ephemera
+    - slug: mirai
+    - slug: nostal-symphony
+
+- title: raspberry syrup
+  type: album
+  album_id: ATRM-0018
+  release_date: 2024-10-27
+  linkcore: https://linkco.re/upSRbAYy
+  tracks:  # ロケットモードは配信版に未収録
+    - slug: yugata-last-summertime
+    - slug: chiguhagu
+    - slug: surreal-realm
+    - slug: shiawase
+      version_label: 川崎泰弘Remix
+    - slug: watashi-no-kimochi
+      version_label: 彩水Ver.
+
+- title: monophonic.
+  type: album
+  album_id: ATRM-0017
+  release_date: 2023-10-29
+  linkcore: https://linkco.re/QMNZaE97
+  tracks:
+    - slug: bloom
+    - slug: milkyway-darling
+      version_label: 2023 Remastered
+    - slug: fantasy
+    - slug: dandelion-ni-narenai
+      version_label: 彩水Ver.
+
+- title: Party Popper
+  type: album
+  album_id: ATRM-0016
+  release_date: 2022-10-30
+  linkcore: https://linkco.re/DNBsGhfa
+  tracks:
+    - slug: just-for-you
+    - slug: subliminal
+    - slug: happy-birthday
+      version_label: 川崎泰弘Remix
+    - slug: haruiro-fanfare
+    - slug: tenkiame
+
+- title: Pastel Symphony
+  type: album
+  artist: Atelier LadyBird  # 参加作品
+  album_id: ATRM-0014
+  release_date: 2021-04-25
+  linkcore: https://linkco.re/gxFtcyAT
+  tracks:
+    - slug: pastel-symphony
+    - slug: realize
+    - slug: nanairo-prism
+    - slug: tomodachi-deshou-walkman
+    - slug: eigou
+    - slug: machigai-bakka
+
+- title: 白昼夢
+  type: single
+  album_id: ATRM-0010
+  release_date: 2019-08-12
+  linkcore: https://linkco.re/S9VD9dSa
+  tracks:
+    - slug: hakuchumu
+
+- title: グライダー
+  type: single
+  album_id: ATRM-0007
+  release_date: 2019-04-28
+  linkcore: https://linkco.re/V7FsgPPs
+  tracks:
+    - slug: glider
+
+# TODO: Goodbye Pretzel Girl（配信用まとめアルバム）— TuneCoreアーティストページに未掲載。linkcore URL 確認後に追加
+#       1枚ずつの配信に差し替えたら、このエントリは削除して各作品を追加する

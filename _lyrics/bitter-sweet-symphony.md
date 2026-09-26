@@ -14,11 +14,6 @@ guests:
 - 'Gt: 上杉悟 (@satoru_gt1225)'
 - 'Ba: kakeyan (@kakeyan26)'
 - 'Illustration: みずは (@megacycle13)'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Bitter Sweet Symphony
   album_id: ATRM-0019

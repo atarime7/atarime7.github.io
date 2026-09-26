@@ -1,0 +1,326 @@
+# 作品一覧（CD単位）。jacket未設定の作品は画像欠落の修正後に埋める
+- id: ATRM-0001
+  slug: mild-chocolate
+  title: mild&chocolate
+  event: 2016春M3 / 会場頒布価格¥500
+  jacket: ''
+  soundcloud_track_id: '258241424'
+  shop:
+  - https://a-tari-me.booth.pm/items/838915
+  tracks:
+  - track: 1
+    slug: goodbye-pretzel-girl
+  - track: 2
+    slug: lemonade
+  - track: 3
+    slug: papua
+- id: ATRM-0002
+  slug: aquarium
+  title: アクアリウム
+  event: 2016秋M3 L-22b / 会場頒布価格¥500
+  jacket: ''
+  soundcloud_track_id: '288222106'
+  shop:
+  - https://a-tari-me.booth.pm/items/838919
+  tracks:
+  - track: 1
+    slug: super-starfish
+  - track: 2
+    slug: shiawase
+  - track: 3
+    slug: namida
+- id: ATRM-0003
+  slug: daydream-pancake
+  title: Daydream Pancake
+  event: 2017春M3 あ-12a / 会場頒布価格¥500
+  jacket: ''
+  soundcloud_track_id: '317803702'
+  shop:
+  - https://a-tari-me.booth.pm/items/535426
+  tracks:
+  - track: 1
+    slug: hotcake
+  - track: 2
+    slug: hakuchumu
+  - track: 3
+    slug: ashita-wa-waraeru-kara
+- id: ATRM-0004
+  slug: himawari
+  title: 向日葵 c/w 03:09
+  event: 2017夏コミ 1日目 東へ23b / 会場頒布価格¥500
+  jacket: ''
+  soundcloud_track_id: '336698445'
+  shop:
+  - https://a-tari-me.booth.pm/items/838928
+  tracks:
+  - track: 1
+    slug: himawari
+  - track: 2
+    slug: 0309
+- id: ATRM-0005
+  slug: plastic-squid
+  title: Plastic squid
+  event: 2017秋M3 H-04a / 会場頒布価格¥1000
+  jacket: ''
+  soundcloud_track_id: '346984944'
+  shop:
+  - https://a-tari-me.booth.pm/items/683156
+  tracks:
+  - track: 1
+    slug: happy-birthday
+  - track: 2
+    slug: dandelion-ni-narenai
+  - track: 3
+    slug: lemonade
+    version_label: 水彩ver
+  - track: 4
+    slug: midnight-racecar
+  - track: 5
+    slug: himawari
+- id: ATRM-0006
+  slug: monsoon-girl
+  title: Monsoon Girl
+  event: 2018春M3 サ-05a / 会場頒布価格¥1000
+  jacket: ''
+  soundcloud_track_id: '429541248'
+  shop:
+  - https://a-tari-me.booth.pm/items/838838
+  tracks:
+  - track: 1
+    slug: best-friend
+  - track: 2
+    slug: tsubomi-no-sakura
+  - track: 3
+    slug: tarte-tatin-no-koibito
+  - track: 4
+    slug: harmonia
+  - track: 5
+    slug: papua
+    version_label: HYPER EURO MIX
+- id: ATRM-0007
+  slug: glider-line
+  title: グライダー / ライン
+  event: 2018夏コミ 1日目 西は06b / 会場頒布価格¥700
+  jacket: ''
+  soundcloud_track_id: '477852213'
+  shop:
+  - https://a-tari-me.booth.pm/items/970777
+  tracks:
+  - track: 1
+    slug: glider
+  - track: 2
+    slug: line
+- id: ATRM-0008
+  slug: rapture-city
+  title: RAPTURE CITY
+  event: 2018秋M3 N-17a / 会場頒布価格¥1000
+  jacket: ''
+  soundcloud_track_id: '514118649'
+  shop:
+  - https://booth.pm/ja/items/1086363
+  - https://www.melonbooks.co.jp/detail/detail.php?product_id=504603
+  tracks:
+  - track: 1
+    slug: the-dawn-is-breaking
+  - track: 2
+    slug: hoshizora-lullaby
+  - track: 3
+    slug: namida
+    version_label: 彩水Ver.
+  - track: 4
+    slug: sichuan
+  - track: 5
+    slug: line
+  - track: 6
+    slug: postlude
+- id: ATRM-0009
+  slug: sweet-serenade
+  title: Sweet Serenade
+  event: 2019春M3 I-06b / 会場頒布価格¥1000
+  jacket: ''
+  soundcloud_track_id: '598732044'
+  shop:
+  - https://booth.pm/ja/items/1339503
+  - https://www.melonbooks.co.jp/detail/detail.php?product_id=504604
+  tracks:
+  - track: 1
+    slug: pastel
+  - track: 2
+    slug: vital-reflection
+  - track: 3
+    slug: utakata-trip
+  - track: 4
+    slug: white-wing
+  - track: 5
+    slug: serenade
+- id: ATRM-0010
+  slug: watashi-no-kimochi-hakuchumu
+  title: 私の気持ち / 白昼夢
+  event: C96 月曜日南コ18b / 会場頒布価格¥800
+  jacket: ''
+  soundcloud_track_id: '656243540'
+  shop:
+  - https://booth.pm/ja/items/1478117
+  - https://www.melonbooks.co.jp/detail/detail.php?product_id=554239
+  tracks:
+  - track: 1
+    slug: watashi-no-kimochi
+  - track: 2
+    slug: hakuchumu
+- id: ATRM-0012
+  slug: weather-satellite
+  title: Weather satellite
+  event: 2020春M3 G-13b / 会場頒布価格¥1000
+  jacket: ''
+  soundcloud_track_id: '757677535'
+  shop:
+  - https://booth.pm/ja/items/2470427
+  tracks:
+  - track: 1
+    slug: tenkiame
+  - track: 2
+    slug: milkyway-darling
+  - track: 3
+    slug: sora-to-kumo-no-parade
+  - track: 4
+    slug: passing-shower
+  - track: 5
+    slug: hoshizora-lullaby
+    version_label: 川崎泰弘Remix
+- id: ATRM-0013
+  slug: baby-a-go-go
+  title: Baby a Go! Go!
+  event: 2020秋M3 C-24 / 会場頒布価格¥1000
+  jacket: ''
+  soundcloud_track_id: '908254252'
+  shop:
+  - https://a-tari-me.booth.pm/items/2470073
+  tracks:
+  - track: 1
+    slug: kawaiku-naritai-baby-i-love-you
+  - track: 2
+    slug: circuit
+  - track: 3
+    slug: orange-ni-tobinotte
+  - track: 4
+    slug: sora-to-kumo-no-parade
+  - track: 5
+    slug: found-you
+- id: ATRM-0014
+  slug: pastel-symphony
+  title: Pastel Symphony
+  event: 2021春M3 あ-09 / 会場頒布価格¥2000
+  jacket: /images/jacket_14.png
+  soundcloud_track_id: ''
+  shop:
+  - https://pastel-symphony-m3spring2021.tumblr.com/
+  - https://a-tari-me.booth.pm/items/2906952
+  tracks:
+  - track: 1
+    slug: pastel-symphony
+  - track: 2
+    slug: realize
+  - track: 3
+    slug: nanairo-prism
+  - track: 4
+    slug: tomodachi-deshou-walkman
+  - track: 5
+    slug: eigou
+  - track: 6
+    slug: machigai-bakka
+- id: ATRM-0015
+  slug: tomorrows-forecast
+  title: Tomorrow's Forecast
+  event: 2021秋M3 コ-12 / 会場頒布価格¥1000
+  jacket: ''
+  soundcloud_track_id: '1146935386'
+  shop:
+  - https://a-tari-me.booth.pm/items/3365688
+  tracks:
+  - track: 1
+    slug: kirakira
+  - track: 2
+    slug: wasuremono
+  - track: 3
+    slug: mito
+  - track: 4
+    slug: oto-no-ha
+- id: ATRM-0016
+  slug: party-popper
+  title: Party Popper
+  event: 2022秋M3 コ-03a / 会場頒布価格¥1500
+  jacket: ''
+  soundcloud_track_id: '1360959361'
+  shop:
+  - https://a-tari-me.booth.pm/items/4228725
+  tracks:
+  - track: 1
+    slug: just-for-you
+  - track: 2
+    slug: subliminal
+  - track: 3
+    slug: happy-birthday
+    version_label: 川崎泰弘Remix
+  - track: 4
+    slug: haruiro-fanfare
+  - track: 5
+    slug: tenkiame
+- id: ATRM-0017
+  slug: monophonic
+  title: monophonic.
+  event: 2023秋M3 P-03b / 会場頒布価格¥1000
+  jacket: ''
+  soundcloud_track_id: '1635572892'
+  shop:
+  - https://a-tari-me.booth.pm/items/5156275
+  tracks:
+  - track: 1
+    slug: bloom
+  - track: 2
+    slug: milkyway-darling
+    version_label: 2023 Remastered
+  - track: 3
+    slug: fantasy
+  - track: 4
+    slug: dandelion-ni-narenai
+    version_label: 彩水Ver.
+- id: ATRM-0018
+  slug: raspberry-syrup
+  title: raspberry syrup
+  event: 2024秋M3 Q-23b / 会場頒布価格¥2000
+  jacket: ''
+  soundcloud_track_id: '1937638718'
+  shop:
+  - https://a-tari-me.booth.pm/items/6192076
+  tracks:
+  - track: 1
+    slug: yugata-last-summertime
+  - track: 2
+    slug: chiguhagu
+  - track: 3
+    slug: surreal-realm
+  - track: 4
+    slug: shiawase
+    version_label: 川崎泰弘Remix
+  - track: 5
+    slug: watashi-no-kimochi
+    version_label: 彩水Ver.
+  - track: 6
+    slug: rocket-mode
+- id: ATRM-0019
+  slug: bitter-sweet-symphony
+  title: Bitter Sweet Symphony
+  event: 2025秋M3 B-20a / B-20b / 会場頒布価格¥2000
+  jacket: /bitter-sweet-symphony/jacket.png
+  soundcloud_track_id: ''
+  shop:
+  - https://a-tari-me.booth.pm/items/7553558
+  tracks:
+  - track: 1
+    slug: bitter-sweet-symphony
+  - track: 2
+    slug: ephemera
+  - track: 3
+    slug: mirai
+  - track: 4
+    slug: nostal-symphony

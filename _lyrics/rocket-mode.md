@@ -12,11 +12,6 @@ arrange: こまっティ
 vocal: 力石好乃(@ysnysnc)
 guests:
 - 'Illustration: もけお (@mokeooo)'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: raspberry syrup
   album_id: ATRM-0018

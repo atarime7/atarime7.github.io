@@ -11,11 +11,6 @@ music: aki
 arrange: こまっティ
 vocal: いえねこ
 guests: []
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: 私の気持ち / 白昼夢
   album_id: ATRM-0010

@@ -11,11 +11,6 @@ music: aki
 arrange: こまっティ
 vocal: ハレルヤ
 guests: []
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Plastic squid
   album_id: ATRM-0005
@@ -33,7 +28,7 @@ versions:
   album_slug: monophonic
   track: 4
   title_on_disc: ダンデライオンになれない
-  version_label: ''
+  version_label: 彩水Ver.
   lyrics: ハレルヤ
   music: aki
   arrange: こまっティ

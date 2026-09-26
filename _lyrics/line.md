@@ -11,11 +11,6 @@ music: aki
 arrange: こまっティ
 vocal: 彩水
 guests: []
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: グライダー / ライン
   album_id: ATRM-0007

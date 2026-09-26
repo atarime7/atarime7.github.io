@@ -12,11 +12,6 @@ arrange: こまっティ
 vocal: 彩水
 guests:
 - 'Guitar: tamken'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Monsoon Girl
   album_id: ATRM-0006

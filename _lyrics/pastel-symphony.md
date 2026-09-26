@@ -15,11 +15,6 @@ guests:
 - 'Bass: 屋久拓郎 (@takuroyahisa)'
 - 'Piano, Organ, Programming: 川崎泰弘'
 - 'Illustration: みずは (@megacycle13)'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Pastel Symphony
   album_id: ATRM-0014

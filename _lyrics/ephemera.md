@@ -13,11 +13,6 @@ vocal: ねんね (@H_nenne)
 guests:
 - 'Ba: 今井真之 (@masa_bass)'
 - 'Illustration: みずは (@megacycle13)'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Bitter Sweet Symphony
   album_id: ATRM-0019

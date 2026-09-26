@@ -14,11 +14,6 @@ guests:
 - 'Keyboard: aki'
 - 'Guitar: tamken'
 - 'Visual Design: こまっティ'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: 向日葵 c/w 03:09
   album_id: ATRM-0004

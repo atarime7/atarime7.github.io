@@ -14,11 +14,6 @@ guests:
 - 'Keyboard: aki'
 - 'Illust: まつり'
 - 'Visual Design: こまっティ'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Daydream Pancake
   album_id: ATRM-0003

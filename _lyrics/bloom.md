@@ -13,11 +13,6 @@ vocal: めもあ (@memoa_923)
 guests:
 - 'Guitar: サカモト ユウ (@sakamoto_56）'
 - 'Illustration: _hanaco_'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: monophonic.
   album_id: ATRM-0017

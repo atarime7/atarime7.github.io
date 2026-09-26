@@ -12,11 +12,6 @@ arrange: こまっティ
 vocal: 彩水
 guests:
 - 'Illustration: _hanaco_'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: monophonic.
   album_id: ATRM-0017

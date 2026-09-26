@@ -13,11 +13,6 @@ vocal: 雨汰。(@_uta3)
 guests:
 - 'Guitar: サカモトユウ(@sakamoto_56)'
 - 'Illustration: もけお (@mokeooo)'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: raspberry syrup
   album_id: ATRM-0018

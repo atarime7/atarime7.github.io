@@ -11,11 +11,6 @@ music: aki
 arrange: こまっティ
 vocal: ''
 guests: []
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: RAPTURE CITY
   album_id: ATRM-0008

@@ -17,11 +17,6 @@ guests:
 - 'Piano: 眞﨑康尚 (@john_dajohn)'
 - 'Chorus: 菅崎樹里 (@juri_k0406)'
 - 'Illustration: みずは (@megacycle13)'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Pastel Symphony
   album_id: ATRM-0014

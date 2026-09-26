@@ -12,11 +12,6 @@ arrange: こまっティ
 vocal: 橘田ほのか
 guests:
 - 'Guitar: 吉村彰一(Atelier LadyBird)'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: RAPTURE CITY
   album_id: ATRM-0008

@@ -12,11 +12,6 @@ arrange: こまっティ
 vocal: 力石好乃
 guests:
 - 'Guitar: Tamken'
-soundcloud: ''
-streaming:
-  spotify: ''
-  apple_music: ''
-  youtube_music: ''
 versions:
 - album: Weather satellite
   album_id: ATRM-0012
@@ -35,7 +30,7 @@ versions:
   album_slug: monophonic
   track: 2
   title_on_disc: Milkyway Darling
-  version_label: ''
+  version_label: 2023 Remastered
   lyrics: 力石好乃 (@ysnysnc)
   music: aki
   arrange: こまっティ
