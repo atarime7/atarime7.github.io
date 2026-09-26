@@ -470,6 +470,37 @@ section:nth-child(even) {
   background: var(--accent);
 }
 
+.contact-request,
+.contact-streaming {
+  max-width: 900px;
+  margin: 60px auto 0;
+  text-align: center;
+}
+
+.contact-request h3,
+.contact-streaming h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.contact-request p {
+  line-height: 2;
+  color: #555;
+}
+
+.contact-request p a {
+  font-weight: 600;
+  border-bottom: 1px solid currentColor;
+}
+
+.contact-streaming .contact-item i {
+  font-size: 30px;
+}
+
+.contact-streaming .contact-item h4 {
+  font-size: 17px;
+}
+
 /* ===== FOOTER ===== */
 footer {
   background: var(--secondary);

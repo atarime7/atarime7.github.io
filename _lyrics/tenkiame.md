@@ -3,7 +3,7 @@ published: true
 title: 天気雨
 slug: tenkiame
 status: ok
-album: Weather satellite
+album: Weather Satellite
 album_slug: weather-satellite
 album_id: ATRM-0012
 track: 1
@@ -15,7 +15,7 @@ guests:
 - 'Guitar: 庄司陽太'
 description: アタリメ「天気雨」の歌詞。「スニーカーの紐が揺れる 駆け抜けた透明なリフレイン 夜になってまた繰り返す」 作詞：aki／作曲：aki
 versions:
-- album: Weather satellite
+- album: Weather Satellite
   album_id: ATRM-0012
   album_slug: weather-satellite
   track: 1

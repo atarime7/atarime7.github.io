@@ -3,7 +3,7 @@ published: true
 title: 空と雲のパレード
 slug: sora-to-kumo-no-parade
 status: ok
-album: Weather satellite
+album: Weather Satellite
 album_slug: weather-satellite
 album_id: ATRM-0012
 track: 3
@@ -15,7 +15,7 @@ guests:
 - 'Guitar: 庄司陽太'
 description: アタリメ「空と雲のパレード」の歌詞。「朝の空目に映り 遠ざかる一粒の夜 曇っていた心 内側で呼吸して消えた」 作詞：彩水／作曲：aki
 versions:
-- album: Weather satellite
+- album: Weather Satellite
   album_id: ATRM-0012
   album_slug: weather-satellite
   track: 3

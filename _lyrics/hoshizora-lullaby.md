@@ -27,7 +27,7 @@ versions:
   vocal: 橘田ほのか
   other_credits:
   - 'Guitar: 吉村彰一(Atelier LadyBird)'
-- album: Weather satellite
+- album: Weather Satellite
   album_id: ATRM-0012
   album_slug: weather-satellite
   track: 5

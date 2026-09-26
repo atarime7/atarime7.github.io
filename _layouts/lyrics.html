@@ -12,9 +12,7 @@ layout: default
 		<div class="lyrics-header">
 			<div class="lyrics-artwork">
 				{%- if album.jacket and album.jacket != "" %}
-				<img src="{{ album.jacket }}" alt="{{ album.title }} ジャケット" />
-				{%- elsif album.soundcloud_track_id and album.soundcloud_track_id != "" %}
-				<iframe scrolling="no" frameborder="no" allow="autoplay" loading="lazy" title="{{ album.title }} クロスフェード" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ album.soundcloud_track_id }}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+				<img src="{{ album.jacket }}" alt="{{ album.title }} ジャケット" width="800" height="800" />
 				{%- else %}
 				<img src="/images/atarime_icon.png" alt="アタリメ" />
 				{%- endif %}
@@ -72,6 +70,11 @@ layout: default
 			<p class="lyrics-note">この曲は配信していません（CD限定）。</p>
 			{%- elsif streamed == false %}
 			<p class="lyrics-note">この曲は現在CDのみでお聴きいただけます。</p>
+			{%- endif %}
+			{%- if album.soundcloud_track_id and album.soundcloud_track_id != "" %}
+			<div class="lyrics-player">
+				<iframe scrolling="no" frameborder="no" allow="autoplay" loading="lazy" title="{{ album.title }} 試聴" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ album.soundcloud_track_id }}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false"></iframe>
+			</div>
 			{%- endif %}
 		</section>
 
