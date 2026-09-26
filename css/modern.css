@@ -269,6 +269,36 @@ section:nth-child(even) {
   object-fit: cover;
 }
 
+/* Jacket with SoundCloud preview (player loads on click) */
+.album-image.sc-preview {
+  cursor: pointer;
+}
+
+.album-image .sc-play {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background: rgba(11, 51, 96, 0.85);
+  color: white;
+  font-family: var(--font-main);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.album-image .sc-play i {
+  margin-right: 4px;
+}
+
+.album-image.sc-preview:hover .sc-play {
+  background: var(--accent);
+}
+
 .album-info {
   padding: 20px;
 }
