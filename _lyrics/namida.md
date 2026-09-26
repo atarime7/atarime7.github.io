@@ -10,7 +10,7 @@ track: 3
 lyrics: ハレルヤ
 music: aki
 arrange: こまっティ
-vocal: ''
+vocal: ハレルヤ, 水彩
 guests:
 - 'Keyboard: aki'
 - 'Illust: みなり'
@@ -19,6 +19,7 @@ credits_html:
   lyrics: ハレルヤ
   music: aki
   arrange: こまっティ
+  vocal: ハレルヤ, 水彩
 lyricist_name: ハレルヤ
 composer_name: aki
 description: アタリメ「なみだ」の歌詞。「12番ホーム  まだ来ないテレパシー どうやらもう二度と会えないらしい」 作詞：ハレルヤ／作曲：aki
@@ -32,8 +33,8 @@ versions:
   lyrics: ハレルヤ
   music: aki
   arrange: こまっティ
-  vocal: ''
-  vocal_short: ''
+  vocal: ハレルヤ, 水彩
+  vocal_short: ハレルヤ, 水彩
   arrange_short: こまっティ
   other_credits:
   - 'Keyboard: aki'
