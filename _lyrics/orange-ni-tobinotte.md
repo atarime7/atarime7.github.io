@@ -17,8 +17,8 @@ guests:
 - 'Mixing, Mastering: こまっティ'
 - 'Illustration: Sakura AT （スイモク）'
 credits_html:
-  lyrics: 谷高マーク
-  music: 谷高マーク
+  lyrics: <a class="x-link" href="https://x.com/markyataka" target="_blank" rel="noopener">谷高マーク <span class="x-handle">@markyataka</span></a>
+  music: <a class="x-link" href="https://x.com/markyataka" target="_blank" rel="noopener">谷高マーク <span class="x-handle">@markyataka</span></a>
   arrange: aki・こまっティ
   vocal: 彩水
 lyricist_name: 谷高マーク

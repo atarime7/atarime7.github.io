@@ -19,7 +19,7 @@ guests:
 credits_html:
   lyrics: 吉村彰一
   music: 吉村彰一, aki
-  arrange: 川崎泰弘, こまっティ
+  arrange: <a class="x-link" href="https://x.com/don0924" target="_blank" rel="noopener">川崎泰弘 <span class="x-handle">@don0924</span></a>, こまっティ
   vocal: 月乃
 lyricist_name: 吉村彰一
 composer_name: 吉村彰一, aki

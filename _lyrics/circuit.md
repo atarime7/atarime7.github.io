@@ -16,10 +16,10 @@ guests:
 - 'Mixing, Mastering: こまっティ'
 - 'Illustration: Sakura AT （スイモク）'
 credits_html:
-  lyrics: 力石好乃
+  lyrics: <a class="x-link" href="https://x.com/ysnysnc" target="_blank" rel="noopener">力石好乃 <span class="x-handle">@ysnysnc</span></a>
   music: aki
   arrange: こまっティ
-  vocal: 力石好乃
+  vocal: <a class="x-link" href="https://x.com/ysnysnc" target="_blank" rel="noopener">力石好乃 <span class="x-handle">@ysnysnc</span></a>
 lyricist_name: 力石好乃
 composer_name: aki
 description: アタリメ「Circuit?」の歌詞。「サーキットベイビー 光も追い越して 溶けちゃう前に早く召しませ」 作詞：力石好乃／作曲：aki

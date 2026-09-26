@@ -18,7 +18,7 @@ guests:
 credits_html:
   lyrics: Atelier LadyBird
   music: Atelier LadyBird
-  arrange: アタリメ、川崎泰弘
+  arrange: アタリメ、<a class="x-link" href="https://x.com/don0924" target="_blank" rel="noopener">川崎泰弘 <span class="x-handle">@don0924</span></a>
   vocal: <a class="x-link" href="https://x.com/waka_nana0413" target="_blank" rel="noopener">わかばやし <span class="x-handle">@waka_nana0413</span></a>
 lyricist_name: Atelier LadyBird
 composer_name: Atelier LadyBird

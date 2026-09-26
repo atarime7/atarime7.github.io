@@ -19,7 +19,7 @@ guests:
 credits_html:
   lyrics: Atelier LadyBird
   music: aki, 吉村彰一
-  arrange: こまっティ, 川崎泰弘
+  arrange: こまっティ, <a class="x-link" href="https://x.com/don0924" target="_blank" rel="noopener">川崎泰弘 <span class="x-handle">@don0924</span></a>
   vocal: ななひら
 lyricist_name: Atelier LadyBird
 composer_name: aki, 吉村彰一

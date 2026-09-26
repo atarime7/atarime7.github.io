@@ -18,7 +18,7 @@ guests:
 credits_html:
   lyrics: aki
   music: aki
-  arrange: 川崎泰弘
+  arrange: <a class="x-link" href="https://x.com/don0924" target="_blank" rel="noopener">川崎泰弘 <span class="x-handle">@don0924</span></a>
   vocal: 雨ヶ崎笑虹
 lyricist_name: aki
 composer_name: aki
