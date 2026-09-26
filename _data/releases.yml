@@ -84,5 +84,21 @@
   tracks:
     - slug: glider
 
-# TODO: Goodbye Pretzel Girl（配信用まとめアルバム）— TuneCoreアーティストページに未掲載。linkcore URL 確認後に追加
-#       1枚ずつの配信に差し替えたら、このエントリは削除して各作品を追加する
+- title: Goodbye Pretzel Girl
+  type: album  # 配信用ベスト（2016〜2020年の代表曲10曲・リマスター）
+  album_id: ""
+  release_date: 2020-05-31
+  linkcore: https://linkco.re/8UfUdGaY
+  replace_later: true  # 過去作を1枚ずつ配信したら、このエントリは削除して各作品を追加する
+  tracks:  # 再録曲（レモネード・向日葵・ダンデライオンになれない・ハッピーバースデー）はどの盤の音源か未確認
+    - slug: happy-birthday
+    - slug: best-friend
+    - slug: tsubomi-no-sakura
+    - slug: himawari
+    - slug: lemonade
+    - slug: dandelion-ni-narenai
+    - slug: shiawase
+    - slug: hoshizora-lullaby
+      version_label: 川崎泰弘Remix
+    - slug: super-starfish
+    - slug: goodbye-pretzel-girl
