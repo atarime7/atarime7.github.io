@@ -14,11 +14,7 @@ vocal: 雨ヶ崎笑虹
 guests:
 - 'Guitar: Tamken'
 - 'Illustration: もけお(@mokeooo)'
-description: アタリメ「音の葉」の歌詞。雨ヶ崎笑虹さんへの提供楽曲。「ひとつ涙を知るたびに 忘れてゆく大事なこと 愛想笑いをするたびに 忘れてゆく本当の自分」 作詞：雨ヶ崎笑虹, aki／作曲：aki
-highlights:
-- date: 2020年10月
-  text: 雨ヶ崎笑虹さんへの提供楽曲
-  url: https://x.com/a_tari_me/status/1319588668084989952
+description: アタリメ「音の葉」の歌詞。「ひとつ涙を知るたびに 忘れてゆく大事なこと 愛想笑いをするたびに 忘れてゆく本当の自分」 作詞：雨ヶ崎笑虹, aki／作曲：aki
 versions:
 - album: Tomorrow’s Forecast
   album_id: ATRM-0015

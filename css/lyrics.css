@@ -275,6 +275,56 @@
 }
 
 /* ===== LYRICS INDEX ===== */
+.lyrics-achievements {
+  max-width: 860px;
+  margin: 0 auto 50px;
+  background: white;
+  border-radius: 8px;
+  padding: 20px 24px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  border-top: 4px solid var(--highlight);
+}
+
+.lyrics-achievements h3 {
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+
+.lyrics-achievements ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lyrics-achievements li {
+  display: grid;
+  grid-template-columns: 7em 1fr;
+  gap: 2px 12px;
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+  font-size: 15px;
+}
+
+.lyrics-achievements li:first-child {
+  border-top: 0;
+}
+
+.lyrics-achievements .highlight-date {
+  grid-row: span 2;
+  font-size: 13px;
+  color: #888;
+  font-variant-numeric: tabular-nums;
+}
+
+.lyrics-achievements .achievement-songs {
+  font-weight: 600;
+}
+
+.lyrics-achievements .achievement-text a {
+  color: inherit;
+  border-bottom: 1px dotted #aaa;
+}
+
 .lyrics-album-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));

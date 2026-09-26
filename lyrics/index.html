@@ -10,6 +10,22 @@ description: アタリメの楽曲の歌詞一覧。M3などで頒布したCD全
 			<p>アタリメの楽曲の歌詞とクレジット</p>
 		</div>
 
+		<!-- 採用・収録 -->
+		{%- assign achievement_groups = site.data.achievements | group_by: "text" %}
+		<div class="lyrics-achievements">
+			<h3>採用・収録</h3>
+			<ul>
+				{%- for g in achievement_groups -%}
+				{%- assign first = g.items | first %}
+				<li>
+					<span class="highlight-date">{{ first.date }}</span>
+					<span class="achievement-text">{% if first.url != "" %}<a href="{{ first.url }}" target="_blank" rel="noopener">{{ g.name }}</a>{% else %}{{ g.name }}{% endif %}</span>
+					<span class="achievement-songs">{% for a in g.items %}<a href="/lyrics/{{ a.slug }}/">{{ a.title }}</a>{% unless forloop.last %}／{% endunless %}{% endfor %}</span>
+				</li>
+				{%- endfor %}
+			</ul>
+		</div>
+
 		{%- assign albums = site.data.albums | reverse -%}
 		<div class="lyrics-album-list">
 			{%- for album in albums -%}
