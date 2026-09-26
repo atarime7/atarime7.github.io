@@ -1,4 +1,5 @@
 ---
+published: true
 title: Best Friend
 slug: best-friend
 status: ok
@@ -12,6 +13,7 @@ arrange: こまっティ
 vocal: ハレルヤ, 彩水
 guests:
 - 'Guitar: tamken'
+description: アタリメ「Best Friend」の歌詞。「「あー今日も疲れた」 ってベッドにダイヴする」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: Monsoon Girl
   album_id: ATRM-0006

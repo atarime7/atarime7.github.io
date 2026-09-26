@@ -1,4 +1,5 @@
 ---
+published: true
 title: Bitter Sweet Symphony
 slug: bitter-sweet-symphony
 status: ok
@@ -14,6 +15,7 @@ guests:
 - 'Gt: 上杉悟 (@satoru_gt1225)'
 - 'Ba: kakeyan (@kakeyan26)'
 - 'Illustration: みずは (@megacycle13)'
+description: アタリメ「Bitter Sweet Symphony」の歌詞。「続いていくシンフォニー 手紙に綴るように」 作詞：Atelier LadyBird／作曲：Atelier LadyBird
 versions:
 - album: Bitter Sweet Symphony
   album_id: ATRM-0019

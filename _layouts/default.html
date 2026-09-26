@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	{%- assign page_title = page.seo_title | default: page.title -%}
+	{%- assign page_description = page.description | default: site.description -%}
+	{%- assign og_image = page.og_image | default: "/images/atarime_icon.png" -%}
+	{%- if page.collection == "lyrics" -%}
+		{%- assign page_title = page.title | append: " 歌詞" -%}
+		{%- assign og_album = site.data.albums | where: "id", page.album_id | first -%}
+		{%- if og_album.jacket != "" and og_album.jacket -%}{%- assign og_image = og_album.jacket -%}{%- endif -%}
+	{%- endif -%}
+	<title>{% if page_title %}{{ page_title }} | {% endif %}{{ site.title }}</title>
+	<meta name="description" content="{{ page_description | strip_newlines | escape }}" />
+	<link rel="canonical" href="{{ page.url | absolute_url }}" />
+
+	<!-- OGP -->
+	<meta property="og:type" content="{% if page.collection == 'lyrics' %}music.song{% else %}website{% endif %}" />
+	<meta property="og:site_name" content="{{ site.title }}" />
+	<meta property="og:title" content="{% if page_title %}{{ page_title }} | {% endif %}{{ site.title }}" />
+	<meta property="og:description" content="{{ page_description | strip_newlines | escape }}" />
+	<meta property="og:url" content="{{ page.url | absolute_url }}" />
+	<meta property="og:image" content="{{ og_image | absolute_url }}" />
+	<meta property="og:locale" content="ja_JP" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@a_tari_me" />
+
+	<!-- Favicon -->
+	<link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main-modern.css" />
+</head>
+<body class="subpage">
+	<!-- Header -->
+	<header id="header">
+		<div class="container header-container">
+			<div class="logo">
+				<a href="/">
+					<img src="/images/atarime_icon.png" alt="アタリメ" />
+				</a>
+			</div>
+
+			<button class="mobile-nav-toggle" aria-label="メニュー">
+				<i class="fas fa-bars"></i>
+			</button>
+
+			<ul class="nav-menu">
+				<li><a href="/">Home</a></li>
+				<li><a href="/#discography">Discography</a></li>
+				<li{% if page.url contains '/lyrics/' %} class="current"{% endif %}><a href="/lyrics/">Lyrics</a></li>
+				<li><a href="/#about">About Us</a></li>
+				<li><a href="/#contact">Contact</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<main class="subpage-main">
+		{{ content }}
+	</main>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<p>&copy; {{ site.time | date: "%Y" }} アタリメ All rights reserved.</p>
+		</div>
+	</footer>
+
+	<!-- JavaScript -->
+	<script src="/js/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			// Mobile Navigation Toggle
+			$('.mobile-nav-toggle').on('click', function() {
+				$('.nav-menu').toggleClass('active');
+				$(this).find('i').toggleClass('fa-bars fa-times');
+			});
+		});
+	</script>
+</body>
+</html>

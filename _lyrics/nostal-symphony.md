@@ -1,4 +1,5 @@
 ---
+published: true
 title: ノスタルシンフォニー
 slug: nostal-symphony
 status: ok
@@ -14,6 +15,7 @@ guests:
 - 'Gt: フルタヒロノブ (@furutyyyyy)'
 - 'Ba: 屋久拓朗 (@takuroyahisa)'
 - 'Illustration: みずは (@megacycle13)'
+description: アタリメ「ノスタルシンフォニー」の歌詞。「オレンジの空が二人引き合わせたんだ 偶然って運命に胸がきゅんと高鳴る」 作詞：吉村彰一／作曲：aki
 versions:
 - album: Bitter Sweet Symphony
   album_id: ATRM-0019

@@ -1,4 +1,5 @@
 ---
+published: true
 title: ダンデライオンになれない
 slug: dandelion-ni-narenai
 status: ok
@@ -11,6 +12,7 @@ music: aki
 arrange: こまっティ
 vocal: ハレルヤ
 guests: []
+description: アタリメ「ダンデライオンになれない」の歌詞。「傷だらけの素足 隠して歩いていく 笑ってごまかせば 大抵なんとかなる」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: Plastic squid
   album_id: ATRM-0005

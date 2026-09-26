@@ -1,4 +1,5 @@
 ---
+published: true
 title: papua
 slug: papua
 status: ok
@@ -14,6 +15,7 @@ guests:
 - 'Keyboard: aki'
 - 'Illustration: ハレルヤ'
 - 'Visual Design: こまっティ'
+description: アタリメ「papua」の歌詞。「真夜中 隕石が落っこちて 全部なくなって」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: mild&chocolate
   album_id: ATRM-0001

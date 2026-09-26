@@ -1,4 +1,5 @@
 ---
+published: true
 title: オレンジに飛び乗って
 slug: orange-ni-tobinotte
 status: ok
@@ -15,6 +16,7 @@ guests:
 - 'Keyboard: aki'
 - 'Mixing, Mastering: こまっティ'
 - 'Illustration: Sakura AT （スイモク）'
+description: アタリメ「オレンジに飛び乗って」の歌詞。「少し物憂げな午前2時 涙の訳は聞かないで」 作詞：谷高マーク／作曲：谷高マーク
 versions:
 - album: Baby a Go! Go!
   album_id: ATRM-0013

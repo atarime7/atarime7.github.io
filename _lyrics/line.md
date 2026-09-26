@@ -1,4 +1,5 @@
 ---
+published: true
 title: ライン
 slug: line
 status: ok
@@ -11,6 +12,7 @@ music: aki
 arrange: こまっティ
 vocal: 彩水
 guests: []
+description: アタリメ「ライン」の歌詞。「ふいに ふわり ふれる すまし顔 私はうさぎ こころ こぼす ことば 綺麗な嘘の雫」 作詞：彩水／作曲：aki
 versions:
 - album: グライダー / ライン
   album_id: ATRM-0007

@@ -1,4 +1,5 @@
 ---
+published: true
 title: 泡沫トリップ
 slug: utakata-trip
 status: ok
@@ -11,6 +12,7 @@ music: aki
 arrange: こまっティ
 vocal: 葉月菜友
 guests: []
+description: アタリメ「泡沫トリップ」の歌詞。「月並みな日常を 切り抜いた窓に マーキスの影 揺れていた」 作詞：葉月菜友／作曲：aki
 versions:
 - album: Sweet Serenade
   album_id: ATRM-0009

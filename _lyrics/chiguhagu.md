@@ -1,4 +1,5 @@
 ---
+published: true
 title: チグハグ
 slug: chiguhagu
 status: ok
@@ -13,6 +14,7 @@ vocal: 雨汰。(@_uta3)
 guests:
 - 'Guitar: サカモトユウ(@sakamoto_56)'
 - 'Illustration: もけお (@mokeooo)'
+description: アタリメ「チグハグ」の歌詞。「君とロマンス わからないまま 別の世界に憧れていた」 作詞：aki／作曲：aki
 versions:
 - album: raspberry syrup
   album_id: ATRM-0018
@@ -32,8 +34,8 @@ versions:
 別の世界に憧れていた
 くだらないことで　笑い合って
 知らず知らずに　惹かれていった
-　　 
-いつものように笑う　
+
+いつものように笑う
 あの　一番星みたい
 本当の気持ち　まだ知らないの
 ほら　ミラクルな恋を夢見ている

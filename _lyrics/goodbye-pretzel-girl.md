@@ -1,4 +1,5 @@
 ---
+published: true
 title: グッバイプレッツェルガール
 slug: goodbye-pretzel-girl
 status: ok
@@ -14,6 +15,7 @@ guests:
 - 'Keyboard: aki'
 - 'Illustration: ハレルヤ'
 - 'Visual Design: こまっティ'
+description: アタリメ「グッバイプレッツェルガール」の歌詞。「コーヒーを1杯 かっこつけて頼んでみた 両手にいっぱい 甘いお菓子が欲しいけど」 作詞：aki／作曲：aki
 versions:
 - album: mild&chocolate
   album_id: ATRM-0001

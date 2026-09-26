@@ -1,4 +1,5 @@
 ---
+published: false
 title: ミッドナイト・レースカー
 slug: midnight-racecar
 status: instrumental

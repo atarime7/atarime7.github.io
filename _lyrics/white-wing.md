@@ -1,4 +1,5 @@
 ---
+published: false
 title: White Wing
 slug: white-wing
 status: instrumental

@@ -1,4 +1,5 @@
 ---
+published: true
 title: Vital Reflection
 slug: vital-reflection
 status: ok
@@ -11,6 +12,7 @@ music: aki
 arrange: こまっティ
 vocal: 力石好乃
 guests: []
+description: アタリメ「Vital Reflection」の歌詞。「その 雫さえも 気配 呼んでみる ただ 止まらないで 明日を探しても   刹那」 作詞：こまっティ／作曲：aki
 versions:
 - album: Sweet Serenade
   album_id: ATRM-0009

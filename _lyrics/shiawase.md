@@ -1,4 +1,5 @@
 ---
+published: true
 title: シアワセ
 slug: shiawase
 status: ok
@@ -15,6 +16,7 @@ guests:
 - 'Guitar: tamken'
 - 'Illust: みなり'
 - 'Visual Design: こまっティ'
+description: アタリメ「シアワセ」の歌詞。「だってふたり出会っちゃったんだもん 正義のヒーローなんているわけないじゃない」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: アクアリウム
   album_id: ATRM-0002

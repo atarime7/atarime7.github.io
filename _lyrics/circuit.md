@@ -1,4 +1,5 @@
 ---
+published: true
 title: Circuit?
 slug: circuit
 status: ok
@@ -14,6 +15,7 @@ guests:
 - 'Keyboard: aki'
 - 'Mixing, Mastering: こまっティ'
 - 'Illustration: Sakura AT （スイモク）'
+description: アタリメ「Circuit?」の歌詞。「サーキットベイビー 光も追い越して 溶けちゃう前に早く召しませ」 作詞：力石好乃／作曲：aki
 versions:
 - album: Baby a Go! Go!
   album_id: ATRM-0013

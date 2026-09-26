@@ -1,4 +1,5 @@
 ---
+published: true
 title: 友達でしょう？ウォークマン
 slug: tomodachi-deshou-walkman
 status: ok
@@ -15,6 +16,7 @@ guests:
 - 'Bass: kakeyan (@kakeyan26)'
 - 'Electric Piano, Percussion, Programming: 川崎泰弘'
 - 'Illustration: みずは (@megacycle13)'
+description: アタリメ「友達でしょう？ウォークマン」の歌詞。「懐かしいあの頃のMusic すっかり手放しちゃって 何となく流行りのMovie 流して 知ったふりして Ah」 作詞：Atelier LadyBird／作曲：吉村彰一
 versions:
 - album: Pastel Symphony
   album_id: ATRM-0014

@@ -1,0 +1,140 @@
+---
+layout: default
+---
+{%- assign album = site.data.albums | where: "id", page.album_id | first -%}
+<article class="lyrics-page">
+	<div class="container">
+		<nav class="breadcrumb">
+			<a href="/">Home</a> / <a href="/lyrics/">Lyrics</a> / <span>{{ page.title }}</span>
+		</nav>
+
+		<!-- Song Header -->
+		<div class="lyrics-header">
+			<div class="lyrics-artwork">
+				{%- if album.jacket and album.jacket != "" %}
+				<img src="{{ album.jacket }}" alt="{{ album.title }} ジャケット" />
+				{%- elsif album.soundcloud_track_id and album.soundcloud_track_id != "" %}
+				<iframe scrolling="no" frameborder="no" allow="autoplay" loading="lazy" title="{{ album.title }} クロスフェード" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ album.soundcloud_track_id }}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+				{%- else %}
+				<img src="/images/atarime_icon.png" alt="アタリメ" />
+				{%- endif %}
+			</div>
+			<div class="lyrics-meta">
+				<p class="lyrics-label">Lyrics</p>
+				<h1>{{ page.title }}</h1>
+				<p class="lyrics-artist">アタリメ</p>
+				<dl class="lyrics-credits">
+					{%- if page.lyrics != "" %}<dt>作詞</dt><dd>{{ page.lyrics }}</dd>{% endif %}
+					{%- if page.music != "" %}<dt>作曲</dt><dd>{{ page.music }}</dd>{% endif %}
+					{%- if page.arrange != "" %}<dt>編曲</dt><dd>{{ page.arrange }}</dd>{% endif %}
+					{%- if page.vocal != "" %}<dt>Vocal</dt><dd>{{ page.vocal }}</dd>{% endif %}
+				</dl>
+				<p class="lyrics-album-link">
+					収録：<a href="/#discography">{{ album.title }}</a>
+					<span class="album-id">{{ page.album_id }}</span>
+				</p>
+			</div>
+		</div>
+
+		<!-- Lyrics -->
+		<section class="lyrics-body">
+			<h2>歌詞</h2>
+			<div class="lyrics-text">
+				{{ content }}
+			</div>
+		</section>
+
+		<!-- Listen / Buy -->
+		<section class="lyrics-listen">
+			<h2>聴く・買う</h2>
+			<div class="lyrics-buttons">
+				{%- assign streamed = false -%}
+				{%- if page.streaming_available != false -%}
+					{%- for release in site.data.releases -%}
+						{%- for t in release.tracks -%}
+							{%- if t.slug == page.slug -%}
+								{%- assign streamed = true %}
+				<a class="btn" href="{{ release.linkcore }}" target="_blank" rel="noopener"><i class="fas fa-headphones"></i> 配信で聴く（{{ release.title }}{% if t.version_label %} / {{ t.version_label }}{% endif %}）</a>
+							{%- endif -%}
+						{%- endfor -%}
+					{%- endfor -%}
+				{%- endif -%}
+				{%- for v in page.versions -%}
+					{%- assign v_album = site.data.albums | where: "id", v.album_id | first -%}
+					{%- for shop in v_album.shop -%}
+						{%- if shop contains "booth" %}
+				<a class="btn btn-outline" href="{{ shop }}" target="_blank" rel="noopener"><i class="fas fa-compact-disc"></i> CDを買う（{{ v_album.title }}）</a>
+						{%- endif -%}
+					{%- endfor -%}
+				{%- endfor %}
+			</div>
+			{%- if page.streaming_available == false %}
+			<p class="lyrics-note">この曲は配信していません（CD限定）。</p>
+			{%- elsif streamed == false %}
+			<p class="lyrics-note">この曲は現在CDのみでお聴きいただけます。</p>
+			{%- endif %}
+		</section>
+
+		<!-- Versions -->
+		{%- if page.versions.size > 1 %}
+		<section class="lyrics-versions">
+			<h2>収録バージョン</h2>
+			<table class="versions-table">
+				<thead>
+					<tr><th>作品</th><th>Tr.</th><th>バージョン</th><th>Vocal</th><th>編曲</th></tr>
+				</thead>
+				<tbody>
+					{%- for v in page.versions -%}
+					{%- assign v_album = site.data.albums | where: "id", v.album_id | first %}
+					<tr>
+						<td>{{ v_album.title }}<span class="album-id">{{ v.album_id }}</span></td>
+						<td>{{ v.track }}</td>
+						<td>{% if v.version_label != "" %}{{ v.version_label }}{% else %}オリジナル{% endif %}</td>
+						<td>{{ v.vocal }}</td>
+						<td>{{ v.arrange }}</td>
+					</tr>
+					{%- endfor %}
+				</tbody>
+			</table>
+			{%- for v in page.versions -%}
+				{%- if v.lyrics_text and v.lyrics_text != "same" and v.lyrics_text != "none" -%}
+				{%- assign v_album = site.data.albums | where: "id", v.album_id | first %}
+			<details class="version-lyrics">
+				<summary>{{ v_album.title }} 収録版の歌詞{% if v.version_label != "" %}（{{ v.version_label }}）{% endif %}</summary>
+				<div class="lyrics-text"><p>{{ v.lyrics_text | strip | escape }}</p></div>
+			</details>
+				{%- endif -%}
+			{%- endfor %}
+		</section>
+		{%- endif %}
+
+		<p class="lyrics-back"><a href="/lyrics/"><i class="fas fa-arrow-left"></i> 歌詞一覧へ</a></p>
+	</div>
+</article>
+
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "MusicComposition",
+	"name": {{ page.title | jsonify }},
+	"url": {{ page.url | absolute_url | jsonify }},
+	"inLanguage": "ja",
+	{%- if page.lyrics != "" %}
+	"lyricist": { "@type": "Person", "name": {{ page.lyrics | jsonify }} },
+	{%- endif %}
+	{%- if page.music != "" %}
+	"composer": { "@type": "Person", "name": {{ page.music | jsonify }} },
+	{%- endif %}
+	"lyrics": {
+		"@type": "CreativeWork",
+		"inLanguage": "ja",
+		"text": {{ content | strip_html | strip | jsonify }}
+	},
+	"recordedAs": {
+		"@type": "MusicRecording",
+		"name": {{ page.title | jsonify }},
+		"byArtist": { "@type": "MusicGroup", "name": "アタリメ", "url": {{ "/" | absolute_url | jsonify }} },
+		"inAlbum": { "@type": "MusicAlbum", "name": {{ album.title | jsonify }}, "catalogNumber": {{ page.album_id | jsonify }} }
+	}
+}
+</script>

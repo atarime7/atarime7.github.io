@@ -1,4 +1,5 @@
 ---
+published: true
 title: 夕方ラストサマータイム
 slug: yugata-last-summertime
 status: ok
@@ -13,6 +14,7 @@ vocal: 力石好乃(@ysnysnc)
 guests:
 - 'Guitar: サカモトユウ(@sakamoto_56)'
 - 'Illustration: もけお (@mokeooo)'
+description: アタリメ「夕方ラストサマータイム」の歌詞。「窓側の席から見える 青空を分ける一筋の雲」 作詞：力石好乃(@ysnysnc)／作曲：aki
 versions:
 - album: raspberry syrup
   album_id: ATRM-0018

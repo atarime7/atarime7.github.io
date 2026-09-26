@@ -1,4 +1,5 @@
 ---
+published: true
 title: Realize
 slug: realize
 status: ok
@@ -17,6 +18,7 @@ guests:
 - 'Piano: 眞﨑康尚 (@john_dajohn)'
 - 'Chorus: 菅崎樹里 (@juri_k0406)'
 - 'Illustration: みずは (@megacycle13)'
+description: アタリメ「Realize」の歌詞。「誰も信じられなくて すれ違う人全部 私の 敵に感じて」 作詞：吉村彰一／作曲：吉村彰一
 versions:
 - album: Pastel Symphony
   album_id: ATRM-0014
@@ -36,7 +38,7 @@ versions:
   - 'Chorus: 菅崎樹里 (@juri_k0406)'
   - 'Illustration: みずは (@megacycle13)'
 ---
-誰も信じられなくて　すれ違う人全部　
+誰も信じられなくて　すれ違う人全部
 私の　敵に感じて
 閉じこもった要塞　布団だけが優しく
 私を　愛してくれる
@@ -63,7 +65,7 @@ versions:
 ぬるい今　心地よくて
 
 「あの日の涙が　物語っていた
-感情の行方は　どこに向かう？」 　
+感情の行方は　どこに向かう？」
 結末は　知らない方が
 まだ　前を向いていられる
 

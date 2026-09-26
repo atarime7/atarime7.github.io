@@ -1,4 +1,5 @@
 ---
+published: true
 title: ロケットモード
 slug: rocket-mode
 status: ok
@@ -12,6 +13,7 @@ arrange: こまっティ
 vocal: 力石好乃(@ysnysnc)
 guests:
 - 'Illustration: もけお (@mokeooo)'
+description: アタリメ「ロケットモード」の歌詞。「さぁ準備して 空が暗くなってからは」 作詞：力石好乃(@ysnysnc)／作曲：aki
 streaming_available: false
 versions:
 - album: raspberry syrup
@@ -48,7 +50,7 @@ versions:
 123で飛び出す
 未来までロケットモード
 止まれない
-星を捕まえて 
+星を捕まえて
 
 覚めない夢はプリズム
 きらり輝き溢れるハートが

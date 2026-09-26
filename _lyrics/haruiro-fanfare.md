@@ -1,4 +1,5 @@
 ---
+published: true
 title: 春色ファンファーレ
 slug: haruiro-fanfare
 status: ok
@@ -13,6 +14,7 @@ vocal: 駄々子（@dadacomplex）
 guests:
 - 'Guitar: Tamken'
 - 'Illustration: もけお (@mokeooo)'
+description: アタリメ「春色ファンファーレ」の歌詞。「春風そよぎ 頬を撫でたら 深呼吸して 前髪と呼吸整えて」 作詞：駄々子（@dadacomplex）／作曲：aki
 versions:
 - album: Party Popper
   album_id: ATRM-0016

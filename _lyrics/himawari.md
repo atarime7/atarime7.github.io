@@ -1,4 +1,5 @@
 ---
+published: true
 title: 向日葵
 slug: himawari
 status: ok
@@ -14,6 +15,7 @@ guests:
 - 'Keyboard: aki'
 - 'Guitar: tamken'
 - 'Visual Design: こまっティ'
+description: アタリメ「向日葵」の歌詞。「最後の教室  消しゴムにかけた魔法 ばれないように  そっと机にしまった」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: 向日葵 c/w 03:09
   album_id: ATRM-0004

@@ -1,4 +1,5 @@
 ---
+published: true
 title: Ephemera
 slug: ephemera
 status: ok
@@ -13,6 +14,7 @@ vocal: ねんね (@H_nenne)
 guests:
 - 'Ba: 今井真之 (@masa_bass)'
 - 'Illustration: みずは (@megacycle13)'
+description: アタリメ「Ephemera」の歌詞。「すれ違う電車の轟音に 言葉を乗せて運ぶように」 作詞：Atelier LadyBird／作曲：Atelier LadyBird
 versions:
 - album: Bitter Sweet Symphony
   album_id: ATRM-0019

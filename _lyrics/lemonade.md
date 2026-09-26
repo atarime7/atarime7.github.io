@@ -1,4 +1,5 @@
 ---
+published: true
 title: レモネード
 slug: lemonade
 status: ok
@@ -14,6 +15,7 @@ guests:
 - 'Keyboard: aki'
 - 'Illustration: ハレルヤ'
 - 'Visual Design: こまっティ'
+description: アタリメ「レモネード」の歌詞。「恋の特効薬 ビンのフタ開けたら 魔法がはじける」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: mild&chocolate
   album_id: ATRM-0001

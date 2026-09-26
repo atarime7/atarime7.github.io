@@ -1,4 +1,5 @@
 ---
+published: true
 title: タルト・タタンの恋人
 slug: tarte-tatin-no-koibito
 status: ok
@@ -12,6 +13,7 @@ arrange: こまっティ
 vocal: 彩水, ゆう
 guests:
 - 'Guest Vocal: ゆう (Twitter: @yuu_LC)'
+description: アタリメ「タルト・タタンの恋人」の歌詞。「新しい事を待ってた 恋心が いつもと違う オーブンをあける」 作詞：aki／作曲：aki
 versions:
 - album: Monsoon Girl
   album_id: ATRM-0006

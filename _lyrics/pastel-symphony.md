@@ -1,4 +1,5 @@
 ---
+published: true
 title: パステルシンフォニー
 slug: pastel-symphony
 status: ok
@@ -15,6 +16,7 @@ guests:
 - 'Bass: 屋久拓郎 (@takuroyahisa)'
 - 'Piano, Organ, Programming: 川崎泰弘'
 - 'Illustration: みずは (@megacycle13)'
+description: アタリメ「パステルシンフォニー」の歌詞。「いつか 一緒に手を繋いで 歩いてみたいな」 作詞：Atelier LadyBird／作曲：aki, 吉村彰一
 versions:
 - album: Pastel Symphony
   album_id: ATRM-0014
@@ -70,7 +72,7 @@ Boom！Boom！ 収まらない
 もうちょっとヒントください！
 夢で終わらせないように
 
-今日こそ　伝えたい　
+今日こそ　伝えたい
 想いは言葉にしなきゃな　あぁ...
 
 ありふれていたって　かまわない

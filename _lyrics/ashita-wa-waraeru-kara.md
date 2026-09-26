@@ -1,4 +1,5 @@
 ---
+published: true
 title: 明日は笑えるから
 slug: ashita-wa-waraeru-kara
 status: ok
@@ -14,6 +15,7 @@ guests:
 - 'Keyboard: aki'
 - 'Illust: まつり'
 - 'Visual Design: こまっティ'
+description: アタリメ「明日は笑えるから」の歌詞。「「だけどどうせ」 「あのコはいいな」」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: Daydream Pancake
   album_id: ATRM-0003

@@ -1,4 +1,5 @@
 ---
+published: true
 title: 白昼夢
 slug: hakuchumu
 status: ok
@@ -15,6 +16,7 @@ guests:
 - 'Guitar: tamken'
 - 'Illust: まつり'
 - 'Visual Design: こまっティ'
+description: アタリメ「白昼夢」の歌詞。「ひどい火傷のよう うなされて起きる 涙も全然頬を伝わない」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: Daydream Pancake
   album_id: ATRM-0003

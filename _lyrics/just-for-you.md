@@ -1,4 +1,5 @@
 ---
+published: true
 title: Just for you
 slug: just-for-you
 status: ok
@@ -13,6 +14,7 @@ vocal: めもあ(@memoa_923)
 guests:
 - 'Guitar: なっさん（@nassan_2501）'
 - 'Illustration: もけお (@mokeooo)'
+description: アタリメ「Just for you」の歌詞。「胸躍るリズム刻む どこへでも行けるさ 大丈夫 きっと」 作詞：aki／作曲：aki
 versions:
 - album: Party Popper
   album_id: ATRM-0016
@@ -33,20 +35,20 @@ versions:
 解読不能だと思っていたサインが
 心の隅 　光っていた
 
-はじめての気持ち伝えるように　
+はじめての気持ち伝えるように
 もっと素直になれたなら　いいな
-もう会えなくなるわけじゃないのに　
+もう会えなくなるわけじゃないのに
 君と手を繋いでいたいから　今夜は
 
 Party time 主役になろう 朝が来るまで
 Dancing night 色とりどり 咲き乱れてく
-素晴らしいこの瞬間 
+素晴らしいこの瞬間
 気分で寄り道したっていいでしょ？　何度も
 Party time  気が済むまで エピローグまで
 Dancing night ト書き通り 消えたステージ
 ありふれた言葉でもいいから この想いは Just for you
 
-心震わせ恋の予感　瞼を閉じれば　
+心震わせ恋の予感　瞼を閉じれば
 繰り返す　瞬間
 爆発しそうな気持ちで　スキップするリトルガール
 そもそも　強がりなんて論外だ
@@ -58,7 +60,7 @@ Dancing night ト書き通り 消えたステージ
 
 Party time 主役になろう 朝が来るまで
 Dancing night 色とりどり 咲き乱れてく
-愛おしいこの時間　
+愛おしいこの時間
 絶対に忘れることは無いでしょう　何度も
 Party time  気が済むまで エピローグまで
 Dancing night ト書き通り 消えたステージ
@@ -71,9 +73,9 @@ Dancing night ト書き通り 消えたステージ
 
 Party time 主役になろう 朝が来るまで
 Dancing night 色とりどり 咲き乱れてく
-素晴らしいこの瞬間 
+素晴らしいこの瞬間
 気分で　寄り道したっていいでしょ？　何度も
 Party time  気が済むまで エピローグまで
 Dancing night ト書き通り 消えたステージ
-ありふれた言葉でもいいから この想いは 
+ありふれた言葉でもいいから この想いは
 Just for you

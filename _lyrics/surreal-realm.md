@@ -1,4 +1,5 @@
 ---
+published: true
 title: Surreal realm
 slug: surreal-realm
 status: ok
@@ -12,6 +13,7 @@ arrange: 谷高マーク(@markyataka)
 vocal: 鳴紗(@may_chatte)
 guests:
 - 'Illustration: もけお (@mokeooo)'
+description: アタリメ「Surreal realm」の歌詞。「うさぎのタクシー 行こうRide on time」 作詞：谷高マーク(@markyataka)／作曲：aki
 versions:
 - album: raspberry syrup
   album_id: ATRM-0018
@@ -30,11 +32,11 @@ versions:
 行こうRide on time
 ああ月は遥か遠く見え
 弾む快感はまるでチェリーパイなのよ
-悪戯に微笑むの 
+悪戯に微笑むの
 異世界のバカンス
 
 アインシュタインも
-驚愕する場所へ誘われ 
+驚愕する場所へ誘われ
 あれは怪物クラーケン
 アタリメにして食べちゃお！
 

@@ -1,4 +1,5 @@
 ---
+published: true
 title: The dawn is breaking
 slug: the-dawn-is-breaking
 status: ok
@@ -12,6 +13,7 @@ arrange: こまっティ
 vocal: 彩水
 guests:
 - 'Guitar: tamken'
+description: アタリメ「The dawn is breaking」の歌詞。「始発電車に飛び乗った薄明かりの午前5時30分 脳裏に浮かべる透明な今更など透過して忘れて」 作詞：彩水／作曲：aki
 versions:
 - album: RAPTURE CITY
   album_id: ATRM-0008
@@ -45,6 +47,6 @@ versions:
 寝て起きてもまだ朝が来てない時アニメの主人公じゃないと僕は知る
 
 どうかまたあの景色刻み付けてそっと脳裏に浮かべていた
-エンネービーブルー さあ 
+エンネービーブルー さあ
 
 そしてタイム・ラプス

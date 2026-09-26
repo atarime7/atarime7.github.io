@@ -1,4 +1,5 @@
 ---
+published: true
 title: まちがいばっか
 slug: machigai-bakka
 status: ok
@@ -15,6 +16,7 @@ guests:
 - 'Piano, Programming: 川崎泰弘'
 - 'Programming: こまっティ'
 - 'Illustration: みずは (@megacycle13)'
+description: アタリメ「まちがいばっか」の歌詞。「まちがいばっか まちがいばっか繰り返して まちがいばっか 気づいたらまた」 作詞：吉村彰一／作曲：吉村彰一, aki
 versions:
 - album: Pastel Symphony
   album_id: ATRM-0014
@@ -37,7 +39,7 @@ versions:
 まちがいばっか　繰り返して
 
 分かってるつもりなのに　何で躓くんだろう
-見栄を張って　(誤魔化して)　
+見栄を張って　(誤魔化して)
 嘘をついて　傷ついて　あぁ...
 
 泣きたいのに　無理に笑うの

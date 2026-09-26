@@ -1,4 +1,5 @@
 ---
+published: true
 title: Milkyway Darling
 slug: milkyway-darling
 status: ok
@@ -12,6 +13,7 @@ arrange: こまっティ
 vocal: 力石好乃
 guests:
 - 'Guitar: Tamken'
+description: アタリメ「Milkyway Darling」の歌詞。「アーバンミステリー 東海道線が 乗客を乗せたまま 銀河鉄道」 作詞：力石好乃／作曲：aki
 versions:
 - album: Weather satellite
   album_id: ATRM-0012

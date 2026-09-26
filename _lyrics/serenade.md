@@ -1,4 +1,5 @@
 ---
+published: false
 title: セレナーデ
 slug: serenade
 status: instrumental

@@ -1,4 +1,5 @@
 ---
+published: true
 title: つぼみの桜
 slug: tsubomi-no-sakura
 status: ok
@@ -12,6 +13,7 @@ arrange: こまっティ
 vocal: 彩水
 guests:
 - 'Guitar: tamken'
+description: アタリメ「つぼみの桜」の歌詞。「いつも通りの日が 明日から二度ともう来ないなんて とっくのとうに わかっていたけど」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: Monsoon Girl
   album_id: ATRM-0006

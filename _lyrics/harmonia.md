@@ -1,4 +1,5 @@
 ---
+published: false
 title: ハルモニア
 slug: harmonia
 status: instrumental

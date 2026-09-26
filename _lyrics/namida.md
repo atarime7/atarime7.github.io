@@ -1,4 +1,5 @@
 ---
+published: true
 title: なみだ
 slug: namida
 status: ok
@@ -14,6 +15,7 @@ guests:
 - 'Keyboard: aki'
 - 'Illust: みなり'
 - 'Visual Design: こまっティ'
+description: アタリメ「なみだ」の歌詞。「12番ホーム  まだ来ないテレパシー どうやらもう二度と会えないらしい」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: アクアリウム
   album_id: ATRM-0002

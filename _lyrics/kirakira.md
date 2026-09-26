@@ -1,4 +1,5 @@
 ---
+published: true
 title: キラキラ
 slug: kirakira
 status: ok
@@ -13,6 +14,7 @@ vocal: 猫雷にゃる
 guests:
 - 'Guitar: ゆっきー (@yuckey_gtr)'
 - 'Illustration: もけお(@mokeooo)'
+description: アタリメ「キラキラ」の歌詞。「いつでもドキドキ 最高潮 2キロ以内 近づき過ぎじゃない？」 作詞：aki／作曲：aki
 versions:
 - album: Tomorrow’s Forecast
   album_id: ATRM-0015

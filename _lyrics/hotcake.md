@@ -1,4 +1,5 @@
 ---
+published: true
 title: ホットケーキ
 slug: hotcake
 status: ok
@@ -15,6 +16,7 @@ guests:
 - 'Guitar: tamken'
 - 'Illust: まつり'
 - 'Visual Design: こまっティ'
+description: アタリメ「ホットケーキ」の歌詞。「咲いた花のように慎ましくなんて 何百年前の話よ」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: Daydream Pancake
   album_id: ATRM-0003

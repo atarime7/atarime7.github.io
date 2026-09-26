@@ -1,4 +1,5 @@
 ---
+published: true
 title: 未来
 slug: mirai
 status: ok
@@ -13,6 +14,7 @@ vocal: 拠鳥きまゆ (@461Okmy)
 guests:
 - 'Gt: サカモトユウ (@sakamoto_56)'
 - 'Illustration: みずは (@megacycle13)'
+description: アタリメ「未来」の歌詞。「複雑な心の行き先は 会いたいとか言えないのと同じような気がする」 作詞：aki／作曲：aki
 versions:
 - album: Bitter Sweet Symphony
   album_id: ATRM-0019

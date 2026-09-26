@@ -1,4 +1,5 @@
 ---
+published: true
 title: スーパースターフィッシュ
 slug: super-starfish
 status: ok
@@ -15,6 +16,7 @@ guests:
 - 'Guitar: tamken'
 - 'Illust: みなり'
 - 'Visual Design: こまっティ'
+description: アタリメ「スーパースターフィッシュ」の歌詞。「また今日も泥だらけスニーカー かかとをつぶす変わらない癖」 作詞：aki／作曲：aki
 versions:
 - album: アクアリウム
   album_id: ATRM-0002

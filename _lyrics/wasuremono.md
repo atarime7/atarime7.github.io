@@ -1,4 +1,5 @@
 ---
+published: true
 title: わすれもの
 slug: wasuremono
 status: ok
@@ -12,6 +13,7 @@ arrange: こまっティ
 vocal: 彩水
 guests:
 - 'Illustration: もけお(@mokeooo)'
+description: アタリメ「わすれもの」の歌詞。「悠々と泳ぐ未来へ シーサイドとブルースカイ」 作詞：彩水／作曲：aki, こまっティ
 versions:
 - album: Tomorrow’s Forecast
   album_id: ATRM-0015

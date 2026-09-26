@@ -1,4 +1,5 @@
 ---
+published: true
 title: サブリミナル
 slug: subliminal
 status: ok
@@ -12,6 +13,7 @@ arrange: メリッサ(@LockP_melissa)
 vocal: 力石好乃(@ysnysnc)
 guests:
 - 'Illustration: もけお (@mokeooo)'
+description: アタリメ「サブリミナル」の歌詞。「いつからか逸らせない 見つめていたいな」 作詞：力石好乃(@ysnysnc)／作曲：aki
 versions:
 - album: Party Popper
   album_id: ATRM-0016

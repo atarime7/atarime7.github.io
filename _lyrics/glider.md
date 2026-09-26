@@ -1,4 +1,5 @@
 ---
+published: false
 title: グライダー
 slug: glider
 status: missing

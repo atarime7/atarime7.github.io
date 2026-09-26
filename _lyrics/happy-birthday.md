@@ -1,4 +1,5 @@
 ---
+published: true
 title: ハッピーバースデー
 slug: happy-birthday
 status: ok
@@ -12,6 +13,7 @@ arrange: こまっティ
 vocal: ハレルヤ, 水彩
 guests:
 - 'Guitar: tamken'
+description: アタリメ「ハッピーバースデー」の歌詞。「眠い目こすって めくりめくカレンダー 指差し確認 年イチのスーパースペシャルデー」 作詞：ハレルヤ／作曲：aki
 versions:
 - album: Plastic squid
   album_id: ATRM-0005

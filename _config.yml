@@ -1,0 +1,29 @@
+title: アタリメ
+description: アタリメは2016年結成の渋谷系でポップンなユニットです。M3を中心に活動し、明るいポップソングを届けています。
+url: https://atarime7.github.io
+baseurl: ""
+lang: ja
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+collections:
+  lyrics:
+    output: true
+    permalink: /lyrics/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: lyrics
+    values:
+      layout: lyrics
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - CLAUDE.md
+  - README.md

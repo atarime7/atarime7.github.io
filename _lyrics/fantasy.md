@@ -1,4 +1,5 @@
 ---
+published: true
 title: ファンタジー
 slug: fantasy
 status: ok
@@ -12,6 +13,7 @@ arrange: こまっティ
 vocal: 彩水
 guests:
 - 'Illustration: _hanaco_'
+description: アタリメ「ファンタジー」の歌詞。「コーヒーにたっぷりのミルク入れて目を覚ましてる シュガーはまだいらないと思ってたけど入れちゃお」 作詞：彩水／作曲：aki
 versions:
 - album: monophonic.
   album_id: ATRM-0017
