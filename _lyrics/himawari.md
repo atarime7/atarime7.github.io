@@ -10,7 +10,7 @@ track: 1
 lyrics: ハレルヤ
 music: aki
 arrange: こまっティ
-vocal: ''
+vocal: ハレルヤ, 水彩
 guests:
 - 'Keyboard: aki'
 - 'Guitar: tamken'
@@ -19,6 +19,7 @@ credits_html:
   lyrics: ハレルヤ
   music: aki
   arrange: こまっティ
+  vocal: ハレルヤ, 水彩
 lyricist_name: ハレルヤ
 composer_name: aki
 description: アタリメ「向日葵」の歌詞。「最後の教室  消しゴムにかけた魔法 ばれないように  そっと机にしまった」 作詞：ハレルヤ／作曲：aki
@@ -32,8 +33,8 @@ versions:
   lyrics: ハレルヤ
   music: aki
   arrange: こまっティ
-  vocal: ''
-  vocal_short: ''
+  vocal: ハレルヤ, 水彩
+  vocal_short: ハレルヤ, 水彩
   arrange_short: こまっティ
   other_credits:
   - 'Keyboard: aki'
