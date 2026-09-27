@@ -15,7 +15,7 @@ description: アタリメの楽曲の歌詞一覧。M3などで頒布したCD全
 			{%- for album in albums -%}
 				{%- assign has_lyrics = false -%}
 				{%- for t in album.tracks -%}
-					{%- assign doc = site.lyrics | where: "slug", t.slug | first -%}
+					{%- assign doc = nil -%}{%- if t.slug -%}{%- assign doc = site.lyrics | where: "slug", t.slug | first -%}{%- endif -%}
 					{%- if doc -%}{%- assign has_lyrics = true -%}{%- endif -%}
 				{%- endfor -%}
 				{%- if has_lyrics %}
@@ -23,7 +23,7 @@ description: アタリメの楽曲の歌詞一覧。M3などで頒布したCD全
 				<h3><a href="/albums/{{ album.slug }}/">{{ album.title }}</a> <span class="album-id">{{ album.id }}</span></h3>
 				<ol class="lyrics-track-list">
 					{%- for t in album.tracks -%}
-						{%- assign doc = site.lyrics | where: "slug", t.slug | first -%}
+						{%- assign doc = nil -%}{%- if t.slug -%}{%- assign doc = site.lyrics | where: "slug", t.slug | first -%}{%- endif -%}
 						{%- if doc -%}
 							{%- assign v = doc.versions | where: "album_id", album.id | first %}
 					<li value="{{ t.track }}"><a href="{{ doc.url }}">{{ doc.title }}</a>{% if t.version_label %} <span class="version-label">({{ t.version_label }})</span>{% endif %}{% if v.vocal_short != "" %} <span class="track-vocal">Vo. {{ v.vocal_short }}</span>{% endif %}{% for h in doc.highlights %} <span class="track-highlight">{{ h.text }}</span>{% endfor %}</li>
