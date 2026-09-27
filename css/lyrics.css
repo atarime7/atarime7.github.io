@@ -449,25 +449,58 @@
   color: var(--accent);
 }
 
-.album-info .album-links a {
-  margin-bottom: 5px;
+/* カードのボタン：すべて同じ形にそろえる（modern.css の指定を上書き） */
+.album-info .album-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 15px;
 }
 
-.album-info .album-links a.detail-link {
-  background: white;
+.album-info .album-links a,
+.album-info .album-links a.special-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: rgba(11, 51, 96, 0.07);
   color: var(--secondary);
-  box-shadow: inset 0 0 0 2px var(--secondary);
+  font-size: 13px;
+  font-weight: 600;
 }
 
-.album-info .album-links a.detail-link:hover {
+.album-info .album-links a i {
+  font-size: 12px;
+  color: var(--accent);
+  transition: color 0.3s ease;
+}
+
+.album-info .album-links a:hover,
+.album-info .album-links a.special-link:hover {
   background: var(--secondary);
   color: white;
 }
 
-.album-info .album-links a.stream-link {
-  background: var(--accent);
+.album-info .album-links a:hover i {
+  color: white;
 }
 
-.album-info .album-links a.stream-link:hover {
-  background: var(--secondary);
+.album-info .album-detail {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.album-info .album-detail i {
+  margin-left: 4px;
+  font-size: 11px;
+  transition: transform 0.3s ease;
+}
+
+.album-info .album-detail:hover i {
+  transform: translateX(3px);
 }

@@ -22,16 +22,16 @@
 			{%- endfor %}
 		</div>
 		<div class="album-links">
-			<a href="{{ album_url }}" class="detail-link">詳細</a>
-			{%- if album.special %}
-			<a href="{{ album.special }}" class="special-link">特設</a>
-			{%- endif %}
 			{%- if release %}
-			<a href="{{ release.linkcore }}" class="stream-link" target="_blank" rel="noopener">配信</a>
+			<a href="{{ release.linkcore }}" target="_blank" rel="noopener"><i class="fas fa-headphones"></i>配信</a>
 			{%- endif %}
 			{%- for shop in album.shop %}
-			<a href="{{ shop }}" target="_blank" rel="noopener">{% if shop contains "melonbooks" %}メロンブックス{% else %}BOOTH{% endif %}</a>
+			<a href="{{ shop }}" target="_blank" rel="noopener"><i class="fas fa-bag-shopping"></i>{% if shop contains "melonbooks" %}メロンブックス{% else %}BOOTH{% endif %}</a>
 			{%- endfor %}
+			{%- if album.special %}
+			<a href="{{ album.special }}"><i class="fas fa-star"></i>特設</a>
+			{%- endif %}
 		</div>
+		<a href="{{ album_url }}" class="album-detail">作品ページへ <i class="fas fa-arrow-right"></i></a>
 	</div>
 </div>
