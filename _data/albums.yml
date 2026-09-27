@@ -1,10 +1,11 @@
 # 作品一覧（CD単位）。トップページの Discography と作品ページ（/albums/<slug>/）はここから作る。
 # tracks: 歌詞ページがある曲は slug だけでよい（タイトルは歌詞ページから取る）。
 #   歌詞ページがない曲（インスト曲など）は title を書く。slug のない行は曲名だけ表示する。
-# special: 特設ページ / note: カードに添える一言 / artist: アタリメ名義でない作品のみ
+# date: 発売日（頒布開始日） / special: 特設ページ / note: カードに添える一言 / artist: アタリメ名義でない作品のみ
 - id: ATRM-0001
   slug: mild-chocolate
   title: mild&chocolate
+  date: 2016-04-24
   event: 2016春M3 / 会場頒布価格¥500
   jacket: /images/jackets/mild-chocolate.jpg
   soundcloud_track_id: '258241424'
@@ -20,6 +21,7 @@
 - id: ATRM-0002
   slug: aquarium
   title: アクアリウム
+  date: 2016-10-30
   event: 2016秋M3 L-22b / 会場頒布価格¥500
   jacket: /images/jackets/aquarium.jpg
   soundcloud_track_id: '288222106'
@@ -35,6 +37,7 @@
 - id: ATRM-0003
   slug: daydream-pancake
   title: Daydream Pancake
+  date: 2017-04-30
   event: 2017春M3 あ-12a / 会場頒布価格¥500
   jacket: /images/jackets/daydream-pancake.jpg
   soundcloud_track_id: '317803702'
@@ -50,6 +53,7 @@
 - id: ATRM-0004
   slug: himawari
   title: 向日葵 c/w 03:09
+  date: 2017-08-11
   event: 2017夏コミ 1日目 東へ23b / 会場頒布価格¥500
   jacket: /images/jackets/himawari.jpg
   soundcloud_track_id: '336698445'
@@ -67,6 +71,7 @@
 - id: ATRM-0005
   slug: plastic-squid
   title: Plastic squid
+  date: 2017-10-29
   event: 2017秋M3 H-04a / 会場頒布価格¥1000
   jacket: /images/jackets/plastic-squid.jpg
   soundcloud_track_id: '346984944'
@@ -88,6 +93,7 @@
 - id: ATRM-0006
   slug: monsoon-girl
   title: Monsoon Girl
+  date: 2018-04-29
   event: 2018春M3 サ-05a / 会場頒布価格¥1000
   jacket: /images/jackets/monsoon-girl.jpg
   soundcloud_track_id: '429541248'
@@ -109,6 +115,7 @@
 - id: ATRM-0007
   slug: glider-line
   title: グライダー / ライン
+  date: 2018-08-10
   event: 2018夏コミ 1日目 西は06b / 会場頒布価格¥700
   jacket: /images/jackets/glider-line.jpg
   soundcloud_track_id: '477852213'
@@ -126,6 +133,7 @@
 - id: ATRM-0008
   slug: rapture-city
   title: RAPTURE CITY
+  date: 2018-10-28
   event: 2018秋M3 N-17a / 会場頒布価格¥1000
   jacket: /images/jackets/rapture-city.jpg
   soundcloud_track_id: '514118649'
@@ -151,6 +159,7 @@
 - id: ATRM-0009
   slug: sweet-serenade
   title: Sweet Serenade
+  date: 2019-04-28
   event: 2019春M3 I-06b / 会場頒布価格¥1000
   jacket: /images/jackets/sweet-serenade.jpg
   soundcloud_track_id: '598732044'
@@ -173,6 +182,7 @@
 - id: ATRM-0010
   slug: watashi-no-kimochi-hakuchumu
   title: 私の気持ち / 白昼夢
+  date: 2019-08-12
   event: C96 月曜日南コ18b / 会場頒布価格¥800
   jacket: /images/jackets/watashi-no-kimochi-hakuchumu.jpg
   soundcloud_track_id: '656243540'
@@ -191,6 +201,7 @@
 - id: ATRM-0011
   slug: full-throttle
   title: FULL THROTTLE
+  date: 2019-10-27
   artist: 力石好乃  # drop dorothy records DOLL002 / アタリメは全4曲の編曲
   event: 2019秋M3
   jacket: /images/jackets/full-throttle.jpg
@@ -212,6 +223,7 @@
 - id: ATRM-0012
   slug: weather-satellite
   title: Weather Satellite
+  date: 2020-03-01
   event: 2020春M3 G-13b / 会場頒布価格¥1000
   jacket: /images/jackets/weather-satellite.jpg
   soundcloud_track_id: '757677535'
@@ -233,6 +245,7 @@
 - id: ATRM-0013
   slug: baby-a-go-go
   title: Baby a Go! Go!
+  date: 2020-10-25
   event: 2020秋M3 C-24 / 会場頒布価格¥1000
   jacket: /images/jackets/baby-a-go-go.jpg
   soundcloud_track_id: '908254252'
@@ -253,6 +266,7 @@
 - id: ATRM-0014
   slug: pastel-symphony
   title: Pastel Symphony
+  date: 2021-04-25
   event: 2021春M3 あ-09 / 会場頒布価格¥2000
   jacket: /images/jackets/pastel-symphony.jpg
   soundcloud_track_id: ''
@@ -276,6 +290,7 @@
 - id: ATRM-0015
   slug: tomorrows-forecast
   title: Tomorrow's Forecast
+  date: 2021-10-31
   event: 2021秋M3 コ-12 / 会場頒布価格¥1000
   jacket: /images/jackets/tomorrows-forecast.jpg
   soundcloud_track_id: '1146935386'
@@ -294,6 +309,7 @@
 - id: ATRM-0016
   slug: party-popper
   title: Party Popper
+  date: 2022-10-30
   event: 2022秋M3 コ-03a / 会場頒布価格¥1500
   jacket: /images/jackets/party-popper.jpg
   soundcloud_track_id: '1360959361'
@@ -315,6 +331,7 @@
 - id: ATRM-0017
   slug: monophonic
   title: monophonic.
+  date: 2023-10-29
   event: 2023秋M3 P-03b / 会場頒布価格¥1000
   jacket: /images/jackets/monophonic.jpg
   soundcloud_track_id: '1635572892'
@@ -334,6 +351,7 @@
 - id: ATRM-0018
   slug: raspberry-syrup
   title: raspberry syrup
+  date: 2024-10-27
   event: 2024秋M3 Q-23b / 会場頒布価格¥2000
   jacket: /images/jackets/raspberry-syrup.jpg
   soundcloud_track_id: '1937638718'
@@ -357,6 +375,7 @@
 - id: ATRM-0019
   slug: bitter-sweet-symphony
   title: Bitter Sweet Symphony
+  date: 2025-10-26
   event: 2025秋M3 B-20a / B-20b / 会場頒布価格¥2000
   jacket: /images/jackets/bitter-sweet-symphony.jpg
   soundcloud_track_id: ''
