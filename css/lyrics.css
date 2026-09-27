@@ -372,3 +372,26 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ===== 404 ===== */
+.not-found {
+  text-align: center;
+}
+
+.not-found-text {
+  color: #555;
+  line-height: 2;
+  margin: 0 0 30px;
+}
+
+.not-found-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.not-found-links .btn {
+  font-size: 14px;
+  text-transform: none;
+}
