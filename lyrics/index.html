@@ -20,7 +20,7 @@ description: アタリメの楽曲の歌詞一覧。M3などで頒布したCD全
 				{%- endfor -%}
 				{%- if has_lyrics %}
 			<div class="lyrics-album">
-				<h3>{{ album.title }} <span class="album-id">{{ album.id }}</span></h3>
+				<h3><a href="/albums/{{ album.slug }}/">{{ album.title }}</a> <span class="album-id">{{ album.id }}</span></h3>
 				<ol class="lyrics-track-list">
 					{%- for t in album.tracks -%}
 						{%- assign doc = site.lyrics | where: "slug", t.slug | first -%}

@@ -1,4 +1,7 @@
-# 作品一覧（CD単位）。jacket未設定の作品は画像欠落の修正後に埋める
+# 作品一覧（CD単位）。トップページの Discography と作品ページ（/albums/<slug>/）はここから作る。
+# tracks: 歌詞ページがある曲は slug だけでよい（タイトルは歌詞ページから取る）。
+#   歌詞ページがない曲（インスト曲など）は title を書く。slug のない行は曲名だけ表示する。
+# special: 特設ページ / note: カードに添える一言 / artist: アタリメ名義でない作品のみ
 - id: ATRM-0001
   slug: mild-chocolate
   title: mild&chocolate
@@ -57,6 +60,10 @@
     slug: himawari
   - track: 2
     slug: 0309
+  - track: 3
+    title: 向日葵 (Instrumental)
+  - track: 4
+    title: 03:09 (Instrumental)
 - id: ATRM-0005
   slug: plastic-squid
   title: Plastic squid
@@ -75,6 +82,7 @@
     version_label: 水彩ver
   - track: 4
     slug: midnight-racecar
+    title: ミッドナイト・レースカー
   - track: 5
     slug: himawari
 - id: ATRM-0006
@@ -94,6 +102,7 @@
     slug: tarte-tatin-no-koibito
   - track: 4
     slug: harmonia
+    title: ハルモニア
   - track: 5
     slug: papua
     version_label: HYPER EURO MIX
@@ -110,6 +119,10 @@
     slug: glider
   - track: 2
     slug: line
+  - track: 3
+    title: グライダー (Instrumental)
+  - track: 4
+    title: ライン (Instrumental)
 - id: ATRM-0008
   slug: rapture-city
   title: RAPTURE CITY
@@ -129,10 +142,12 @@
     version_label: 彩水Ver.
   - track: 4
     slug: sichuan
+    title: Sichuan
   - track: 5
     slug: line
   - track: 6
     slug: postlude
+    title: postlude
 - id: ATRM-0009
   slug: sweet-serenade
   title: Sweet Serenade
@@ -151,8 +166,10 @@
     slug: utakata-trip
   - track: 4
     slug: white-wing
+    title: White Wing
   - track: 5
     slug: serenade
+    title: セレナーデ
 - id: ATRM-0010
   slug: watashi-no-kimochi-hakuchumu
   title: 私の気持ち / 白昼夢
@@ -167,6 +184,10 @@
     slug: watashi-no-kimochi
   - track: 2
     slug: hakuchumu
+  - track: 3
+    title: 私の気持ち (Instrumental)
+  - track: 4
+    title: 白昼夢 (Instrumental)
 - id: ATRM-0011
   slug: full-throttle
   title: FULL THROTTLE
@@ -174,9 +195,20 @@
   event: 2019秋M3
   jacket: /images/jackets/full-throttle.jpg
   soundcloud_track_id: ''
+  note: 力石好乃 × アタリメ（全4曲 編曲）
   shop:
   - https://booth.pm/ja/items/1652570  # DL版（YOSHINO - online store-）
-  tracks: []
+  tracks:
+  - track: 1
+    title: フルスロットル
+  - track: 2
+    title: 親くで
+  - track: 3
+    title: ice cream x love x ice cream
+  - track: 4
+    title: Traffic
+  - track: 5-8
+    title: Instrumentals
 - id: ATRM-0012
   slug: weather-satellite
   title: Weather Satellite
@@ -194,6 +226,7 @@
     slug: sora-to-kumo-no-parade
   - track: 4
     slug: passing-shower
+    title: passing shower
   - track: 5
     slug: hoshizora-lullaby
     version_label: 川崎泰弘Remix
@@ -216,14 +249,16 @@
     slug: sora-to-kumo-no-parade
   - track: 5
     slug: found-you
+    title: Found You
 - id: ATRM-0014
   slug: pastel-symphony
   title: Pastel Symphony
   event: 2021春M3 あ-09 / 会場頒布価格¥2000
   jacket: /images/jackets/pastel-symphony.jpg
   soundcloud_track_id: ''
+  artist: Atelier LadyBird  # 参加作品
+  special: https://pastel-symphony-m3spring2021.tumblr.com/
   shop:
-  - https://pastel-symphony-m3spring2021.tumblr.com/
   - https://a-tari-me.booth.pm/items/2906952
   tracks:
   - track: 1
@@ -253,6 +288,7 @@
     slug: wasuremono
   - track: 3
     slug: mito
+    title: mito
   - track: 4
     slug: oto-no-ha
 - id: ATRM-0016
@@ -324,6 +360,7 @@
   event: 2025秋M3 B-20a / B-20b / 会場頒布価格¥2000
   jacket: /images/jackets/bitter-sweet-symphony.jpg
   soundcloud_track_id: ''
+  special: /bitter-sweet-symphony/
   shop:
   - https://a-tari-me.booth.pm/items/7553558
   tracks:
@@ -335,3 +372,5 @@
     slug: mirai
   - track: 4
     slug: nostal-symphony
+  - track: 5-8
+    title: Instrumentals

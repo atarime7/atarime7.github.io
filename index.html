@@ -1,3 +1,6 @@
+---
+# トップページ。Discography は _data/albums.yml から作る
+---
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -6,6 +9,51 @@
   <title>アタリメ Official Site</title>
   <meta name="description" content="アタリメは2016年結成の渋谷系でポップンなユニットです。M3を中心に活動し、明るいポップソングを届けています。">
   <meta name="keywords" content="アタリメ, atarime, 音楽, M3, 渋谷系, J-pop">
+  <link rel="canonical" href="{{ '/' | absolute_url }}">
+
+  <!-- OGP -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="アタリメ Official Site">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:url" content="{{ '/' | absolute_url }}">
+  <meta property="og:image" content="{{ '/images/ogp.jpg' | absolute_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@a_tari_me">
+
+  <!-- 検索エンジン向けのアーティスト情報 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicGroup",
+    "name": "アタリメ",
+    "alternateName": "ATARIME",
+    "url": {{ '/' | absolute_url | jsonify }},
+    "logo": {{ '/images/atarime_icon.png' | absolute_url | jsonify }},
+    "image": {{ '/images/ogp.jpg' | absolute_url | jsonify }},
+    "description": {{ site.description | jsonify }},
+    "foundingDate": "2016",
+    "genre": ["J-Pop", "渋谷系"],
+    "sameAs": [
+      "https://x.com/a_tari_me",
+      "https://open.spotify.com/artist/7ADDIYf8s4REDLx0qgBV8l",
+      "https://music.apple.com/jp/artist/1438069944",
+      "https://www.youtube.com/channel/UCbdis-5oliPTcbDtd-zgizg",
+      "https://soundcloud.com/mix-precure",
+      "https://www.tunecore.co.jp/artists/atarime",
+      "https://a-tari-me.booth.pm/"
+    ],
+    "album": [
+      {%- assign albums_ld = site.data.albums | where_exp: "a", "a.artist == nil" | reverse -%}
+      {%- for album in albums_ld %}
+      { "@type": "MusicAlbum", "name": {{ album.title | jsonify }}, "url": {{ '/albums/' | append: album.slug | append: '/' | absolute_url | jsonify }}, "catalogNumber": {{ album.id | jsonify }} }{% unless forloop.last %},{% endunless %}
+      {%- endfor %}
+    ]
+  }
+  </script>
   
   <!-- Favicon -->
   <link rel="icon" href="images/favicon.ico">
@@ -61,445 +109,22 @@
         <p>M3を中心に活動しています。</p>
       </div>
       
+      <!-- 作品一覧は _data/albums.yml から作る（カードの中身は _includes/album-card.html） -->
+      {%- assign albums = site.data.albums | reverse %}
       <div class="album-grid">
-        <!-- Album 0 -->
-        <div class="album-card">
-          <div class="album-image">
-            <img src="./bitter-sweet-symphony/jacket.png" alt="Bitter Sweet Symphony">
-          </div>
-          <div class="album-info">
-            <h3>Bitter Sweet Symphony</h3>
-            <p class="album-id">ATRM-0019</p>
-            <p class="album-event">2025秋M3 B-20a / B-20b<br>会場頒布価格¥2000</p>
-            <div class="album-tracks">
-              1.<a href="/lyrics/bitter-sweet-symphony/">Bitter Sweet Symphony</a><br>
-              2.<a href="/lyrics/ephemera/">Ephemera</a><br>
-              3.<a href="/lyrics/mirai/">未来</a><br>
-              4.<a href="/lyrics/nostal-symphony/">ノスタルシンフォニー</a><br>
-              5-8.Instrumentals
-            </div>
-            <div class="album-links">
-              <a href="./bitter-sweet-symphony/" class="special-link">特設</a>
-              <a href="https://a-tari-me.booth.pm/items/7553558">BOOTH</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Album 1 -->
-        <div class="album-card">
-          <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1937638718&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-            <img src="./images/jackets/raspberry-syrup.jpg" alt="raspberry syrup ジャケット" loading="lazy">
-            <button type="button" class="sc-play" aria-label="raspberry syrup を試聴"><i class="fas fa-play"></i> 試聴</button>
-          </div>
-          <div class="album-info">
-            <h3>raspberry syrup</h3>
-            <p class="album-id">ATRM-0018</p>
-            <p class="album-event">2024秋M3 Q-23b<br>会場頒布価格¥2000</p>
-            <div class="album-tracks">
-              1.<a href="/lyrics/yugata-last-summertime/">夕方ラストサマータイム</a><br>
-              2.<a href="/lyrics/chiguhagu/">チグハグ</a><br>
-              3.<a href="/lyrics/surreal-realm/">Surreal realm</a><br>
-              4.<a href="/lyrics/shiawase/">シアワセ(川崎泰弘Remix)</a><br>
-              5.<a href="/lyrics/watashi-no-kimochi/">私の気持ち(彩水Ver.)</a><br>
-              6.<a href="/lyrics/rocket-mode/">ロケットモード</a>
-            </div>
-            <div class="album-links">
-              <a href="https://a-tari-me.booth.pm/items/6192076">BOOTH</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Album 3 -->
-        <div class="album-card">
-          <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1635572892&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-            <img src="./images/jackets/monophonic.jpg" alt="monophonic. ジャケット" loading="lazy">
-            <button type="button" class="sc-play" aria-label="monophonic. を試聴"><i class="fas fa-play"></i> 試聴</button>
-          </div>
-          <div class="album-info">
-            <h3>monophonic.</h3>
-            <p class="album-id">ATRM-0017</p>
-            <p class="album-event">2023秋M3 P-03b<br>会場頒布価格¥1000</p>
-            <div class="album-tracks">
-              1.<a href="/lyrics/bloom/">Bloom</a><br>
-              2.<a href="/lyrics/milkyway-darling/">Milkyway Darling [2023 Remastered]</a><br>
-              3.<a href="/lyrics/fantasy/">ファンタジー</a><br>
-              4.<a href="/lyrics/dandelion-ni-narenai/">ダンデライオンになれない(彩水Ver.)</a>
-            </div>
-            <div class="album-links">
-              <a href="https://a-tari-me.booth.pm/items/5156275">BOOTH</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Album 4 -->
-        <div class="album-card">
-          <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1360959361&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-            <img src="./images/jackets/party-popper.jpg" alt="Party Popper ジャケット" loading="lazy">
-            <button type="button" class="sc-play" aria-label="Party Popper を試聴"><i class="fas fa-play"></i> 試聴</button>
-          </div>
-          <div class="album-info">
-            <h3>Party Popper</h3>
-            <p class="album-id">ATRM-0016</p>
-            <p class="album-event">2022秋M3 コ-03a<br>会場頒布価格¥1500</p>
-            <div class="album-tracks">
-              1.<a href="/lyrics/just-for-you/">Just for you</a><br>
-              2.<a href="/lyrics/subliminal/">サブリミナル</a><br>
-              3.<a href="/lyrics/happy-birthday/">ハッピーバースデー(川崎泰弘Remix)</a><br>
-              4.<a href="/lyrics/haruiro-fanfare/">春色ファンファーレ</a><br>
-              5.<a href="/lyrics/tenkiame/">天気雨</a>
-            </div>
-            <div class="album-links">
-              <a href="https://a-tari-me.booth.pm/items/4228725">BOOTH</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Album 5 -->
-        <div class="album-card">
-          <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1146935386&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-            <img src="./images/jackets/tomorrows-forecast.jpg" alt="Tomorrow's Forecast ジャケット" loading="lazy">
-            <button type="button" class="sc-play" aria-label="Tomorrow's Forecast を試聴"><i class="fas fa-play"></i> 試聴</button>
-          </div>
-          <div class="album-info">
-            <h3>Tomorrow's Forecast</h3>
-            <p class="album-id">ATRM-0015</p>
-            <p class="album-event">2021秋M3 コ-12<br>会場頒布価格¥1000</p>
-            <div class="album-tracks">
-              1.<a href="/lyrics/kirakira/">キラキラ</a><br>
-              2.<a href="/lyrics/wasuremono/">わすれもの</a><br>
-              3.mito<br>
-              4.<a href="/lyrics/oto-no-ha/">音の葉</a>
-            </div>
-            <div class="album-links">
-              <a href="https://a-tari-me.booth.pm/items/3365688">BOOTH</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Album 6 -->
-        <div class="album-card">
-          <div class="album-image">
-            <img src="./images/jacket_14.png" alt="Pastel Symphony">
-          </div>
-          <div class="album-info">
-            <h3>『Pastel Symphony』</h3>
-            <p class="album-id">ATRM-0014</p>
-            <p class="album-event">2021春M3 あ-09<br>会場頒布価格¥2000</p>
-            <div class="album-tracks">
-              1.<a href="/lyrics/pastel-symphony/">パステルシンフォニー</a><br>
-              2.<a href="/lyrics/realize/">Realize</a><br>
-              3.<a href="/lyrics/nanairo-prism/">七色プリズム</a><br>
-              4.<a href="/lyrics/tomodachi-deshou-walkman/">友達でしょう？ウォークマン</a><br>
-              5.<a href="/lyrics/eigou/">永劫</a><br>
-              6.<a href="/lyrics/machigai-bakka/">まちがいばっか</a>
-            </div>
-            <div class="album-links">
-              <a href="https://pastel-symphony-m3spring2021.tumblr.com/" class="special-link">特設</a>
-              <a href="https://a-tari-me.booth.pm/items/2906952">BOOTH</a>
-            </div>
-          </div>
-        </div>
-
+        {%- for album in albums limit: 6 %}
+        {% include album-card.html album=album %}
+        {%- endfor %}
       </div>
-
       <div class="view-more">
         <button id="load-more" class="btn">もっと見る</button>
       </div>
-
       <!-- Hidden Albums (shown when "View More" is clicked) -->
       <div class="hidden-albums" style="display: none;">
         <div class="album-grid">
-          <!-- Album 7 -->
-          <div class="album-card">
-            <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/908254252&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-              <img src="./images/jackets/baby-a-go-go.jpg" alt="Baby a Go! Go! ジャケット" loading="lazy">
-              <button type="button" class="sc-play" aria-label="Baby a Go! Go! を試聴"><i class="fas fa-play"></i> 試聴</button>
-            </div>
-            <div class="album-info">
-              <h3>Baby a Go! Go!</h3>
-              <p class="album-id">ATRM-0013</p>
-              <p class="album-event">2020秋M3 C-24<br>会場頒布価格¥1000</p>
-              <div class="album-tracks">
-                1.<a href="/lyrics/kawaiku-naritai-baby-i-love-you/">可愛くなりたいベイビーアイラブユー！</a><br>
-                2.<a href="/lyrics/circuit/">Circuit?</a><br>
-                3.<a href="/lyrics/orange-ni-tobinotte/">オレンジに飛び乗って</a><br>
-                4.<a href="/lyrics/sora-to-kumo-no-parade/">空と雲のパレード</a><br>
-                5.Found You
-              </div>
-              <div class="album-links">
-                <a href="https://a-tari-me.booth.pm/items/2470073">BOOTH</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Album 8 -->
-          <div class="album-card">
-            <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/757677535&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-              <img src="./images/jackets/weather-satellite.jpg" alt="Weather Satellite ジャケット" loading="lazy">
-              <button type="button" class="sc-play" aria-label="Weather Satellite を試聴"><i class="fas fa-play"></i> 試聴</button>
-            </div>
-            <div class="album-info">
-              <h3>Weather Satellite</h3>
-              <p class="album-id">ATRM-0012</p>
-              <p class="album-event">2020春M3 G-13b<br>会場頒布価格¥1000</p>
-              <div class="album-tracks">
-                1.<a href="/lyrics/tenkiame/">天気雨</a><br>
-                2.<a href="/lyrics/milkyway-darling/">Milkyway Darling</a><br>
-                3.<a href="/lyrics/sora-to-kumo-no-parade/">空と雲のパレード</a><br>
-                4.passing shower<br>
-                5.<a href="/lyrics/hoshizora-lullaby/">星空ララバイ(川崎泰弘Remix)</a>
-              </div>
-              <div class="album-links">
-                <a href="https://booth.pm/ja/items/2470427">BOOTH</a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Album ATRM-0011 -->
-          <div class="album-card">
-            <div class="album-image">
-              <img src="./images/jackets/full-throttle.jpg" alt="FULL THROTTLE ジャケット" loading="lazy">
-            </div>
-            <div class="album-info">
-              <h3>FULL THROTTLE</h3>
-              <p class="album-id">ATRM-0011</p>
-              <p class="album-event">2019秋M3<br>力石好乃 × アタリメ（全4曲 編曲）</p>
-              <div class="album-tracks">
-                1.フルスロットル<br>
-                2.親くで<br>
-                3.ice cream x love x ice cream<br>
-                4.Traffic<br>
-                5-8.Instrumentals
-              </div>
-              <div class="album-links">
-                <a href="https://booth.pm/ja/items/1652570">BOOTH</a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Album 8 -->
-          <div class="album-card">
-            <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/656243540&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-              <img src="./images/jackets/watashi-no-kimochi-hakuchumu.jpg" alt="私の気持ち / 白昼夢 ジャケット" loading="lazy">
-              <button type="button" class="sc-play" aria-label="私の気持ち / 白昼夢 を試聴"><i class="fas fa-play"></i> 試聴</button>
-            </div>
-            <div class="album-info">
-              <h3>私の気持ち / 白昼夢</h3>
-              <p class="album-id">ATRM-0010</p>
-              <p class="album-event">C96 月曜日南コ18b<br>会場頒布価格¥800</p>
-              <div class="album-tracks">
-                1.<a href="/lyrics/watashi-no-kimochi/">私の気持ち</a><br>
-                2.<a href="/lyrics/hakuchumu/">白昼夢</a><br>
-                3.私の気持ち(Instrumental)<br>
-                4.白昼夢(Instrumental)
-              </div>
-              <div class="album-links">
-                <a href="https://booth.pm/ja/items/1478117">BOOTH</a>
-                <a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=554239">メロンブックス</a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Album 9 -->
-          <div class="album-card">
-            <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/598732044&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-              <img src="./images/jackets/sweet-serenade.jpg" alt="Sweet Serenade ジャケット" loading="lazy">
-              <button type="button" class="sc-play" aria-label="Sweet Serenade を試聴"><i class="fas fa-play"></i> 試聴</button>
-            </div>
-            <div class="album-info">
-              <h3>Sweet Serenade</h3>
-              <p class="album-id">ATRM-0009</p>
-              <p class="album-event">2019春M3 I-06b<br>会場頒布価格¥1000</p>
-              <div class="album-tracks">
-                1.<a href="/lyrics/pastel/">パステル</a><br>
-                2.<a href="/lyrics/vital-reflection/">Vital Reflection</a><br>
-                3.<a href="/lyrics/utakata-trip/">泡沫トリップ</a><br>
-                4.White Wing<br>
-                5.セレナーデ
-              </div>
-              <div class="album-links">
-                <a href="https://booth.pm/ja/items/1339503">BOOTH</a>
-                <a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=504604">メロンブックス</a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Album 10 -->
-          <div class="album-card">
-            <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/514118649&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-              <img src="./images/jackets/rapture-city.jpg" alt="RAPTURE CITY ジャケット" loading="lazy">
-              <button type="button" class="sc-play" aria-label="RAPTURE CITY を試聴"><i class="fas fa-play"></i> 試聴</button>
-            </div>
-            <div class="album-info">
-              <h3>RAPTURE CITY</h3>
-              <p class="album-id">ATRM-0008</p>
-              <p class="album-event">2018秋M3 N-17a<br>会場頒布価格¥1000</p>
-              <div class="album-tracks">
-                1.<a href="/lyrics/the-dawn-is-breaking/">The dawn is breaking</a><br>
-                2.<a href="/lyrics/hoshizora-lullaby/">星空ララバイ</a><br>
-                3.<a href="/lyrics/namida/">なみだ</a><br>
-                4.Sichuan<br>
-                5.<a href="/lyrics/line/">ライン</a>
-              </div>
-              <div class="album-links">
-                <a href="https://booth.pm/ja/items/1086363">BOOTH</a>
-                <a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=504603">メロンブックス</a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Album 11 -->
-          <div class="album-card">
-            <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/477852213&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-              <img src="./images/jackets/glider-line.jpg" alt="グライダー / ライン ジャケット" loading="lazy">
-              <button type="button" class="sc-play" aria-label="グライダー / ライン を試聴"><i class="fas fa-play"></i> 試聴</button>
-            </div>
-            <div class="album-info">
-              <h3>グライダー / ライン</h3>
-              <p class="album-id">ATRM-0007</p>
-              <p class="album-event">2018夏コミ 1日目 西は06b<br>会場頒布価格¥700</p>
-              <div class="album-tracks">
-                1.<a href="/lyrics/glider/">グライダー</a><br>
-                2.<a href="/lyrics/line/">ライン</a><br>
-                3.グライダー(Instrumental)<br>
-                4.ライン(Instrumental)
-              </div>
-              <div class="album-links">
-                <a href="https://a-tari-me.booth.pm/items/970777">BOOTH</a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Album 12 -->
-          <div class="album-card">
-            <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/429541248&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-              <img src="./images/jackets/monsoon-girl.jpg" alt="Monsoon Girl ジャケット" loading="lazy">
-              <button type="button" class="sc-play" aria-label="Monsoon Girl を試聴"><i class="fas fa-play"></i> 試聴</button>
-            </div>
-            <div class="album-info">
-              <h3>Monsoon Girl</h3>
-              <p class="album-id">ATRM-0006</p>
-              <p class="album-event">2018春M3 サ-05a<br>会場頒布価格¥1000</p>
-              <div class="album-tracks">
-                1. <a href="/lyrics/best-friend/">Best Friend</a><br>
-                2. <a href="/lyrics/tsubomi-no-sakura/">つぼみの桜</a><br>
-                3. <a href="/lyrics/tarte-tatin-no-koibito/">タルト・タタンの恋人</a><br>
-                4. ハルモニア<br>
-                5. <a href="/lyrics/papua/">Papua[HYPER EURO MIX]</a>
-              </div>
-              <div class="album-links">
-                <a href="https://a-tari-me.booth.pm/items/838838">BOOTH</a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Album 13 -->
-          <div class="album-card">
-            <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/346984944&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
-              <img src="./images/jackets/plastic-squid.jpg" alt="Plastic squid ジャケット" loading="lazy">
-              <button type="button" class="sc-play" aria-label="Plastic squid を試聴"><i class="fas fa-play"></i> 試聴</button>
-            </div>
-            <div class="album-info">
-              <h3>Plastic squid</h3>
-              <p class="album-id">ATRM-0005</p>
-              <p class="album-event">2017秋M3 H-04a<br>会場頒布価格¥1000</p>
-              <div class="album-tracks">
-                1. <a href="/lyrics/happy-birthday/">ハッピーバースデー</a><br>
-                2. <a href="/lyrics/dandelion-ni-narenai/">ダンデライオンになれない</a><br>
-                3. <a href="/lyrics/lemonade/">レモネード(水彩ver)</a><br>
-                4. ミッドナイト・レースカー<br>
-                5. <a href="/lyrics/himawari/">向日葵</a>
-              </div>
-              <div class="album-links">
-                <a href="https://a-tari-me.booth.pm/items/683156">BOOTH</a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Album 14 -->
-          <div class="album-card">
-            <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/336698445&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
-              <img src="./images/jackets/himawari.jpg" alt="向日葵 c/w 03:09 ジャケット" loading="lazy">
-              <button type="button" class="sc-play" aria-label="向日葵 c/w 03:09 を試聴"><i class="fas fa-play"></i> 試聴</button>
-            </div>
-            <div class="album-info">
-              <h3>向日葵 c/w 03:09</h3>
-              <p class="album-id">ATRM-0004</p>
-              <p class="album-event">2017夏コミ 1日目 東へ23b<br>会場頒布価格¥500</p>
-              <div class="album-tracks">
-                1. <a href="/lyrics/himawari/">向日葵</a><br>
-                2. <a href="/lyrics/0309/">03:09</a><br>
-                3. 向日葵(Instrumental)<br>
-                4. 03:09(Instrumental)
-              </div>
-              <div class="album-links">
-                <a href="https://a-tari-me.booth.pm/items/838928">BOOTH</a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Album 15 -->
-          <div class="album-card">
-            <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317803702&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
-              <img src="./images/jackets/daydream-pancake.jpg" alt="Daydream Pancake ジャケット" loading="lazy">
-              <button type="button" class="sc-play" aria-label="Daydream Pancake を試聴"><i class="fas fa-play"></i> 試聴</button>
-            </div>
-            <div class="album-info">
-              <h3>Daydream Pancake</h3>
-              <p class="album-id">ATRM-0003</p>
-              <p class="album-event">2017春M3 あ-12a<br>会場頒布価格¥500</p>
-              <div class="album-tracks">
-                1. <a href="/lyrics/hotcake/">ホットケーキ</a><br>
-                2. <a href="/lyrics/hakuchumu/">白昼夢</a><br>
-                3. <a href="/lyrics/ashita-wa-waraeru-kara/">明日は笑えるから</a>
-              </div>
-              <div class="album-links">
-                <a href="https://a-tari-me.booth.pm/items/535426">BOOTH</a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Album 16 -->
-          <div class="album-card">
-            <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/288222106&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
-              <img src="./images/jackets/aquarium.jpg" alt="アクアリウム ジャケット" loading="lazy">
-              <button type="button" class="sc-play" aria-label="アクアリウム を試聴"><i class="fas fa-play"></i> 試聴</button>
-            </div>
-            <div class="album-info">
-              <h3>アクアリウム</h3>
-              <p class="album-id">ATRM-0002</p>
-              <p class="album-event">2016秋M3 L-22b<br>会場頒布価格¥500</p>
-              <div class="album-tracks">
-                1. <a href="/lyrics/super-starfish/">スーパースターフィッシュ</a><br>
-                2. <a href="/lyrics/shiawase/">シアワセ</a><br>
-                3. <a href="/lyrics/namida/">なみだ</a>
-              </div>
-              <div class="album-links">
-                <a href="https://a-tari-me.booth.pm/items/838919">BOOTH</a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Album 17 -->
-          <div class="album-card">
-            <div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258241424&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
-              <img src="./images/jackets/mild-chocolate.jpg" alt="mild&chocolate ジャケット" loading="lazy">
-              <button type="button" class="sc-play" aria-label="mild&chocolate を試聴"><i class="fas fa-play"></i> 試聴</button>
-            </div>
-            <div class="album-info">
-              <h3>mild&chocolate</h3>
-              <p class="album-id">ATRM-0001</p>
-              <p class="album-event">2016春M3<br>会場頒布価格¥500</p>
-              <div class="album-tracks">
-                1. <a href="/lyrics/goodbye-pretzel-girl/">グッバイプレッツェルガール</a><br>
-                2. <a href="/lyrics/lemonade/">レモネード</a><br>
-                3. <a href="/lyrics/papua/">papua</a>
-              </div>
-              <div class="album-links">
-                <a href="https://a-tari-me.booth.pm/items/838915">BOOTH</a>
-              </div>
-            </div>
-          </div>
+          {%- for album in albums offset: 6 %}
+          {% include album-card.html album=album %}
+          {%- endfor %}
         </div>
       </div>
     </div>

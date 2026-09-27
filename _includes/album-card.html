@@ -1,0 +1,37 @@
+{%- assign album = include.album -%}
+{%- assign release = site.data.releases | where: "album_id", album.id | first -%}
+{%- assign album_url = "/albums/" | append: album.slug | append: "/" -%}
+<div class="album-card">
+	{%- if album.soundcloud_track_id and album.soundcloud_track_id != "" %}
+	<div class="album-image sc-preview" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ album.soundcloud_track_id }}&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+		<img src="{{ album.jacket }}" alt="{{ album.title }} ジャケット" loading="lazy" />
+		<button type="button" class="sc-play" aria-label="{{ album.title }} を試聴"><i class="fas fa-play"></i> 試聴</button>
+	</div>
+	{%- else %}
+	<div class="album-image">
+		<a href="{{ album_url }}"><img src="{{ album.jacket }}" alt="{{ album.title }} ジャケット" loading="lazy" /></a>
+	</div>
+	{%- endif %}
+	<div class="album-info">
+		<h3><a href="{{ album_url }}">{{ album.title }}</a></h3>
+		<p class="album-id">{{ album.id }}</p>
+		<p class="album-event">{{ album.event | replace: " / 会場頒布価格", "<br />会場頒布価格" }}{% if album.note %}<br />{{ album.note }}{% endif %}</p>
+		<div class="album-tracks">
+			{%- for t in album.tracks %}
+			{{ t.track }}. {% include track-title.html t=t %}{% unless forloop.last %}<br />{% endunless %}
+			{%- endfor %}
+		</div>
+		<div class="album-links">
+			<a href="{{ album_url }}" class="detail-link">詳細</a>
+			{%- if album.special %}
+			<a href="{{ album.special }}" class="special-link">特設</a>
+			{%- endif %}
+			{%- if release %}
+			<a href="{{ release.linkcore }}" class="stream-link" target="_blank" rel="noopener">配信</a>
+			{%- endif %}
+			{%- for shop in album.shop %}
+			<a href="{{ shop }}" target="_blank" rel="noopener">{% if shop contains "melonbooks" %}メロンブックス{% else %}BOOTH{% endif %}</a>
+			{%- endfor %}
+		</div>
+	</div>
+</div>

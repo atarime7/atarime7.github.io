@@ -1,0 +1,7 @@
+{%- comment -%}曲名。歌詞ページがあればリンクにする。include.t = albums.yml の1曲{%- endcomment -%}
+{%- assign doc = nil -%}
+{%- if include.t.slug -%}{%- assign doc = site.lyrics | where: "slug", include.t.slug | first -%}{%- endif -%}
+{%- assign t_title = include.t.title -%}
+{%- if doc -%}{%- assign t_title = doc.title -%}{%- endif -%}
+{%- if include.t.version_label -%}{%- capture t_title -%}{{ t_title }} ({{ include.t.version_label }}){%- endcapture -%}{%- endif -%}
+{%- if doc -%}<a href="{{ doc.url }}">{{ t_title }}</a>{%- else -%}{{ t_title }}{%- endif -%}

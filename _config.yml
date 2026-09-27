@@ -13,6 +13,9 @@ collections:
   lyrics:
     output: true
     permalink: /lyrics/:name/
+  albums:
+    output: true
+    permalink: /albums/:name/
 
 defaults:
   - scope:
@@ -20,6 +23,11 @@ defaults:
       type: lyrics
     values:
       layout: lyrics
+  - scope:
+      path: ""
+      type: albums
+    values:
+      layout: album
   - scope:
       path: "google*.html"
     values:

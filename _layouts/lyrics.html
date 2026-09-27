@@ -28,7 +28,7 @@ layout: default
 					{%- if page.vocal != "" %}<dt>Vocal</dt><dd>{{ page.credits_html.vocal | default: page.vocal }}</dd>{% endif %}
 				</dl>
 				<p class="lyrics-album-link">
-					収録：<a href="/#discography">{{ album.title }}</a>
+					収録：<a href="/albums/{{ album.slug }}/">{{ album.title }}</a>
 					<span class="album-id">{{ page.album_id }}</span>
 				</p>
 			</div>
@@ -105,7 +105,7 @@ layout: default
 					{%- for v in page.versions -%}
 					{%- assign v_album = site.data.albums | where: "id", v.album_id | first %}
 					<tr>
-						<td>{{ v_album.title }}<span class="album-id">{{ v.album_id }}</span></td>
+						<td><a href="/albums/{{ v_album.slug }}/">{{ v_album.title }}</a><span class="album-id">{{ v.album_id }}</span></td>
 						<td>{{ v.track }}</td>
 						<td>{% if v.version_label != "" %}{{ v.version_label }}{% else %}オリジナル{% endif %}</td>
 						<td>{{ v.vocal_short | default: v.vocal }}</td>

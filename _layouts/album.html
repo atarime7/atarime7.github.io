@@ -1,0 +1,142 @@
+---
+layout: default
+---
+{%- assign album = site.data.albums | where: "id", page.album_id | first -%}
+{%- assign release = site.data.releases | where: "album_id", album.id | first -%}
+{%- for a in site.data.albums -%}{%- if a.id == album.id -%}{%- assign album_index = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+{%- assign prev_index = album_index | minus: 1 -%}
+{%- assign next_index = album_index | plus: 1 -%}
+<article class="lyrics-page album-page">
+	<div class="container">
+		<nav class="breadcrumb">
+			<a href="/">Home</a> / <a href="/#discography">Discography</a> / <span>{{ album.title }}</span>
+		</nav>
+
+		<!-- Album Header -->
+		<div class="lyrics-header">
+			<div class="lyrics-artwork">
+				{%- if album.jacket and album.jacket != "" %}
+				<img src="{{ album.jacket }}" alt="{{ album.title }} ジャケット" width="800" height="800" />
+				{%- else %}
+				<img src="/images/atarime_icon.png" alt="アタリメ" />
+				{%- endif %}
+			</div>
+			<div class="lyrics-meta">
+				<p class="lyrics-label">Discography</p>
+				<h1>{{ album.title }}</h1>
+				<p class="lyrics-artist">{{ album.artist | default: "アタリメ" }}</p>
+				<dl class="lyrics-credits">
+					<dt>品番</dt><dd>{{ album.id }}</dd>
+					<dt>頒布</dt><dd>{{ album.event | split: " / 会場頒布価格" | first }}</dd>
+					{%- if album.event contains "会場頒布価格" %}<dt>価格</dt><dd>{{ album.event | split: "会場頒布価格" | last }}（会場頒布価格）</dd>{% endif %}
+					{%- if album.note %}<dt>備考</dt><dd>{{ album.note }}</dd>{% endif %}
+					{%- if release %}<dt>配信</dt><dd>{{ release.release_date | date: "%Y年%-m月%-d日" }}</dd>{% endif %}
+				</dl>
+			</div>
+		</div>
+
+		<!-- Tracks -->
+		<section class="album-tracklist">
+			<h2>収録曲</h2>
+			<ol class="album-track-list">
+				{%- for t in album.tracks -%}
+					{%- assign doc = nil -%}
+					{%- if t.slug -%}{%- assign doc = site.lyrics | where: "slug", t.slug | first -%}{%- endif -%}
+					{%- assign v = doc.versions | where: "album_id", album.id | first %}
+				<li>
+					<span class="track-no">{{ t.track }}</span>
+					<span class="track-name">{% include track-title.html t=t %}</span>
+					{%- if v.vocal_short and v.vocal_short != "" %} <span class="track-vocal">Vo. {{ v.vocal_short }}</span>{% endif %}
+					{%- for h in doc.highlights %} <span class="track-highlight">{{ h.text }}</span>{% endfor %}
+				</li>
+				{%- endfor %}
+			</ol>
+			<p class="lyrics-note">曲名のリンクから歌詞とクレジットを見られます。</p>
+		</section>
+
+		<!-- Listen / Buy -->
+		<section class="lyrics-listen">
+			<h2>聴く・買う</h2>
+			<div class="lyrics-buttons">
+				{%- if release %}
+				<a class="btn" href="{{ release.linkcore }}" target="_blank" rel="noopener"><i class="fas fa-headphones"></i> 配信で聴く{% if release.title != album.title %}（{{ release.title }}）{% endif %}</a>
+				{%- endif %}
+				{%- for shop in album.shop %}
+				<a class="btn btn-outline" href="{{ shop }}" target="_blank" rel="noopener"><i class="fas fa-compact-disc"></i> {% if shop contains "melonbooks" %}メロンブックスで買う{% elsif album.artist %}BOOTH で買う{% else %}CDを買う（BOOTH）{% endif %}</a>
+				{%- endfor %}
+				{%- if album.special %}
+				<a class="btn btn-outline" href="{{ album.special }}"><i class="fas fa-star"></i> 特設ページ</a>
+				{%- endif %}
+			</div>
+			{%- unless release -%}
+				{%- comment -%}同じ曲・同じバージョンが入っている配信だけを出す{%- endcomment -%}
+				{%- capture album_slugs -%}|{%- for t in album.tracks -%}{{ t.slug }}#{{ t.version_label }}|{%- endfor -%}{%- endcapture -%}
+				{%- assign other_releases = "" | split: "" -%}
+				{%- for r in site.data.releases -%}
+					{%- assign hit = false -%}
+					{%- for rt in r.tracks -%}
+						{%- capture needle -%}|{{ rt.slug }}#{{ rt.version_label }}|{%- endcapture -%}
+						{%- if album_slugs contains needle -%}{%- assign hit = true -%}{%- endif -%}
+					{%- endfor -%}
+					{%- if hit -%}{%- assign other_releases = other_releases | push: r -%}{%- endif -%}
+				{%- endfor -%}
+				{%- if other_releases.size > 0 %}
+			<p class="lyrics-note">この作品は配信していませんが、一部の曲は次の配信でも聴けます：
+				{%- for r in other_releases %}
+				<a href="{{ r.linkcore }}" target="_blank" rel="noopener">{{ r.title }}</a>{% unless forloop.last %}、{% endunless %}
+				{%- endfor %}
+			</p>
+				{%- elsif album.artist == nil %}
+			<p class="lyrics-note">この作品は現在CDのみでお聴きいただけます。</p>
+				{%- endif -%}
+			{%- endunless %}
+			{%- if album.soundcloud_track_id and album.soundcloud_track_id != "" %}
+			<div class="lyrics-player">
+				<iframe scrolling="no" frameborder="no" allow="autoplay" loading="lazy" title="{{ album.title }} 試聴" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ album.soundcloud_track_id }}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false"></iframe>
+			</div>
+			{%- endif %}
+		</section>
+
+		<!-- Prev / Next -->
+		<nav class="album-pager">
+			{%- if prev_index >= 0 -%}
+				{%- assign prev = site.data.albums[prev_index] %}
+			<a class="album-pager-prev" href="/albums/{{ prev.slug }}/"><i class="fas fa-arrow-left"></i> {{ prev.title }}</a>
+			{%- else %}
+			<span></span>
+			{%- endif -%}
+			{%- assign next = site.data.albums[next_index] -%}
+			{%- if next %}
+			<a class="album-pager-next" href="/albums/{{ next.slug }}/">{{ next.title }} <i class="fas fa-arrow-right"></i></a>
+			{%- endif %}
+		</nav>
+
+		<p class="lyrics-back"><a href="/#discography"><i class="fas fa-arrow-left"></i> Discography へ</a></p>
+	</div>
+</article>
+
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "MusicAlbum",
+	"name": {{ album.title | jsonify }},
+	"url": {{ page.url | absolute_url | jsonify }},
+	"catalogNumber": {{ album.id | jsonify }},
+	{%- if album.jacket and album.jacket != "" %}
+	"image": {{ album.jacket | absolute_url | jsonify }},
+	{%- endif %}
+	{%- if release %}
+	"datePublished": {{ release.release_date | date: "%Y-%m-%d" | jsonify }},
+	{%- endif %}
+	"byArtist": { "@type": "MusicGroup", "name": {{ album.artist | default: "アタリメ" | jsonify }}{% unless album.artist %}, "url": {{ "/" | absolute_url | jsonify }}{% endunless %} },
+	"numTracks": {{ album.tracks.size }},
+	"track": [
+		{%- for t in album.tracks -%}
+			{%- assign doc = nil -%}
+			{%- if t.slug -%}{%- assign doc = site.lyrics | where: "slug", t.slug | first -%}{%- endif -%}
+			{%- capture t_name -%}{% include track-title.html t=t %}{%- endcapture %}
+		{ "@type": "MusicRecording", "position": {{ t.track | jsonify }}, "name": {{ t_name | strip_html | jsonify }}{% if doc %}, "url": {{ doc.url | absolute_url | jsonify }}{% endif %} }{% unless forloop.last %},{% endunless %}
+		{%- endfor %}
+	]
+}
+</script>
