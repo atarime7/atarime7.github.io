@@ -26,6 +26,8 @@ highlights:
   text: 「太鼓の達人楽曲募集だドン！」2023 採用
   url: https://x.com/a_tari_me/status/1698295926060966049
   award: true
+  video: QPoVVpNX5y4
+  video_title: 【太鼓の達人】ロケットモード / アタリメ feat. 力石好乃（バンダイナムコ アミューズメントユニット公式チャンネル）
 streaming_available: false
 versions:
 - album: raspberry syrup

@@ -181,6 +181,54 @@
   vertical-align: middle;
 }
 
+/* Official video (click to load) */
+.lyrics-video {
+  position: relative;
+  margin-top: 20px;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.lyrics-video img,
+.lyrics-video iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  object-fit: cover;
+}
+
+.lyrics-video.yt-preview {
+  cursor: pointer;
+}
+
+.lyrics-video .yt-play {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background: rgba(11, 51, 96, 0.88);
+  color: white;
+  font-family: var(--font-main);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.lyrics-video .yt-play i {
+  margin-right: 6px;
+}
+
+.lyrics-video.yt-preview:hover .yt-play {
+  background: var(--accent);
+}
+
 /* Lyrics text: keep line breaks from the lyric card */
 .lyrics-text {
   font-size: 16px;

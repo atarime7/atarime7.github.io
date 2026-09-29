@@ -46,6 +46,16 @@ layout: default
 				</li>
 				{%- endfor %}
 			</ul>
+			{%- for h in page.highlights -%}
+				{%- if h.video %}
+			<!-- 公式の動画。押したときに YouTube を読み込む -->
+			<div class="lyrics-video yt-preview" data-video="{{ h.video }}">
+				<img src="https://i.ytimg.com/vi/{{ h.video }}/hqdefault.jpg" alt="{{ h.video_title | escape }}" loading="lazy" />
+				<button type="button" class="yt-play" aria-label="{{ h.video_title | escape }} を再生"><i class="fab fa-youtube"></i> 動画を再生</button>
+			</div>
+			<p class="lyrics-note">{{ h.video_title }}</p>
+				{%- endif -%}
+			{%- endfor %}
 		</section>
 		{%- endif %}
 
@@ -129,6 +139,22 @@ layout: default
 		<p class="lyrics-back"><a href="/lyrics/"><i class="fas fa-arrow-left"></i> 歌詞一覧へ</a></p>
 	</div>
 </article>
+
+<script>
+	// 動画はクリックしたときだけ読み込む
+	document.querySelectorAll('.yt-preview').forEach(function(box) {
+		box.addEventListener('click', function() {
+			var iframe = document.createElement('iframe');
+			iframe.src = 'https://www.youtube-nocookie.com/embed/' + box.dataset.video + '?autoplay=1&rel=0';
+			iframe.title = box.querySelector('img').alt;
+			iframe.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+			iframe.allowFullscreen = true;
+			box.innerHTML = '';
+			box.appendChild(iframe);
+			box.classList.remove('yt-preview');
+		}, { once: true });
+	});
+</script>
 
 <script type="application/ld+json">
 {
