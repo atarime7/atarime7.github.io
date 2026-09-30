@@ -27,6 +27,8 @@ highlights:
 - date: 2023年7月
   text: 『TOKYO IDOL FESTIVAL 2023』『INFO CENTRE』テーマソング 採用
   award: true
+  video: NaKPKmHBMzk
+  video_title: 『七色プリズム』（#TIF2023「INFO CENTRE」テーマソング）（雨ヶ崎 笑虹さんの YouTube チャンネル）
 versions:
 - album: Pastel Symphony
   album_id: ATRM-0014
