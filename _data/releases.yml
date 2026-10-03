@@ -3,6 +3,16 @@
 # 過去作を1枚ずつ配信したら、ここに1件追加する（linkcore と tracks だけ埋めればよい）。
 # 配信の差し替え・取り下げ時はこのファイルだけ直せばよい。
 
+- title: mild&chocolate
+  type: album
+  album_id: ATRM-0001
+  release_date: 2016-04-24  # 発売日（M3-2016春）。配信開始は 2026年
+  linkcore: https://linkco.re/SqXQacu6
+  tracks:  # 当時の音源（Goodbye Pretzel Girl のリマスター版とは別）
+    - slug: goodbye-pretzel-girl
+    - slug: lemonade
+    - slug: papua
+
 - title: Bitter Sweet Symphony
   type: album
   album_id: ATRM-0019
