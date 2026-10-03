@@ -368,6 +368,17 @@
   color: #888;
 }
 
+/* History: song titles linked to lyrics */
+.history-table a.song-link {
+  color: inherit;
+  border-bottom: 1px dotted #aaa;
+}
+
+.history-table a.song-link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
 /* Discography: song titles linked to lyrics */
 .album-info .album-tracks a {
   color: inherit;
