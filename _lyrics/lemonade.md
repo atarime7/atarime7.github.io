@@ -45,7 +45,7 @@ versions:
   album_slug: plastic-squid
   track: 3
   title_on_disc: レモネード
-  version_label: 水彩ver
+  version_label: 水彩Ver.
   lyrics: ハレルヤ
   music: aki
   arrange: こまっティ
