@@ -1,6 +1,6 @@
 ---
 published: true
-title: 可愛くなりたいベイビーアイラブユー！
+title: かわいくなりたいベイビーアイラブユー！
 slug: kawaiku-naritai-baby-i-love-you
 status: ok
 album: Baby a Go! Go!
@@ -23,7 +23,7 @@ credits_html:
   vocal: 彩水
 lyricist_name: 彩水
 composer_name: aki
-description: アタリメ「可愛くなりたいベイビーアイラブユー！」の歌詞。「太鼓の達人楽曲募集だドン！」準佳作受賞曲。「朝日で目覚めた時計は昼過ぎ だけど大丈夫日曜日だし」 作詞：彩水／作曲：aki
+description: アタリメ「かわいくなりたいベイビーアイラブユー！」の歌詞。「太鼓の達人楽曲募集だドン！」準佳作受賞曲。「朝日で目覚めた時計は昼過ぎ だけど大丈夫日曜日だし」 作詞：彩水／作曲：aki
 highlights:
 - date: 2020年6月
   text: 「太鼓の達人楽曲募集だドン！」準佳作
@@ -34,7 +34,7 @@ versions:
   album_id: ATRM-0013
   album_slug: baby-a-go-go
   track: 1
-  title_on_disc: 可愛くなりたいベイビーアイラブユー！
+  title_on_disc: かわいくなりたいベイビーアイラブユー！
   version_label: ''
   lyrics: 彩水
   music: aki
