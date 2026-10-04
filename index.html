@@ -101,6 +101,35 @@
     </div>
   </section>
 
+  <!-- Live Section（_data/lives.yml から作る。日付を過ぎた告知は出さない） -->
+  {%- assign today = site.time | date: "%Y-%m-%d" -%}
+  {%- for live in site.data.lives -%}
+  {%- assign live_day = live.date | date: "%Y-%m-%d" -%}
+  {%- if live_day >= today %}
+  <section class="live-notice" data-until="{{ live_day }}">
+    <div class="container">
+      <div class="live-card">
+        <p class="live-label">Next Live</p>
+        <h2>{{ live.title }}</h2>
+        <dl class="live-details">
+          <dt>日時</dt><dd>{{ live.date_label }}</dd>
+          <dt>会場</dt><dd>{{ live.venue }}</dd>
+          <dt>出演</dt><dd>{{ live.lineup }}</dd>
+          <dt>料金</dt><dd>{{ live.price }}</dd>
+          <dt>予約</dt><dd>{{ live.reserve_note }}</dd>
+        </dl>
+        <div class="live-links">
+          <a class="btn" href="{{ live.reserve_url }}" target="_blank" rel="noopener"><i class="fas fa-ticket"></i> 予約する（TwiPla）</a>
+          {%- if live.info_url %}
+          <a class="btn btn-outline" href="{{ live.info_url }}" target="_blank" rel="noopener"><i class="fab fa-x-twitter"></i> イベント公式</a>
+          {%- endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+  {%- endif -%}
+  {%- endfor %}
+
   <!-- Discography Section -->
   <section id="discography">
     <div class="container">
@@ -339,6 +368,10 @@
         <table class="history-table">
           <caption>ライブ出演</caption>
           <tbody>
+            <tr>
+              <td>2026年 11月</td>
+              <td><a href="https://twipla.jp/events/721967">おしゃかわ同人音楽会 Vol.2</a><br>（Vocal. 力石好乃）</td>
+            </tr>
             <tr>
               <td>2024年 10月</td>
               <td><a href="https://gprofficial.net/live51">Guitar Pop Restaurant vol.51</a></td>
@@ -620,6 +653,12 @@
         createParticles();
       });
       
+      // 日付を過ぎたライブ告知は隠す（サイトを作り直していなくても）
+      $('.live-notice').each(function() {
+        var until = new Date($(this).data('until') + 'T23:59:59+09:00');
+        if (new Date() > until) $(this).remove();
+      });
+
       // Smooth scrolling for anchor links
       $('a[href^="#"]').on('click', function(e) {
         e.preventDefault();
