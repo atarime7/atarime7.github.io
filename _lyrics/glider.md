@@ -7,7 +7,7 @@ album: グライダー / ライン
 album_slug: glider-line
 album_id: ATRM-0007
 track: 1
-lyrics: ''
+lyrics: aki
 music: aki
 arrange: こまっティ
 vocal: 彩水
@@ -16,12 +16,13 @@ guests:
 - 'Guitar: tamken'
 - 'Jacket Illust: シャム'
 credits_html:
+  lyrics: aki
   music: aki
   arrange: こまっティ
   vocal: 彩水
-lyricist_name: ''
+lyricist_name: aki
 composer_name: aki
-description: アタリメ「グライダー」の歌詞。「MASH VP! Re:VISION」収録曲。「真夏のグライダー 君と見下ろした あの瞬間を」 作曲：aki
+description: アタリメ「グライダー」の歌詞。「MASH VP! Re:VISION」収録曲。「真夏のグライダー 君と見下ろした あの瞬間を」 作詞：aki／作曲：aki
 highlights:
 - date: 2024年10月
   text: 「MASH VP! Re:VISION」収録
@@ -33,7 +34,7 @@ versions:
   track: 1
   title_on_disc: グライダー
   version_label: ''
-  lyrics: ''
+  lyrics: aki
   music: aki
   arrange: こまっティ
   vocal: 彩水
