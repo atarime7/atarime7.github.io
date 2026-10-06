@@ -21,7 +21,13 @@ credits_html:
   vocal: <a class="x-link" href="https://x.com/memoa_923" target="_blank" rel="noopener">めもあ <span class="x-handle">@memoa_923</span></a>
 lyricist_name: aki
 composer_name: aki
-description: アタリメ「Just for you」の歌詞。「胸躍るリズム刻む どこへでも行けるさ 大丈夫 きっと」 作詞：aki／作曲：aki
+description: アタリメ「Just for you」の歌詞。MV 公開（Vo. めもあ）。「胸躍るリズム刻む どこへでも行けるさ 大丈夫 きっと」 作詞：aki／作曲：aki
+highlights:
+- date: 2024年4月
+  text: MV 公開（Vo. めもあ）
+  url: https://www.youtube.com/watch?v=d4sU3VaU6N4
+  video: d4sU3VaU6N4
+  video_title: 【MV】Just for you / めもあ（めもあさんの YouTube チャンネル）
 versions:
 - album: Party Popper
   album_id: ATRM-0016
