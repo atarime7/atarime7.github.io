@@ -3,6 +3,16 @@
 # 過去作を1枚ずつ配信したら、ここに1件追加する（linkcore と tracks だけ埋めればよい）。
 # 配信の差し替え・取り下げ時はこのファイルだけ直せばよい。
 
+- title: アクアリウム
+  type: album
+  album_id: ATRM-0002
+  release_date: 2016-10-30  # 発売日（M3-2016秋）。配信開始は 2026-10-09
+  linkcore: https://linkco.re/mZYuT9nf
+  tracks:  # 4〜6曲目はインスト（歌詞ページなし）
+    - slug: super-starfish
+    - slug: shiawase
+    - slug: namida
+
 - title: mild&chocolate
   type: album
   album_id: ATRM-0001
