@@ -59,6 +59,7 @@
   date: 2017-08-11
   event: 2017夏コミ 1日目 東へ23b / 会場頒布価格¥500
   jacket: /images/jackets/himawari.jpg
+  illust: まつり
   soundcloud_track_id: '336698445'
   shop:
   - https://a-tari-me.booth.pm/items/838928
@@ -77,6 +78,8 @@
   date: 2017-10-29
   event: 2017秋M3 H-04a / 会場頒布価格¥1000
   jacket: /images/jackets/plastic-squid.jpg
+  illust: 瑞樹くりむ
+  illust_x: 773_cream
   soundcloud_track_id: '346984944'
   shop:
   - https://a-tari-me.booth.pm/items/683156
@@ -99,6 +102,8 @@
   date: 2018-04-29
   event: 2018春M3 サ-05a / 会場頒布価格¥1000
   jacket: /images/jackets/monsoon-girl.jpg
+  illust: 瑞樹くりむ
+  illust_x: 773_cream
   soundcloud_track_id: '429541248'
   shop:
   - https://a-tari-me.booth.pm/items/838838
@@ -140,6 +145,8 @@
   date: 2018-10-28
   event: 2018秋M3 N-17a / 会場頒布価格¥1000
   jacket: /images/jackets/rapture-city.jpg
+  illust: もけお
+  illust_x: mokeooo
   soundcloud_track_id: '514118649'
   shop:
   - https://booth.pm/ja/items/1086363
