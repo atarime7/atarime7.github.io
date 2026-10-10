@@ -20,7 +20,8 @@ credits_html:
   vocal: あやん
 lyricist_name: aki
 composer_name: aki
-description: アタリメ「天気雨」の歌詞。「スニーカーの紐が揺れる 駆け抜けた透明なリフレイン 夜になってまた繰り返す」 作詞：aki／作曲：aki
+description: アタリメ「天気雨」（てんきあめ）の歌詞。「スニーカーの紐が揺れる 駆け抜けた透明なリフレイン 夜になってまた繰り返す」 作詞：aki／作曲：aki
+kana: てんきあめ
 versions:
 - album: Weather Satellite
   album_id: ATRM-0012

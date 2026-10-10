@@ -20,6 +20,9 @@ layout: default
 			<div class="lyrics-meta">
 				<p class="lyrics-label">Lyrics</p>
 				<h1>{{ page.title }}</h1>
+				{%- if page.kana %}
+				<p class="lyrics-kana">{{ page.kana }}</p>
+				{%- endif %}
 				<p class="lyrics-artist">アタリメ</p>
 				<dl class="lyrics-credits">
 					{%- if page.lyrics != "" %}<dt>作詞</dt><dd>{{ page.credits_html.lyrics | default: page.lyrics }}</dd>{% endif %}
@@ -161,6 +164,9 @@ layout: default
 	"@context": "https://schema.org",
 	"@type": "MusicComposition",
 	"name": {{ page.title | jsonify }},
+	{%- if page.kana %}
+	"alternateName": {{ page.kana | jsonify }},
+	{%- endif %}
 	"url": {{ page.url | absolute_url | jsonify }},
 	"inLanguage": "ja",
 	{%- assign awards = page.highlights | where: "award", true -%}

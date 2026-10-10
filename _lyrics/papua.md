@@ -22,7 +22,8 @@ credits_html:
   vocal: ハレルヤ
 lyricist_name: ハレルヤ
 composer_name: aki
-description: アタリメ「papua」の歌詞。「真夜中 隕石が落っこちて 全部なくなって」 作詞：ハレルヤ／作曲：aki
+description: アタリメ「papua」（パプア）の歌詞。「真夜中 隕石が落っこちて 全部なくなって」 作詞：ハレルヤ／作曲：aki
+kana: パプア
 versions:
 - album: mild&chocolate
   album_id: ATRM-0001

@@ -25,7 +25,8 @@ credits_html:
   vocal: 美波七海
 lyricist_name: 吉村彰一
 composer_name: 吉村彰一
-description: アタリメ「Realize」の歌詞。「誰も信じられなくて すれ違う人全部 私の 敵に感じて」 作詞：吉村彰一／作曲：吉村彰一
+description: アタリメ「Realize」（リアライズ）の歌詞。「誰も信じられなくて すれ違う人全部 私の 敵に感じて」 作詞：吉村彰一／作曲：吉村彰一
+kana: リアライズ
 versions:
 - album: Pastel Symphony
   album_id: ATRM-0014

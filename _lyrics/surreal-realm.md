@@ -20,7 +20,8 @@ credits_html:
   vocal: <a class="x-link" href="https://x.com/may_chatte" target="_blank" rel="noopener">鳴紗 <span class="x-handle">@may_chatte</span></a>
 lyricist_name: 谷高マーク
 composer_name: aki
-description: アタリメ「Surreal realm」の歌詞。「うさぎのタクシー 行こうRide on time」 作詞：谷高マーク／作曲：aki
+description: アタリメ「Surreal realm」（シュールレルム）の歌詞。「うさぎのタクシー 行こうRide on time」 作詞：谷高マーク／作曲：aki
+kana: シュールレルム
 versions:
 - album: raspberry syrup
   album_id: ATRM-0018

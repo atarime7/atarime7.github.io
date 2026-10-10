@@ -22,7 +22,8 @@ credits_html:
   vocal: ハレルヤ, 水彩
 lyricist_name: ハレルヤ
 composer_name: aki
-description: アタリメ「向日葵」の歌詞。「最後の教室 消しゴムにかけた魔法 ばれないように そっと机にしまった」 作詞：ハレルヤ／作曲：aki
+description: アタリメ「向日葵」（ひまわり）の歌詞。「最後の教室 消しゴムにかけた魔法 ばれないように そっと机にしまった」 作詞：ハレルヤ／作曲：aki
+kana: ひまわり
 versions:
 - album: 向日葵 c/w 03:09
   album_id: ATRM-0004

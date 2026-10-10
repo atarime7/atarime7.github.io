@@ -19,6 +19,7 @@ credits_html:
   music: aki
 lyricist_name: ''
 composer_name: aki
+kana: ファウンドユー
 versions:
 - album: Baby a Go! Go!
   album_id: ATRM-0013

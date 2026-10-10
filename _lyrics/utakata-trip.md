@@ -19,7 +19,8 @@ credits_html:
   vocal: 葉月菜友
 lyricist_name: 葉月菜友
 composer_name: aki
-description: アタリメ「泡沫トリップ」の歌詞。「月並みな日常を 切り抜いた窓に マーキスの影 揺れていた」 作詞：葉月菜友／作曲：aki
+description: アタリメ「泡沫トリップ」（うたかたトリップ）の歌詞。「月並みな日常を 切り抜いた窓に マーキスの影 揺れていた」 作詞：葉月菜友／作曲：aki
+kana: うたかたトリップ
 versions:
 - album: Sweet Serenade
   album_id: ATRM-0009

@@ -21,7 +21,8 @@ credits_html:
   vocal: 彩水
 lyricist_name: 彩水
 composer_name: aki
-description: アタリメ「永劫」の歌詞。「白が溶けて 思い出す淡い面影 リフレクション 盲目を辿る」 作詞：彩水／作曲：aki
+description: アタリメ「永劫」（えいごう）の歌詞。「白が溶けて 思い出す淡い面影 リフレクション 盲目を辿る」 作詞：彩水／作曲：aki
+kana: えいごう
 versions:
 - album: Pastel Symphony
   album_id: ATRM-0014

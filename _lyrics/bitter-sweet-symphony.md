@@ -22,7 +22,8 @@ credits_html:
   vocal: <a class="x-link" href="https://x.com/waka_nana0413" target="_blank" rel="noopener">わかばやし <span class="x-handle">@waka_nana0413</span></a>
 lyricist_name: Atelier LadyBird
 composer_name: Atelier LadyBird
-description: アタリメ「Bitter Sweet Symphony」の歌詞。「続いていくシンフォニー 手紙に綴るように」 作詞：Atelier LadyBird／作曲：Atelier LadyBird
+description: アタリメ「Bitter Sweet Symphony」（ビタースウィートシンフォニー）の歌詞。「続いていくシンフォニー 手紙に綴るように」 作詞：Atelier LadyBird／作曲：Atelier LadyBird
+kana: ビタースウィートシンフォニー
 versions:
 - album: Bitter Sweet Symphony
   album_id: ATRM-0019

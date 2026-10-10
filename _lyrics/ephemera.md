@@ -21,7 +21,8 @@ credits_html:
   vocal: <a class="x-link" href="https://x.com/H_nenne" target="_blank" rel="noopener">ねんね <span class="x-handle">@H_nenne</span></a>
 lyricist_name: Atelier LadyBird
 composer_name: Atelier LadyBird
-description: アタリメ「Ephemera」の歌詞。「すれ違う電車の轟音に 言葉を乗せて運ぶように」 作詞：Atelier LadyBird／作曲：Atelier LadyBird
+description: アタリメ「Ephemera」（エフェメラ）の歌詞。「すれ違う電車の轟音に 言葉を乗せて運ぶように」 作詞：Atelier LadyBird／作曲：Atelier LadyBird
+kana: エフェメラ
 versions:
 - album: Bitter Sweet Symphony
   album_id: ATRM-0019

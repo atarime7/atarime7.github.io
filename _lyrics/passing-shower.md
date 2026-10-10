@@ -17,6 +17,7 @@ credits_html:
   arrange: こまっティ
 lyricist_name: ''
 composer_name: aki
+kana: パッシングシャワー
 versions:
 - album: Weather Satellite
   album_id: ATRM-0012

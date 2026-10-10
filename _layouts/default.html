@@ -7,7 +7,7 @@
 	{%- assign page_description = page.description | default: site.description -%}
 	{%- assign og_image = page.og_image | default: "/images/ogp.jpg" -%}
 	{%- if page.collection == "lyrics" -%}
-		{%- assign page_title = page.title | append: " 歌詞" -%}
+		{%- if page.kana -%}{%- capture page_title -%}{{ page.title }}（{{ page.kana }}）歌詞{%- endcapture -%}{%- else -%}{%- assign page_title = page.title | append: " 歌詞" -%}{%- endif -%}
 		{%- assign og_album = site.data.albums | where: "id", page.album_id | first -%}
 		{%- if og_album.jacket != "" and og_album.jacket -%}{%- assign og_image = og_album.jacket -%}{%- endif -%}
 	{%- elsif page.collection == "albums" -%}

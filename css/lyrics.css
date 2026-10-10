@@ -96,6 +96,13 @@
   word-break: break-word;
 }
 
+.lyrics-kana {
+  font-size: 13px;
+  color: #888;
+  letter-spacing: 0.05em;
+  margin: -2px 0 8px;
+}
+
 .lyrics-artist {
   font-size: 16px;
   color: #555;

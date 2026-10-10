@@ -22,7 +22,8 @@ credits_html:
   vocal: <a class="x-link" href="https://x.com/ysnysnc" target="_blank" rel="noopener">力石好乃 <span class="x-handle">@ysnysnc</span></a>
 lyricist_name: 力石好乃
 composer_name: aki
-description: アタリメ「Circuit?」の歌詞。「サーキットベイビー 光も追い越して 溶けちゃう前に早く召しませ」 作詞：力石好乃／作曲：aki
+description: アタリメ「Circuit?」（サーキット）の歌詞。「サーキットベイビー 光も追い越して 溶けちゃう前に早く召しませ」 作詞：力石好乃／作曲：aki
+kana: サーキット
 versions:
 - album: Baby a Go! Go!
   album_id: ATRM-0013

@@ -21,7 +21,8 @@ credits_html:
   vocal: 雨ヶ崎笑虹
 lyricist_name: 雨ヶ崎笑虹, aki
 composer_name: aki
-description: アタリメ「音の葉」の歌詞。「ひとつ涙を知るたびに 忘れてゆく大事なこと 愛想笑いをするたびに 忘れてゆく本当の自分」 作詞：雨ヶ崎笑虹, aki／作曲：aki
+description: アタリメ「音の葉」（おとのは）の歌詞。「ひとつ涙を知るたびに 忘れてゆく大事なこと 愛想笑いをするたびに 忘れてゆく本当の自分」 作詞：雨ヶ崎笑虹, aki／作曲：aki
+kana: おとのは
 versions:
 - album: Tomorrow’s Forecast
   album_id: ATRM-0015

@@ -20,7 +20,8 @@ credits_html:
   vocal: 彩水
 lyricist_name: 彩水
 composer_name: aki
-description: アタリメ「The dawn is breaking」の歌詞。「始発電車に飛び乗った薄明かりの午前5時30分 脳裏に浮かべる透明な今更など透過して忘れて」 作詞：彩水／作曲：aki
+description: アタリメ「The dawn is breaking」（ザ・ドーン・イズ・ブレイキング）の歌詞。「始発電車に飛び乗った薄明かりの午前5時30分 脳裏に浮かべる透明な今更など透過して忘れて」 作詞：彩水／作曲：aki
+kana: ザ・ドーン・イズ・ブレイキング
 versions:
 - album: RAPTURE CITY
   album_id: ATRM-0008
