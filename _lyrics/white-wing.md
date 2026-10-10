@@ -11,7 +11,11 @@ lyrics: ''
 music: こまっティ
 arrange: こまっティ
 vocal: ''
-guests: []
+guests:
+- 'Keyboard: aki'
+- 'Guitar: tamken'
+- 'Visual Design: こまっティ'
+- 'Illustration: もけお (@mokeooo)'
 credits_html:
   music: こまっティ
   arrange: こまっティ
@@ -30,5 +34,9 @@ versions:
   vocal: ''
   vocal_short: ''
   arrange_short: こまっティ
-  other_credits: []
+  other_credits:
+  - 'Keyboard: aki'
+  - 'Guitar: tamken'
+  - 'Visual Design: こまっティ'
+  - 'Illustration: もけお (@mokeooo)'
 ---

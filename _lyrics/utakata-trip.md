@@ -10,13 +10,17 @@ track: 3
 lyrics: 葉月菜友
 music: aki
 arrange: こまっティ
-vocal: 葉月菜友
-guests: []
+vocal: 葉月菜友 (@nayunayu_hazuki)
+guests:
+- 'Keyboard: aki'
+- 'Guitar: tamken'
+- 'Visual Design: こまっティ'
+- 'Illustration: もけお (@mokeooo)'
 credits_html:
-  lyrics: 葉月菜友
+  lyrics: <a class="x-link" href="https://x.com/nayunayu_hazuki" target="_blank" rel="noopener">葉月菜友 <span class="x-handle">@nayunayu_hazuki</span></a>
   music: aki
   arrange: こまっティ
-  vocal: 葉月菜友
+  vocal: <a class="x-link" href="https://x.com/nayunayu_hazuki" target="_blank" rel="noopener">葉月菜友 <span class="x-handle">@nayunayu_hazuki</span></a>
 lyricist_name: 葉月菜友
 composer_name: aki
 description: アタリメ「泡沫トリップ」（うたかたトリップ）の歌詞。「月並みな日常を 切り抜いた窓に マーキスの影 揺れていた」 作詞：葉月菜友／作曲：aki
@@ -31,10 +35,14 @@ versions:
   lyrics: 葉月菜友
   music: aki
   arrange: こまっティ
-  vocal: 葉月菜友
+  vocal: 葉月菜友 (@nayunayu_hazuki)
   vocal_short: 葉月菜友
   arrange_short: こまっティ
-  other_credits: []
+  other_credits:
+  - 'Keyboard: aki'
+  - 'Guitar: tamken'
+  - 'Visual Design: こまっティ'
+  - 'Illustration: もけお (@mokeooo)'
 ---
 月並みな日常を 切り抜いた窓に
 マーキスの影 揺れていた

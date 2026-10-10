@@ -10,8 +10,12 @@ track: 2
 lyrics: こまっティ
 music: aki
 arrange: こまっティ
-vocal: 力石好乃
-guests: []
+vocal: 力石好乃 (@ysnysnc)
+guests:
+- 'Keyboard: aki'
+- 'Guitar: 庄司陽太 (@shouji_porgy)'
+- 'Visual Design: こまっティ'
+- 'Illustration: もけお (@mokeooo)'
 credits_html:
   lyrics: こまっティ
   music: aki
@@ -35,10 +39,14 @@ versions:
   lyrics: こまっティ
   music: aki
   arrange: こまっティ
-  vocal: 力石好乃
+  vocal: 力石好乃 (@ysnysnc)
   vocal_short: 力石好乃
   arrange_short: こまっティ
-  other_credits: []
+  other_credits:
+  - 'Keyboard: aki'
+  - 'Guitar: 庄司陽太 (@shouji_porgy)'
+  - 'Visual Design: こまっティ'
+  - 'Illustration: もけお (@mokeooo)'
 ---
 その 雫さえも 気配 呼んでみる
 ただ 止まらないで 明日を探しても   刹那

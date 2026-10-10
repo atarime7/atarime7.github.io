@@ -10,13 +10,16 @@ track: 1
 lyrics: aki
 music: aki
 arrange: こまっティ
-vocal: 橘田ほのか
-guests: []
+vocal: 橘田ほのか (@ponzu_2525)
+guests:
+- 'Keyboard: aki'
+- 'Visual Design: こまっティ'
+- 'Illustration: もけお (@mokeooo)'
 credits_html:
   lyrics: aki
   music: aki
   arrange: こまっティ
-  vocal: 橘田ほのか
+  vocal: <a class="x-link" href="https://x.com/ponzu_2525" target="_blank" rel="noopener">橘田ほのか <span class="x-handle">@ponzu_2525</span></a>
 lyricist_name: aki
 composer_name: aki
 description: アタリメ「パステル」の歌詞。「いつの時も大切にしてた思い出 煌めく瞬間覚えてる？」 作詞：aki／作曲：aki
@@ -30,10 +33,13 @@ versions:
   lyrics: aki
   music: aki
   arrange: こまっティ
-  vocal: 橘田ほのか
+  vocal: 橘田ほのか (@ponzu_2525)
   vocal_short: 橘田ほのか
   arrange_short: こまっティ
-  other_credits: []
+  other_credits:
+  - 'Keyboard: aki'
+  - 'Visual Design: こまっティ'
+  - 'Illustration: もけお (@mokeooo)'
 ---
 いつの時も大切にしてた思い出
 煌めく瞬間覚えてる？
