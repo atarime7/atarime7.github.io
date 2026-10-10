@@ -19,6 +19,9 @@ credits_html:
   music: aki
   arrange: こまっティ, aki
   vocal: 猫雷にゃる
+players:
+- role: Guitar
+  html: <a class="x-link" href="https://x.com/yuckey_gtr" target="_blank" rel="noopener">ゆっきー <span class="x-handle">@yuckey_gtr</span></a>
 lyricist_name: aki
 composer_name: aki
 description: アタリメ「キラキラ」の歌詞。「いつでもドキドキ 最高潮 2キロ以内 近づき過ぎじゃない？」 作詞：aki／作曲：aki

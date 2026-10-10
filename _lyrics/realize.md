@@ -23,6 +23,15 @@ credits_html:
   music: 吉村彰一
   arrange: こまっティ
   vocal: 美波七海
+players:
+- role: Band
+  html: All You Can Eat
+- role: Guitar
+  html: <a class="x-link" href="https://x.com/Gt_Maetani" target="_blank" rel="noopener">前谷尚幸 <span class="x-handle">@Gt_Maetani</span></a>
+- role: Bass
+  html: <a class="x-link" href="https://x.com/takuroyahisa" target="_blank" rel="noopener">屋久拓郎 <span class="x-handle">@takuroyahisa</span></a>
+- role: Chorus
+  html: <a class="x-link" href="https://x.com/juri_k0406" target="_blank" rel="noopener">菅崎樹里 <span class="x-handle">@juri_k0406</span></a>
 lyricist_name: 吉村彰一
 composer_name: 吉村彰一
 description: アタリメ「Realize」（リアライズ）の歌詞。「誰も信じられなくて すれ違う人全部 私の 敵に感じて」 作詞：吉村彰一／作曲：吉村彰一

@@ -21,6 +21,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: 彩水
+players:
+- role: Guitar
+  html: tamken
 lyricist_name: 彩水
 composer_name: aki
 description: アタリメ「かわいくなりたいベイビーアイラブユー！」の歌詞。「太鼓の達人楽曲募集だドン！」準佳作受賞曲。「朝日で目覚めた時計は昼過ぎ だけど大丈夫日曜日だし」 作詞：彩水／作曲：aki

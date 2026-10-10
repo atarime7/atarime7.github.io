@@ -19,6 +19,9 @@ credits_html:
   music: Atelier LadyBird
   arrange: <a class="x-link" href="https://x.com/don0924" target="_blank" rel="noopener">川崎泰弘 <span class="x-handle">@don0924</span></a>
   vocal: <a class="x-link" href="https://x.com/H_nenne" target="_blank" rel="noopener">ねんね <span class="x-handle">@H_nenne</span></a>
+players:
+- role: Bass
+  html: <a class="x-link" href="https://x.com/masa_bass" target="_blank" rel="noopener">今井真之 <span class="x-handle">@masa_bass</span></a>
 lyricist_name: Atelier LadyBird
 composer_name: Atelier LadyBird
 description: アタリメ「Ephemera」（エフェメラ）の歌詞。「すれ違う電車の轟音に 言葉を乗せて運ぶように」 作詞：Atelier LadyBird／作曲：Atelier LadyBird

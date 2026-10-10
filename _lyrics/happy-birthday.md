@@ -18,6 +18,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: ハレルヤ, 水彩
+players:
+- role: Guitar
+  html: tamken
 lyricist_name: ハレルヤ
 composer_name: aki
 description: アタリメ「ハッピーバースデー」の歌詞。「眠い目こすって めくりめくカレンダー 指差し確認 年イチのスーパースペシャルデー」 作詞：ハレルヤ／作曲：aki

@@ -21,6 +21,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: ハレルヤ
+players:
+- role: Guitar
+  html: tamken
 lyricist_name: ハレルヤ
 composer_name: aki
 description: アタリメ「ホットケーキ」の歌詞。「咲いた花のように慎ましくなんて 何百年前の話よ」 作詞：ハレルヤ／作曲：aki

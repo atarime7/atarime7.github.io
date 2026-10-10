@@ -18,6 +18,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: 彩水
+players:
+- role: Guitar
+  html: <a class="x-link" href="https://x.com/shouji_porgy" target="_blank" rel="noopener">庄司陽太 <span class="x-handle">@shouji_porgy</span></a>
 lyricist_name: 彩水
 composer_name: aki
 description: アタリメ「空と雲のパレード」の歌詞。「朝の空目に映り 遠ざかる一粒の夜 曇っていた心 内側で呼吸して消えた」 作詞：彩水／作曲：aki

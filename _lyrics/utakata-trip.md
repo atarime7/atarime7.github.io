@@ -21,6 +21,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: <a class="x-link" href="https://x.com/nayunayu_hazuki" target="_blank" rel="noopener">葉月菜友 <span class="x-handle">@nayunayu_hazuki</span></a>
+players:
+- role: Guitar
+  html: tamken
 lyricist_name: 葉月菜友
 composer_name: aki
 description: アタリメ「泡沫トリップ」（うたかたトリップ）の歌詞。「月並みな日常を 切り抜いた窓に マーキスの影 揺れていた」 作詞：葉月菜友／作曲：aki

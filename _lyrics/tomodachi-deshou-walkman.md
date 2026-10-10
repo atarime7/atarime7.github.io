@@ -21,6 +21,11 @@ credits_html:
   music: 吉村彰一
   arrange: <a class="x-link" href="https://x.com/don0924" target="_blank" rel="noopener">川崎泰弘 <span class="x-handle">@don0924</span></a>
   vocal: <a class="x-link" href="https://x.com/H_nenne" target="_blank" rel="noopener">ねんね <span class="x-handle">@H_nenne</span></a>
+players:
+- role: Guitar
+  html: <a class="x-link" href="https://x.com/gradationsjpn" target="_blank" rel="noopener">Hayata Satoh <span class="x-handle">@gradationsjpn</span></a>
+- role: Bass
+  html: <a class="x-link" href="https://x.com/kakeyan26" target="_blank" rel="noopener">kakeyan <span class="x-handle">@kakeyan26</span></a>
 lyricist_name: Atelier LadyBird
 composer_name: 吉村彰一
 description: アタリメ「友達でしょう？ウォークマン」の歌詞。「懐かしいあの頃のMusic すっかり手放しちゃって 何となく流行りのMovie 流して 知ったふりして Ah」 作詞：Atelier LadyBird／作曲：吉村彰一

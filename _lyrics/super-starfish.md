@@ -21,6 +21,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: ハレルヤ, 水彩
+players:
+- role: Guitar
+  html: tamken
 lyricist_name: aki
 composer_name: aki
 description: アタリメ「スーパースターフィッシュ」の歌詞。「また今日も泥だらけスニーカー かかとをつぶす変わらない癖」 作詞：aki／作曲：aki

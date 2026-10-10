@@ -19,6 +19,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: <a class="x-link" href="https://x.com/_uta3" target="_blank" rel="noopener">雨汰。 <span class="x-handle">@_uta3</span></a>
+players:
+- role: Guitar
+  html: <a class="x-link" href="https://x.com/sakamoto_56" target="_blank" rel="noopener">サカモトユウ <span class="x-handle">@sakamoto_56</span></a>
 lyricist_name: aki
 composer_name: aki
 description: アタリメ「チグハグ」の歌詞。「君とロマンス わからないまま 別の世界に憧れていた」 作詞：aki／作曲：aki

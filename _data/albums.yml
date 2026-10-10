@@ -8,6 +8,7 @@
   date: 2016-04-24
   event: 2016春M3 / 会場頒布価格¥500
   jacket: /images/jackets/mild-chocolate.jpg
+  illust: ハレルヤ
   soundcloud_track_id: '258241424'
   shop:
   - https://a-tari-me.booth.pm/items/838915
@@ -24,6 +25,7 @@
   date: 2016-10-30
   event: 2016秋M3 L-22b / 会場頒布価格¥500
   jacket: /images/jackets/aquarium.jpg
+  illust: みなり
   soundcloud_track_id: '288222106'
   shop:
   - https://a-tari-me.booth.pm/items/838919
@@ -40,6 +42,7 @@
   date: 2017-04-30
   event: 2017春M3 あ-12a / 会場頒布価格¥500
   jacket: /images/jackets/daydream-pancake.jpg
+  illust: まつり
   soundcloud_track_id: '317803702'
   shop:
   - https://a-tari-me.booth.pm/items/535426
@@ -118,6 +121,7 @@
   date: 2018-08-10
   event: 2018夏コミ 1日目 西は06b / 会場頒布価格¥700
   jacket: /images/jackets/glider-line.jpg
+  illust: シャム
   soundcloud_track_id: '477852213'
   shop:
   - https://a-tari-me.booth.pm/items/970777
@@ -162,6 +166,8 @@
   date: 2019-04-28
   event: 2019春M3 I-06b / 会場頒布価格¥1000
   jacket: /images/jackets/sweet-serenade.jpg
+  illust: もけお
+  illust_x: mokeooo
   soundcloud_track_id: '598732044'
   shop:
   - https://booth.pm/ja/items/1339503
@@ -248,6 +254,7 @@
   date: 2020-10-25
   event: 2020秋M3 C-24 / 会場頒布価格¥1000
   jacket: /images/jackets/baby-a-go-go.jpg
+  illust: Sakura AT（スイモク）
   soundcloud_track_id: '908254252'
   shop:
   - https://a-tari-me.booth.pm/items/2470073
@@ -269,6 +276,8 @@
   date: 2021-04-25
   event: 2021春M3 あ-09 / 会場頒布価格¥2000
   jacket: /images/jackets/pastel-symphony.jpg
+  illust: みずは
+  illust_x: megacycle13
   soundcloud_track_id: ''
   artist: Atelier LadyBird  # 参加作品
   special: https://pastel-symphony-m3spring2021.tumblr.com/
@@ -293,6 +302,8 @@
   date: 2021-10-31
   event: 2021秋M3 コ-12 / 会場頒布価格¥1000
   jacket: /images/jackets/tomorrows-forecast.jpg
+  illust: もけお
+  illust_x: mokeooo
   soundcloud_track_id: '1146935386'
   shop:
   - https://a-tari-me.booth.pm/items/3365688
@@ -312,6 +323,8 @@
   date: 2022-10-30
   event: 2022秋M3 コ-03a / 会場頒布価格¥1500
   jacket: /images/jackets/party-popper.jpg
+  illust: もけお
+  illust_x: mokeooo
   soundcloud_track_id: '1360959361'
   shop:
   - https://a-tari-me.booth.pm/items/4228725
@@ -334,6 +347,7 @@
   date: 2023-10-29
   event: 2023秋M3 P-03b / 会場頒布価格¥1000
   jacket: /images/jackets/monophonic.jpg
+  illust: _hanaco_
   soundcloud_track_id: '1635572892'
   shop:
   - https://a-tari-me.booth.pm/items/5156275
@@ -354,6 +368,8 @@
   date: 2024-10-27
   event: 2024秋M3 Q-23b / 会場頒布価格¥2000
   jacket: /images/jackets/raspberry-syrup.jpg
+  illust: もけお
+  illust_x: mokeooo
   soundcloud_track_id: '1937638718'
   shop:
   - https://a-tari-me.booth.pm/items/6192076
@@ -378,6 +394,8 @@
   date: 2025-10-26
   event: 2025秋M3 B-20a / B-20b / 会場頒布価格¥2000
   jacket: /images/jackets/bitter-sweet-symphony.jpg
+  illust: みずは
+  illust_x: megacycle13
   soundcloud_track_id: ''
   special: /bitter-sweet-symphony/
   shop:

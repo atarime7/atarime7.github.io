@@ -18,6 +18,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: ハレルヤ, 彩水
+players:
+- role: Guitar
+  html: tamken
 lyricist_name: ハレルヤ
 composer_name: aki
 description: アタリメ「Best Friend」（ベストフレンド）の歌詞。「「あー今日も疲れた」 ってベッドにダイヴする」 作詞：ハレルヤ／作曲：aki

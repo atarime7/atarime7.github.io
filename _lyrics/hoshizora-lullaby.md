@@ -18,6 +18,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: <a class="x-link" href="https://x.com/ponzu_2525" target="_blank" rel="noopener">橘田ほのか <span class="x-handle">@ponzu_2525</span></a>
+players:
+- role: Guitar
+  html: 吉村彰一(Atelier LadyBird)
 lyricist_name: aki
 composer_name: aki
 description: アタリメ「星空ララバイ」の歌詞。「あのねあのね 君にかける言葉少しだけ ちょっと恥ずかしいな なんて待ってくれないな」 作詞：aki／作曲：aki

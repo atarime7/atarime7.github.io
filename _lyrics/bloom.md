@@ -19,6 +19,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: <a class="x-link" href="https://x.com/memoa_923" target="_blank" rel="noopener">めもあ <span class="x-handle">@memoa_923</span></a>
+players:
+- role: Guitar
+  html: <a class="x-link" href="https://x.com/sakamoto_56" target="_blank" rel="noopener">サカモトユウ <span class="x-handle">@sakamoto_56</span></a>
 lyricist_name: aki
 composer_name: aki
 description: アタリメ「Bloom」（ブルーム）の歌詞。「君の声と笑顔 優しさに出会えた 美しい思い出は 色褪せずに照らしていた 満開の空と初恋の坂道」 作詞：aki／作曲：aki

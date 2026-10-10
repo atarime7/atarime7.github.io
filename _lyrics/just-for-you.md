@@ -19,6 +19,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: <a class="x-link" href="https://x.com/memoa_923" target="_blank" rel="noopener">めもあ <span class="x-handle">@memoa_923</span></a>
+players:
+- role: Guitar
+  html: <a class="x-link" href="https://x.com/nassan_2501" target="_blank" rel="noopener">なっさん <span class="x-handle">@nassan_2501</span></a>
 lyricist_name: aki
 composer_name: aki
 description: アタリメ「Just for you」（ジャストフォーユー）の歌詞。MV 公開（Vo. めもあ）。「胸躍るリズム刻む どこへでも行けるさ 大丈夫 きっと」 作詞：aki／作曲：aki

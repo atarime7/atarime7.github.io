@@ -20,6 +20,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: 彩水
+players:
+- role: Guitar
+  html: tamken
 lyricist_name: aki
 composer_name: aki
 description: アタリメ「グライダー」の歌詞。「MASH VP! Re:VISION」収録曲。「真夏のグライダー 君と見下ろした あの瞬間を」 作詞：aki／作曲：aki

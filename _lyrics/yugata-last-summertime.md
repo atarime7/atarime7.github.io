@@ -19,6 +19,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: <a class="x-link" href="https://x.com/ysnysnc" target="_blank" rel="noopener">力石好乃 <span class="x-handle">@ysnysnc</span></a>
+players:
+- role: Guitar
+  html: <a class="x-link" href="https://x.com/sakamoto_56" target="_blank" rel="noopener">サカモトユウ <span class="x-handle">@sakamoto_56</span></a>
 lyricist_name: 力石好乃
 composer_name: aki
 description: アタリメ「夕方ラストサマータイム」の歌詞。「窓側の席から見える 青空を分ける一筋の雲」 作詞：力石好乃／作曲：aki

@@ -21,6 +21,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: ハレルヤ, 水彩
+players:
+- role: Guitar
+  html: tamken
 lyricist_name: ハレルヤ
 composer_name: aki
 description: アタリメ「シアワセ」の歌詞。「MASH VP! Re:VISION」収録曲。「だってふたり出会っちゃったんだもん 正義のヒーローなんているわけないじゃない」 作詞：ハレルヤ／作曲：aki

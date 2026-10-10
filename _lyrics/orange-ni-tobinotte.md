@@ -21,6 +21,9 @@ credits_html:
   music: <a class="x-link" href="https://x.com/markyataka" target="_blank" rel="noopener">谷高マーク <span class="x-handle">@markyataka</span></a>
   arrange: aki・こまっティ
   vocal: 彩水
+players:
+- role: Guitar
+  html: <a class="x-link" href="https://x.com/yuckey_gtr" target="_blank" rel="noopener">ゆっきー <span class="x-handle">@yuckey_gtr</span></a>
 lyricist_name: 谷高マーク
 composer_name: 谷高マーク
 description: アタリメ「オレンジに飛び乗って」の歌詞。「少し物憂げな午前2時 涙の訳は聞かないで」 作詞：谷高マーク／作曲：谷高マーク

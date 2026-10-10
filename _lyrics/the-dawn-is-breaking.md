@@ -18,6 +18,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: 彩水
+players:
+- role: Guitar
+  html: tamken
 lyricist_name: 彩水
 composer_name: aki
 description: アタリメ「The dawn is breaking」（ザ・ドーン・イズ・ブレイキング）の歌詞。「始発電車に飛び乗った薄明かりの午前5時30分 脳裏に浮かべる透明な今更など透過して忘れて」 作詞：彩水／作曲：aki

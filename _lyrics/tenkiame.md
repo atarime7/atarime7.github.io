@@ -18,6 +18,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: あやん
+players:
+- role: Guitar
+  html: <a class="x-link" href="https://x.com/shouji_porgy" target="_blank" rel="noopener">庄司陽太 <span class="x-handle">@shouji_porgy</span></a>
 lyricist_name: aki
 composer_name: aki
 description: アタリメ「天気雨」（てんきあめ）の歌詞。「スニーカーの紐が揺れる 駆け抜けた透明なリフレイン 夜になってまた繰り返す」 作詞：aki／作曲：aki

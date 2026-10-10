@@ -20,6 +20,11 @@ credits_html:
   music: aki
   arrange: <a class="x-link" href="https://x.com/don0924" target="_blank" rel="noopener">川崎泰弘 <span class="x-handle">@don0924</span></a>, こまっティ
   vocal: <a class="x-link" href="https://x.com/suzumisiro" target="_blank" rel="noopener">すずしろ <span class="x-handle">@suzumisiro</span></a>
+players:
+- role: Guitar
+  html: <a class="x-link" href="https://x.com/furutyyyyy" target="_blank" rel="noopener">フルタヒロノブ <span class="x-handle">@furutyyyyy</span></a>
+- role: Bass
+  html: <a class="x-link" href="https://x.com/takuroyahisa" target="_blank" rel="noopener">屋久拓朗 <span class="x-handle">@takuroyahisa</span></a>
 lyricist_name: 吉村彰一
 composer_name: aki
 description: アタリメ「ノスタルシンフォニー」の歌詞。「オレンジの空が二人引き合わせたんだ 偶然って運命に胸がきゅんと高鳴る」 作詞：吉村彰一／作曲：aki

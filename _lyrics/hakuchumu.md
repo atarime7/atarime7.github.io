@@ -21,6 +21,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: 水彩
+players:
+- role: Guitar
+  html: tamken
 lyricist_name: ハレルヤ
 composer_name: aki
 description: アタリメ「白昼夢」（はくちゅうむ）の歌詞。「ひどい火傷のよう うなされて起きる 涙も全然頬を伝わない」 作詞：ハレルヤ／作曲：aki

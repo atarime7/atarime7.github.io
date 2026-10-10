@@ -30,6 +30,7 @@ layout: default
 					{%- if album.date %}<dt>発売日</dt><dd>{{ album.date | date: "%Y年%-m月%-d日" }}</dd>{% endif %}
 					<dt>頒布</dt><dd>{{ album.event | split: " / 会場頒布価格" | first }}</dd>
 					{%- if album.event contains "会場頒布価格" %}<dt>価格</dt><dd>{{ album.event | split: "会場頒布価格" | last }}（会場頒布価格）</dd>{% endif %}
+					{%- if album.illust %}<dt>イラスト</dt><dd>{% if album.illust_x %}<a class="x-link" href="https://x.com/{{ album.illust_x }}" target="_blank" rel="noopener">{{ album.illust }} <span class="x-handle">@{{ album.illust_x }}</span></a>{% else %}{{ album.illust }}{% endif %}</dd>{% endif %}
 					{%- if album.note %}<dt>備考</dt><dd>{{ album.note }}</dd>{% endif %}
 				</dl>
 			</div>

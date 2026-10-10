@@ -19,6 +19,9 @@ guests:
 credits_html:
   music: こまっティ
   arrange: こまっティ
+players:
+- role: Guitar
+  html: tamken
 lyricist_name: ''
 composer_name: こまっティ
 versions:

@@ -29,6 +29,7 @@ layout: default
 					{%- if page.music != "" %}<dt>作曲</dt><dd>{{ page.credits_html.music | default: page.music }}</dd>{% endif %}
 					{%- if page.arrange != "" %}<dt>編曲</dt><dd>{{ page.credits_html.arrange | default: page.arrange }}</dd>{% endif %}
 					{%- if page.vocal != "" %}<dt>Vocal</dt><dd>{{ page.credits_html.vocal | default: page.vocal }}</dd>{% endif %}
+					{%- for p in page.players %}<dt>{{ p.role }}</dt><dd>{{ p.html }}</dd>{% endfor %}
 				</dl>
 				<p class="lyrics-album-link">
 					収録：<a href="/albums/{{ album.slug }}/">{{ album.title }}</a>

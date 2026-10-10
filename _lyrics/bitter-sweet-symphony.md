@@ -20,6 +20,11 @@ credits_html:
   music: Atelier LadyBird
   arrange: アタリメ、<a class="x-link" href="https://x.com/don0924" target="_blank" rel="noopener">川崎泰弘 <span class="x-handle">@don0924</span></a>
   vocal: <a class="x-link" href="https://x.com/waka_nana0413" target="_blank" rel="noopener">わかばやし <span class="x-handle">@waka_nana0413</span></a>
+players:
+- role: Guitar
+  html: <a class="x-link" href="https://x.com/satoru_gt1225" target="_blank" rel="noopener">上杉悟 <span class="x-handle">@satoru_gt1225</span></a>
+- role: Bass
+  html: <a class="x-link" href="https://x.com/kakeyan26" target="_blank" rel="noopener">kakeyan <span class="x-handle">@kakeyan26</span></a>
 lyricist_name: Atelier LadyBird
 composer_name: Atelier LadyBird
 description: アタリメ「Bitter Sweet Symphony」（ビタースウィートシンフォニー）の歌詞。「続いていくシンフォニー 手紙に綴るように」 作詞：Atelier LadyBird／作曲：Atelier LadyBird

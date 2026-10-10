@@ -19,6 +19,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: <a class="x-link" href="https://x.com/dadacomplex" target="_blank" rel="noopener">駄々子 <span class="x-handle">@dadacomplex</span></a>
+players:
+- role: Guitar
+  html: tamken
 lyricist_name: 駄々子
 composer_name: aki
 description: アタリメ「春色ファンファーレ」の歌詞。「太鼓の達人楽曲募集だドン！」2022 佳作受賞曲。「春風そよぎ 頬を撫でたら 深呼吸して 前髪と呼吸整えて」 作詞：駄々子／作曲：aki

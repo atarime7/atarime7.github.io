@@ -18,6 +18,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: <a class="x-link" href="https://x.com/ysnysnc" target="_blank" rel="noopener">力石好乃 <span class="x-handle">@ysnysnc</span></a>
+players:
+- role: Guitar
+  html: tamken
 lyricist_name: 力石好乃
 composer_name: aki
 description: アタリメ「Milkyway Darling」（ミルキーウェイダーリン）の歌詞。「アーバンミステリー 東海道線が 乗客を乗せたまま 銀河鉄道」 作詞：力石好乃／作曲：aki

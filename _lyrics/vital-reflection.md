@@ -21,6 +21,9 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: <a class="x-link" href="https://x.com/ysnysnc" target="_blank" rel="noopener">力石好乃 <span class="x-handle">@ysnysnc</span></a>
+players:
+- role: Guitar
+  html: <a class="x-link" href="https://x.com/shouji_porgy" target="_blank" rel="noopener">庄司陽太 <span class="x-handle">@shouji_porgy</span></a>
 lyricist_name: こまっティ
 composer_name: aki
 description: アタリメ「Vital Reflection」（ヴァイタルリフレクション）の歌詞。「MASH VP! Re:VISION」収録曲。「その 雫さえも 気配 呼んでみる ただ 止まらないで 明日を探しても   刹那」 作詞：こまっティ／作曲：aki

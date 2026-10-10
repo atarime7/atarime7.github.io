@@ -21,6 +21,9 @@ credits_html:
   music: 吉村彰一, aki
   arrange: <a class="x-link" href="https://x.com/don0924" target="_blank" rel="noopener">川崎泰弘 <span class="x-handle">@don0924</span></a>, こまっティ
   vocal: 月乃
+players:
+- role: Guitar
+  html: <a class="x-link" href="https://x.com/gi_LEDguitar" target="_blank" rel="noopener">山下孝史 <span class="x-handle">@gi_LEDguitar</span></a>
 lyricist_name: 吉村彰一
 composer_name: 吉村彰一, aki
 description: アタリメ「まちがいばっか」の歌詞。「まちがいばっか まちがいばっか繰り返して まちがいばっか 気づいたらまた」 作詞：吉村彰一／作曲：吉村彰一, aki
