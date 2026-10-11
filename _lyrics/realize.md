@@ -14,7 +14,7 @@ vocal: 美波七海 (@37373v)
 guests:
 - 'Band: All You Can Eat'
 - 'Guitar: 前谷尚幸 (@Gt_Maetani)'
-- 'Bass: 屋久拓郎 (@takuroyahisa)'
+- 'Bass: 屋久拓朗 (@takuroyahisa)'
 - 'Piano: 眞﨑康尚 (@john_dajohn)'
 - 'Chorus: 菅崎樹里 (@juri_k0406)'
 - 'Illustration: みずは (@megacycle13)'
@@ -29,7 +29,7 @@ players:
 - role: Guitar
   html: <a class="x-link" href="https://x.com/Gt_Maetani" target="_blank" rel="noopener">前谷尚幸 <span class="x-handle">@Gt_Maetani</span></a>
 - role: Bass
-  html: <a class="x-link" href="https://x.com/takuroyahisa" target="_blank" rel="noopener">屋久拓郎 <span class="x-handle">@takuroyahisa</span></a>
+  html: <a class="x-link" href="https://x.com/takuroyahisa" target="_blank" rel="noopener">屋久拓朗 <span class="x-handle">@takuroyahisa</span></a>
 - role: Chorus
   html: <a class="x-link" href="https://x.com/juri_k0406" target="_blank" rel="noopener">菅崎樹里 <span class="x-handle">@juri_k0406</span></a>
 lyricist_name: 吉村彰一
@@ -52,7 +52,7 @@ versions:
   other_credits:
   - 'Band: All You Can Eat'
   - 'Guitar: 前谷尚幸 (@Gt_Maetani)'
-  - 'Bass: 屋久拓郎 (@takuroyahisa)'
+  - 'Bass: 屋久拓朗 (@takuroyahisa)'
   - 'Piano: 眞﨑康尚 (@john_dajohn)'
   - 'Chorus: 菅崎樹里 (@juri_k0406)'
   - 'Illustration: みずは (@megacycle13)'

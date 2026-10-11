@@ -13,7 +13,7 @@ arrange: こまっティ, 川崎泰弘
 vocal: ななひら (@nanahira)
 guests:
 - 'Guitar: 丹下義寛 (@_CHANK_)'
-- 'Bass: 屋久拓郎 (@takuroyahisa)'
+- 'Bass: 屋久拓朗 (@takuroyahisa)'
 - 'Piano, Organ, Programming: 川崎泰弘'
 - 'Illustration: みずは (@megacycle13)'
 credits_html:
@@ -25,7 +25,7 @@ players:
 - role: Guitar
   html: <a class="x-link" href="https://x.com/_CHANK_" target="_blank" rel="noopener">丹下義寛 <span class="x-handle">@_CHANK_</span></a>
 - role: Bass
-  html: <a class="x-link" href="https://x.com/takuroyahisa" target="_blank" rel="noopener">屋久拓郎 <span class="x-handle">@takuroyahisa</span></a>
+  html: <a class="x-link" href="https://x.com/takuroyahisa" target="_blank" rel="noopener">屋久拓朗 <span class="x-handle">@takuroyahisa</span></a>
 lyricist_name: Atelier LadyBird
 composer_name: aki, 吉村彰一
 description: アタリメ「パステルシンフォニー」の歌詞。「いつか 一緒に手を繋いで 歩いてみたいな」 作詞：Atelier LadyBird／作曲：aki, 吉村彰一
@@ -44,7 +44,7 @@ versions:
   arrange_short: こまっティ, 川崎泰弘
   other_credits:
   - 'Guitar: 丹下義寛 (@_CHANK_)'
-  - 'Bass: 屋久拓郎 (@takuroyahisa)'
+  - 'Bass: 屋久拓朗 (@takuroyahisa)'
   - 'Piano, Organ, Programming: 川崎泰弘'
   - 'Illustration: みずは (@megacycle13)'
 ---
