@@ -7,7 +7,7 @@ album: Pastel Symphony
 album_slug: pastel-symphony
 album_id: ATRM-0014
 track: 2
-lyrics: 吉村彰一
+lyrics: 吉村彰一 (@shouichidrums)
 music: 吉村彰一
 arrange: こまっティ
 vocal: 美波七海 (@37373v)
@@ -19,8 +19,8 @@ guests:
 - 'Chorus: 菅崎樹里 (@juri_k0406)'
 - 'Illustration: みずは (@megacycle13)'
 credits_html:
-  lyrics: 吉村彰一
-  music: 吉村彰一
+  lyrics: <a class="x-link" href="https://x.com/shouichidrums" target="_blank" rel="noopener">吉村彰一 <span class="x-handle">@shouichidrums</span></a>
+  music: <a class="x-link" href="https://x.com/shouichidrums" target="_blank" rel="noopener">吉村彰一 <span class="x-handle">@shouichidrums</span></a>
   arrange: こまっティ
   vocal: <a class="x-link" href="https://x.com/37373v" target="_blank" rel="noopener">美波七海 <span class="x-handle">@37373v</span></a>
 players:
@@ -43,7 +43,7 @@ versions:
   track: 2
   title_on_disc: Realize
   version_label: ''
-  lyrics: 吉村彰一
+  lyrics: 吉村彰一 (@shouichidrums)
   music: 吉村彰一
   arrange: こまっティ
   vocal: 美波七海 (@37373v)

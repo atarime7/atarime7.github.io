@@ -18,7 +18,7 @@ guests:
 - 'Illustration: みずは (@megacycle13)'
 credits_html:
   lyrics: Atelier LadyBird
-  music: 吉村彰一
+  music: <a class="x-link" href="https://x.com/shouichidrums" target="_blank" rel="noopener">吉村彰一 <span class="x-handle">@shouichidrums</span></a>
   arrange: <a class="x-link" href="https://x.com/don0924" target="_blank" rel="noopener">川崎泰弘 <span class="x-handle">@don0924</span></a>
   vocal: <a class="x-link" href="https://x.com/H_nenne" target="_blank" rel="noopener">ねんね <span class="x-handle">@H_nenne</span></a>
 players:

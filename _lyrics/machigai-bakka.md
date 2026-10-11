@@ -17,8 +17,8 @@ guests:
 - 'Programming: こまっティ'
 - 'Illustration: みずは (@megacycle13)'
 credits_html:
-  lyrics: 吉村彰一
-  music: 吉村彰一, aki
+  lyrics: <a class="x-link" href="https://x.com/shouichidrums" target="_blank" rel="noopener">吉村彰一 <span class="x-handle">@shouichidrums</span></a>
+  music: <a class="x-link" href="https://x.com/shouichidrums" target="_blank" rel="noopener">吉村彰一 <span class="x-handle">@shouichidrums</span></a>, aki
   arrange: <a class="x-link" href="https://x.com/don0924" target="_blank" rel="noopener">川崎泰弘 <span class="x-handle">@don0924</span></a>, こまっティ
   vocal: <a class="x-link" href="https://x.com/tsuki_nxo" target="_blank" rel="noopener">月乃 <span class="x-handle">@tsuki_nxo</span></a>
 players:

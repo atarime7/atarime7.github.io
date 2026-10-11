@@ -12,7 +12,7 @@ music: aki
 arrange: こまっティ
 vocal: 橘田ほのか
 guests:
-- 'Guitar: 吉村彰一(Atelier LadyBird)'
+- 'Guitar: 吉村彰一 (@shouichidrums)'
 credits_html:
   lyrics: aki
   music: aki
@@ -20,7 +20,7 @@ credits_html:
   vocal: <a class="x-link" href="https://x.com/ponzu_2525" target="_blank" rel="noopener">橘田ほのか <span class="x-handle">@ponzu_2525</span></a>
 players:
 - role: Guitar
-  html: 吉村彰一(Atelier LadyBird)
+  html: <a class="x-link" href="https://x.com/shouichidrums" target="_blank" rel="noopener">吉村彰一 <span class="x-handle">@shouichidrums</span></a>
 lyricist_name: aki
 composer_name: aki
 description: アタリメ「星空ララバイ」の歌詞。「あのねあのね 君にかける言葉少しだけ ちょっと恥ずかしいな なんて待ってくれないな」 作詞：aki／作曲：aki
@@ -38,7 +38,7 @@ versions:
   vocal_short: 橘田ほのか
   arrange_short: こまっティ
   other_credits:
-  - 'Guitar: 吉村彰一(Atelier LadyBird)'
+  - 'Guitar: 吉村彰一 (@shouichidrums)'
 - album: Weather Satellite
   album_id: ATRM-0012
   album_slug: weather-satellite
