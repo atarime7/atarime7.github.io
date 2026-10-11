@@ -10,7 +10,7 @@ track: 2
 lyrics: 吉村彰一
 music: 吉村彰一
 arrange: こまっティ
-vocal: 美波七海
+vocal: 美波七海 (@37373v)
 guests:
 - 'Band: All You Can Eat'
 - 'Guitar: 前谷尚幸 (@Gt_Maetani)'
@@ -22,7 +22,7 @@ credits_html:
   lyrics: 吉村彰一
   music: 吉村彰一
   arrange: こまっティ
-  vocal: 美波七海
+  vocal: <a class="x-link" href="https://x.com/37373v" target="_blank" rel="noopener">美波七海 <span class="x-handle">@37373v</span></a>
 players:
 - role: Band
   html: All You Can Eat
@@ -46,7 +46,7 @@ versions:
   lyrics: 吉村彰一
   music: 吉村彰一
   arrange: こまっティ
-  vocal: 美波七海
+  vocal: 美波七海 (@37373v)
   vocal_short: 美波七海
   arrange_short: こまっティ
   other_credits:

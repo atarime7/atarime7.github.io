@@ -10,7 +10,7 @@ track: 6
 lyrics: 吉村彰一
 music: 吉村彰一, aki
 arrange: 川崎泰弘, こまっティ
-vocal: 月乃
+vocal: 月乃 (@tsuki_nxo)
 guests:
 - 'Electric Guitar: 山下孝史 ( @gi_LEDguitar )'
 - 'Piano, Programming: 川崎泰弘'
@@ -20,7 +20,7 @@ credits_html:
   lyrics: 吉村彰一
   music: 吉村彰一, aki
   arrange: <a class="x-link" href="https://x.com/don0924" target="_blank" rel="noopener">川崎泰弘 <span class="x-handle">@don0924</span></a>, こまっティ
-  vocal: 月乃
+  vocal: <a class="x-link" href="https://x.com/tsuki_nxo" target="_blank" rel="noopener">月乃 <span class="x-handle">@tsuki_nxo</span></a>
 players:
 - role: Guitar
   html: <a class="x-link" href="https://x.com/gi_LEDguitar" target="_blank" rel="noopener">山下孝史 <span class="x-handle">@gi_LEDguitar</span></a>
@@ -37,7 +37,7 @@ versions:
   lyrics: 吉村彰一
   music: 吉村彰一, aki
   arrange: 川崎泰弘, こまっティ
-  vocal: 月乃
+  vocal: 月乃 (@tsuki_nxo)
   vocal_short: 月乃
   arrange_short: 川崎泰弘, こまっティ
   other_credits:

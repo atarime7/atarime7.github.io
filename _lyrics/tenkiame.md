@@ -10,14 +10,14 @@ track: 1
 lyrics: aki
 music: aki
 arrange: こまっティ
-vocal: あやん
+vocal: あやん (@aginyan08)
 guests:
 - 'Guitar: 庄司陽太'
 credits_html:
   lyrics: aki
   music: aki
   arrange: こまっティ
-  vocal: あやん
+  vocal: <a class="x-link" href="https://x.com/aginyan08" target="_blank" rel="noopener">あやん <span class="x-handle">@aginyan08</span></a>
 players:
 - role: Guitar
   html: <a class="x-link" href="https://x.com/shouji_porgy" target="_blank" rel="noopener">庄司陽太 <span class="x-handle">@shouji_porgy</span></a>
@@ -35,7 +35,7 @@ versions:
   lyrics: aki
   music: aki
   arrange: こまっティ
-  vocal: あやん
+  vocal: あやん (@aginyan08)
   vocal_short: あやん
   arrange_short: こまっティ
   other_credits:

@@ -10,7 +10,7 @@ track: 3
 lyrics: aki
 music: aki
 arrange: 川崎泰弘
-vocal: 雨ヶ崎笑虹
+vocal: 雨ヶ崎笑虹 (@eko_amagasaki)
 guests:
 - 'Guitar: Tamken'
 - 'Piano, Percussion, Programming: 川崎泰弘'
@@ -19,7 +19,7 @@ credits_html:
   lyrics: aki
   music: aki
   arrange: <a class="x-link" href="https://x.com/don0924" target="_blank" rel="noopener">川崎泰弘 <span class="x-handle">@don0924</span></a>
-  vocal: 雨ヶ崎笑虹
+  vocal: <a class="x-link" href="https://x.com/eko_amagasaki" target="_blank" rel="noopener">雨ヶ崎笑虹 <span class="x-handle">@eko_amagasaki</span></a>
 players:
 - role: Guitar
   html: tamken
@@ -42,7 +42,7 @@ versions:
   lyrics: aki
   music: aki
   arrange: 川崎泰弘
-  vocal: 雨ヶ崎笑虹
+  vocal: 雨ヶ崎笑虹 (@eko_amagasaki)
   vocal_short: 雨ヶ崎笑虹
   arrange_short: 川崎泰弘
   other_credits:

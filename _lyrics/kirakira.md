@@ -10,7 +10,7 @@ track: 1
 lyrics: aki
 music: aki
 arrange: こまっティ, aki
-vocal: 猫雷にゃる
+vocal: 猫雷にゃる (@NecoraNyaru)
 guests:
 - 'Guitar: ゆっきー (@yuckey_gtr)'
 - 'Illustration: もけお(@mokeooo)'
@@ -18,7 +18,7 @@ credits_html:
   lyrics: aki
   music: aki
   arrange: こまっティ, aki
-  vocal: 猫雷にゃる
+  vocal: <a class="x-link" href="https://x.com/NecoraNyaru" target="_blank" rel="noopener">猫雷にゃる <span class="x-handle">@NecoraNyaru</span></a>
 players:
 - role: Guitar
   html: <a class="x-link" href="https://x.com/yuckey_gtr" target="_blank" rel="noopener">ゆっきー <span class="x-handle">@yuckey_gtr</span></a>
@@ -35,7 +35,7 @@ versions:
   lyrics: aki
   music: aki
   arrange: こまっティ, aki
-  vocal: 猫雷にゃる
+  vocal: 猫雷にゃる (@NecoraNyaru)
   vocal_short: 猫雷にゃる
   arrange_short: こまっティ, aki
   other_credits:

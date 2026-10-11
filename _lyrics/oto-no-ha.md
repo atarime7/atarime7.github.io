@@ -10,15 +10,15 @@ track: 4
 lyrics: 雨ヶ崎笑虹, aki
 music: aki
 arrange: こまっティ
-vocal: 雨ヶ崎笑虹
+vocal: 雨ヶ崎笑虹 (@eko_amagasaki)
 guests:
 - 'Guitar: Tamken'
 - 'Illustration: もけお(@mokeooo)'
 credits_html:
-  lyrics: 雨ヶ崎笑虹, aki
+  lyrics: <a class="x-link" href="https://x.com/eko_amagasaki" target="_blank" rel="noopener">雨ヶ崎笑虹 <span class="x-handle">@eko_amagasaki</span></a>, aki
   music: aki
   arrange: こまっティ
-  vocal: 雨ヶ崎笑虹
+  vocal: <a class="x-link" href="https://x.com/eko_amagasaki" target="_blank" rel="noopener">雨ヶ崎笑虹 <span class="x-handle">@eko_amagasaki</span></a>
 players:
 - role: Guitar
   html: tamken
@@ -36,7 +36,7 @@ versions:
   lyrics: 雨ヶ崎笑虹, aki
   music: aki
   arrange: こまっティ
-  vocal: 雨ヶ崎笑虹
+  vocal: 雨ヶ崎笑虹 (@eko_amagasaki)
   vocal_short: 雨ヶ崎笑虹
   arrange_short: こまっティ
   other_credits:

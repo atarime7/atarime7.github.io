@@ -10,7 +10,7 @@ track: 1
 lyrics: Atelier LadyBird
 music: aki, 吉村彰一
 arrange: こまっティ, 川崎泰弘
-vocal: ななひら
+vocal: ななひら (@nanahira)
 guests:
 - 'Guitar: 丹下義寛 (@_CHANK_)'
 - 'Bass: 屋久拓郎 (@takuroyahisa)'
@@ -20,7 +20,7 @@ credits_html:
   lyrics: Atelier LadyBird
   music: aki, 吉村彰一
   arrange: こまっティ, <a class="x-link" href="https://x.com/don0924" target="_blank" rel="noopener">川崎泰弘 <span class="x-handle">@don0924</span></a>
-  vocal: ななひら
+  vocal: <a class="x-link" href="https://x.com/nanahira" target="_blank" rel="noopener">ななひら <span class="x-handle">@nanahira</span></a>
 players:
 - role: Guitar
   html: <a class="x-link" href="https://x.com/_CHANK_" target="_blank" rel="noopener">丹下義寛 <span class="x-handle">@_CHANK_</span></a>
@@ -39,7 +39,7 @@ versions:
   lyrics: Atelier LadyBird
   music: aki, 吉村彰一
   arrange: こまっティ, 川崎泰弘
-  vocal: ななひら
+  vocal: ななひら (@nanahira)
   vocal_short: ななひら
   arrange_short: こまっティ, 川崎泰弘
   other_credits:
