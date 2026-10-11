@@ -24,6 +24,16 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@a_tari_me">
 
+  <!-- 検索結果に出すサイト名（未指定だとドメインから「GitHub」と出る） -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "アタリメ",
+    "alternateName": ["ATARIME", "アタリメ Official Site"],
+    "url": {{ "/" | absolute_url | jsonify }}
+  }
+  </script>
   <!-- 検索エンジン向けのアーティスト情報 -->
   <script type="application/ld+json">
   {
