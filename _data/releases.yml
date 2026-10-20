@@ -3,6 +3,19 @@
 # 過去作を1枚ずつ配信したら、ここに1件追加する（linkcore と tracks だけ埋めればよい）。
 # 配信の差し替え・取り下げ時はこのファイルだけ直せばよい。
 
+- title: Sweet Serenade
+  type: album
+  album_id: ATRM-0009
+  release_date: 2019-04-28  # 発売日（M3-2019春）
+  stream_date: 2026-11-06  # 配信開始日。これより前はトップに「予約受付中」、後は「配信中」と出す
+  notice_until: 2026-12-06  # トップの告知を出す最後の日
+  notice_note: ゲストボーカルに橘田ほのか・力石好乃・葉月菜友を迎えた、2019年春M3の作品を初配信。
+  linkcore: https://linkco.re/CPFE5Fta
+  tracks:  # 4・5曲目はインスト（歌詞ページなし）
+    - slug: pastel
+    - slug: vital-reflection
+    - slug: utakata-trip
+
 - title: アクアリウム
   type: album
   album_id: ATRM-0002

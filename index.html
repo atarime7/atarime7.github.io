@@ -111,8 +111,37 @@
     </div>
   </section>
 
-  <!-- Live Section（_data/lives.yml から作る。日付を過ぎた告知は出さない） -->
+  <!-- New Release（_data/releases.yml の notice_until があるものだけ。配信開始日の前は「予約受付中」、後は「配信中」） -->
   {%- assign today = site.time | date: "%Y-%m-%d" -%}
+  {%- for rel in site.data.releases -%}
+  {%- if rel.notice_until -%}
+  {%- assign rel_until = rel.notice_until | date: "%Y-%m-%d" -%}
+  {%- if rel_until >= today -%}
+  {%- assign rel_album = site.data.albums | where: "id", rel.album_id | first %}
+  <section class="live-notice release-notice" data-until="{{ rel_until }}" data-stream="{{ rel.stream_date | date: '%Y-%m-%d' }}">
+    <div class="container">
+      <div class="live-card release-card">
+        <a class="release-jacket" href="/albums/{{ rel_album.slug }}/"><img src="{{ rel_album.jacket }}" alt="{{ rel.title }} ジャケット" width="160" height="160" /></a>
+        <div class="release-body">
+          <p class="live-label"><span class="release-before">New Release ／ 予約受付中</span><span class="release-after">New Release ／ 配信中</span></p>
+          <h2>{{ rel.title }}</h2>
+          <p class="release-date">{{ rel.stream_date | date: "%Y.%-m.%-d" }} 配信開始</p>
+          {%- if rel.notice_note %}
+          <p class="release-note">{{ rel.notice_note }}</p>
+          {%- endif %}
+          <div class="live-links">
+            <a class="btn" href="{{ rel.linkcore }}" target="_blank" rel="noopener"><i class="fas fa-headphones"></i> <span class="release-before">予約する（Pre-Save）</span><span class="release-after">配信で聴く</span></a>
+            <a class="btn btn-outline" href="/albums/{{ rel_album.slug }}/"><i class="fas fa-compact-disc"></i> 収録曲・歌詞</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {%- endif -%}
+  {%- endif -%}
+  {%- endfor %}
+
+  <!-- Live Section（_data/lives.yml から作る。日付を過ぎた告知は出さない） -->
   {%- for live in site.data.lives -%}
   {%- assign live_day = live.date | date: "%Y-%m-%d" -%}
   {%- if live_day >= today %}
@@ -667,6 +696,12 @@
       $('.live-notice').each(function() {
         var until = new Date($(this).data('until') + 'T23:59:59+09:00');
         if (new Date() > until) $(this).remove();
+      });
+
+      // 配信開始日を過ぎたら「予約受付中」を「配信中」に切り替える
+      $('.release-notice').each(function() {
+        var started = new Date() >= new Date($(this).data('stream') + 'T00:00:00+09:00');
+        $(this).toggleClass('is-streaming', started);
       });
 
       // Smooth scrolling for anchor links

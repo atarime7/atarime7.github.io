@@ -439,9 +439,63 @@
   margin-right: 6px;
 }
 
+/* New Release（live-card の見た目を流用し、ジャケットを左に置く） */
+.release-card {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+}
+
+.release-jacket img {
+  display: block;
+  width: 160px;
+  height: 160px;
+  border-radius: 4px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+.release-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.release-card h2 {
+  margin-bottom: 6px;
+}
+
+.release-date {
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+.release-note {
+  margin: 0 0 18px;
+  font-size: 15px;
+  color: #555;
+}
+
+.release-notice .release-after,
+.release-notice.is-streaming .release-before {
+  display: none;
+}
+
+.release-notice.is-streaming .release-after {
+  display: inline;
+}
+
 @media (max-width: 767px) {
   .live-card {
     padding: 24px 20px;
+  }
+
+  .release-card {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .release-jacket img {
+    width: 120px;
+    height: 120px;
   }
 
   .live-card h2 {
