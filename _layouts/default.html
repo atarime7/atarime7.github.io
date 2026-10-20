@@ -83,6 +83,11 @@
 				$('.nav-menu').toggleClass('active');
 				$(this).find('i').toggleClass('fa-bars fa-times');
 			});
+
+			// 配信開始日より前は「配信で聴く」を出さない（linkcore にストアのリンクがまだないため）
+			$('[data-stream]').each(function() {
+				if (new Date() < new Date($(this).data('stream') + 'T00:00:00+09:00')) $(this).remove();
+			});
 		});
 	</script>
 </body>

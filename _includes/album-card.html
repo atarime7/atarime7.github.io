@@ -23,7 +23,7 @@
 		</div>
 		<div class="album-links">
 			{%- if release %}
-			<a href="{{ release.linkcore }}" target="_blank" rel="noopener"><i class="fas fa-headphones"></i>配信</a>
+			<a{% if release.stream_date %} data-stream="{{ release.stream_date | date: '%Y-%m-%d' }}"{% endif %} href="{{ release.linkcore }}" target="_blank" rel="noopener"><i class="fas fa-headphones"></i>配信</a>
 			{%- endif %}
 			{%- for shop in album.shop %}
 			<a href="{{ shop }}" target="_blank" rel="noopener"><i class="fas fa-bag-shopping"></i>{% if shop contains "melonbooks" %}メロンブックス{% else %}BOOTH{% endif %}</a>

@@ -474,15 +474,6 @@
   color: #555;
 }
 
-.release-notice .release-after,
-.release-notice.is-streaming .release-before {
-  display: none;
-}
-
-.release-notice.is-streaming .release-after {
-  display: inline;
-}
-
 @media (max-width: 767px) {
   .live-card {
     padding: 24px 20px;

@@ -81,7 +81,7 @@ layout: default
 						{%- for t in release.tracks -%}
 							{%- if t.slug == page.slug -%}
 								{%- assign streamed = true %}
-				<a class="btn" href="{{ release.linkcore }}" target="_blank" rel="noopener"><i class="fas fa-headphones"></i> 配信で聴く（{{ release.title }}{% if t.version_label %} / {{ t.version_label }}{% endif %}）</a>
+				<a class="btn"{% if release.stream_date %} data-stream="{{ release.stream_date | date: '%Y-%m-%d' }}"{% endif %} href="{{ release.linkcore }}" target="_blank" rel="noopener"><i class="fas fa-headphones"></i> 配信で聴く（{{ release.title }}{% if t.version_label %} / {{ t.version_label }}{% endif %}）</a>
 							{%- endif -%}
 						{%- endfor -%}
 					{%- endfor -%}
