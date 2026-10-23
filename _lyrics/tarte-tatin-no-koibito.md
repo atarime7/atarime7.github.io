@@ -18,9 +18,6 @@ credits_html:
   music: aki
   arrange: こまっティ
   vocal: 彩水, <a class="x-link" href="https://x.com/yuu_LC" target="_blank" rel="noopener">ゆう <span class="x-handle">@yuu_LC</span></a>
-players:
-- role: Guest Vocal
-  html: <a class="x-link" href="https://x.com/yuu_LC" target="_blank" rel="noopener">ゆう <span class="x-handle">@yuu_LC</span></a>
 lyricist_name: aki
 composer_name: aki
 description: アタリメ「タルト・タタンの恋人」の歌詞。「新しい事を待ってた 恋心が いつもと違う オーブンをあける」 作詞：aki／作曲：aki
