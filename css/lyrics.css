@@ -699,3 +699,97 @@
 .album-info .album-detail:hover i {
   transform: translateX(3px);
 }
+
+/* Shorts（YouTube ショート。縦の動画を横に並べる） */
+.album-shorts {
+  margin-top: 40px;
+}
+
+.short-videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.short-videos-single {
+  grid-template-columns: minmax(0, 220px);
+  margin-top: 24px;
+}
+
+.short-videos-compact {
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.short-video {
+  margin: 0;
+}
+
+.short-frame {
+  position: relative;
+  aspect-ratio: 9 / 16;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.short-frame.yt-preview {
+  cursor: pointer;
+}
+
+.short-frame img,
+.short-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  object-fit: cover;
+}
+
+.short-frame .yt-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(11, 51, 96, 0.82);
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.short-frame.yt-preview:hover .yt-play {
+  background: var(--accent);
+}
+
+.short-video figcaption {
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.short-videos-compact .short-video figcaption {
+  font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  .short-videos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .short-videos-single {
+    grid-template-columns: minmax(0, 200px);
+  }
+
+  .short-videos-compact {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+}

@@ -54,6 +54,20 @@ layout: default
 			</ol>
 		</section>
 
+		<!-- Shorts -->
+		{%- assign shorts = album.tracks | where_exp: "t", "t.short" -%}
+		{%- if shorts.size > 0 %}
+		<section class="album-shorts">
+			<h2>ショート動画</h2>
+			<div class="short-videos">
+				{%- for t in shorts %}
+				{%- capture t_name -%}{% include track-title.html t=t %}{%- endcapture %}
+				{% include short-video.html id=t.short title=t_name %}
+				{%- endfor %}
+			</div>
+		</section>
+		{%- endif %}
+
 		<!-- Listen / Buy -->
 		<section class="lyrics-listen">
 			<h2>聴く・買う</h2>

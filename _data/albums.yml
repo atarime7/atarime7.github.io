@@ -179,16 +179,20 @@
   shop:
   - https://booth.pm/ja/items/1339503
   - https://www.melonbooks.co.jp/detail/detail.php?product_id=504604
-  tracks:
+  tracks:  # short は YouTube ショートの動画 ID（作品ページ・歌詞ページ・トップの告知に出る）
   - track: 1
     slug: pastel
+    short: 2GRHGzEtD6k
   - track: 2
     slug: vital-reflection
+    short: T6mjF2L-89Y
   - track: 3
     slug: utakata-trip
+    short: LCyqGFHG3SI
   - track: 4
     slug: white-wing
     title: White Wing
+    short: Fr9MxTQpgP0
   - track: 5
     slug: serenade
     title: セレナーデ

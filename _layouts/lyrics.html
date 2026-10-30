@@ -100,6 +100,12 @@ layout: default
 			{%- elsif streamed == false %}
 			<p class="lyrics-note">この曲は現在CDのみでお聴きいただけます。</p>
 			{%- endif %}
+			{%- assign album_track = album.tracks | where: "slug", page.slug | first -%}
+			{%- if album_track.short %}
+			<div class="short-videos short-videos-single">
+				{% include short-video.html id=album_track.short title=page.title %}
+			</div>
+			{%- endif %}
 			{%- if album.soundcloud_track_id and album.soundcloud_track_id != "" %}
 			<div class="lyrics-player">
 				<iframe scrolling="no" frameborder="no" allow="autoplay" loading="lazy" title="{{ album.title }} 試聴" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ album.soundcloud_track_id }}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false"></iframe>
@@ -143,22 +149,6 @@ layout: default
 		<p class="lyrics-back"><a href="/lyrics/"><i class="fas fa-arrow-left"></i> 歌詞一覧へ</a></p>
 	</div>
 </article>
-
-<script>
-	// 動画はクリックしたときだけ読み込む
-	document.querySelectorAll('.yt-preview').forEach(function(box) {
-		box.addEventListener('click', function() {
-			var iframe = document.createElement('iframe');
-			iframe.src = 'https://www.youtube-nocookie.com/embed/' + box.dataset.video + '?autoplay=1&rel=0';
-			iframe.title = box.querySelector('img').alt;
-			iframe.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
-			iframe.allowFullscreen = true;
-			box.innerHTML = '';
-			box.appendChild(iframe);
-			box.classList.remove('yt-preview');
-		}, { once: true });
-	});
-</script>
 
 <script type="application/ld+json">
 {

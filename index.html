@@ -74,6 +74,7 @@
   
   <!-- Scripts -->
   <script src="js/jquery.min.js"></script>
+  <script src="js/yt-preview.js"></script>
 </head>
 <body>
   <!-- Header -->
@@ -161,6 +162,15 @@
             <a class="btn" data-stream="{{ rel.stream_date | date: '%Y-%m-%d' }}" href="{{ rel.linkcore }}" target="_blank" rel="noopener"><i class="fas fa-headphones"></i> 配信で聴く</a>
             <a class="btn btn-outline" href="/albums/{{ rel_album.slug }}/"><i class="fas fa-compact-disc"></i> 収録曲・歌詞</a>
           </div>
+          {%- assign shorts = rel_album.tracks | where_exp: "t", "t.short" -%}
+          {%- if shorts.size > 0 %}
+          <div class="short-videos short-videos-compact">
+            {%- for t in shorts %}
+            {%- capture t_name -%}{% include track-title.html t=t %}{%- endcapture %}
+            {% include short-video.html id=t.short title=t_name %}
+            {%- endfor %}
+          </div>
+          {%- endif %}
         </div>
       </div>
     </div>

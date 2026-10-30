@@ -1,0 +1,8 @@
+{%- comment -%}YouTube ショート（縦の動画）。押したときに YouTube を読み込む。include.id = 動画 ID、include.title = 曲名{%- endcomment -%}
+<figure class="short-video">
+	<div class="short-frame yt-preview" data-video="{{ include.id }}">
+		<img src="https://i.ytimg.com/vi/{{ include.id }}/oar2.jpg" alt="{{ include.title | strip_html | escape }} ショート動画" loading="lazy" />
+		<button type="button" class="yt-play" aria-label="{{ include.title | strip_html | escape }} のショート動画を再生"><i class="fab fa-youtube"></i></button>
+	</div>
+	<figcaption>{{ include.title }}</figcaption>
+</figure>
