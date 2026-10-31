@@ -179,7 +179,7 @@
   shop:
   - https://booth.pm/ja/items/1339503
   - https://www.melonbooks.co.jp/detail/detail.php?product_id=504604
-  tracks:  # short は YouTube ショートの動画 ID（作品ページ・歌詞ページ・トップの告知に出る）
+  tracks:  # short は YouTube ショートの動画 ID（作品ページ・歌詞ページに出る）
   - track: 1
     slug: pastel
     short: 2GRHGzEtD6k

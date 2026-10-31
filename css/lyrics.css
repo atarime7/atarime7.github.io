@@ -717,12 +717,6 @@
   margin-top: 24px;
 }
 
-.short-videos-compact {
-  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
-  gap: 10px;
-  margin-top: 20px;
-}
-
 .short-video {
   margin: 0;
 }
@@ -775,10 +769,6 @@
   line-height: 1.4;
 }
 
-.short-videos-compact .short-video figcaption {
-  font-size: 12px;
-}
-
 @media (max-width: 767px) {
   .short-videos {
     grid-template-columns: repeat(2, 1fr);
@@ -786,10 +776,5 @@
 
   .short-videos-single {
     grid-template-columns: minmax(0, 200px);
-  }
-
-  .short-videos-compact {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 8px;
   }
 }
