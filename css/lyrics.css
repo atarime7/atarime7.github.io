@@ -707,13 +707,14 @@
 
 .short-videos {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 16px;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 12px;
   margin-top: 16px;
 }
 
 .short-videos-single {
-  grid-template-columns: minmax(0, 220px);
+  grid-auto-columns: 220px;
   margin-top: 24px;
 }
 
@@ -770,11 +771,19 @@
 }
 
 @media (max-width: 767px) {
+  /* スマホでは横にスワイプして見る */
   .short-videos {
-    grid-template-columns: repeat(2, 1fr);
+    grid-auto-columns: 42%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 6px;
+  }
+
+  .short-video {
+    scroll-snap-align: start;
   }
 
   .short-videos-single {
-    grid-template-columns: minmax(0, 200px);
+    grid-auto-columns: 200px;
   }
 }
