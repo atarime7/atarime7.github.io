@@ -15,7 +15,7 @@
 		{%- assign page_title = og_album.title -%}
 		{%- if og_album.jacket != "" and og_album.jacket -%}{%- assign og_image = og_album.jacket -%}{%- endif -%}
 		{%- capture track_names -%}{%- for t in og_album.tracks -%}{%- include track-title.html t=t -%}{% unless forloop.last %}、{% endunless %}{%- endfor -%}{%- endcapture -%}
-		{%- capture page_description -%}{{ og_album.artist | default: "アタリメ" }}「{{ og_album.title }}」（{{ og_album.id }}）。{{ og_album.event | split: " / 会場頒布価格" | first }}で頒布。収録曲：{{ track_names | strip_html }}{%- endcapture -%}
+		{%- capture page_description -%}{% if og_album.artist %}{{ og_album.artist }}{% else %}渋谷系ポップユニット・アタリメ{% endif %}「{{ og_album.title }}」（{{ og_album.id }}）。{{ og_album.event | split: " / 会場頒布価格" | first }}で頒布。収録曲：{{ track_names | strip_html }}{%- endcapture -%}
 	{%- endif -%}
 	<title>{% if page_title %}{{ page_title }} | {% endif %}{{ site.title }}</title>
 	<meta name="description" content="{{ page_description | strip_newlines | escape }}" />
