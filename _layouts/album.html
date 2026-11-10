@@ -76,7 +76,7 @@ layout: default
 				<a class="btn"{% if release.stream_date %} data-stream="{{ release.stream_date | date: '%Y-%m-%d' }}"{% endif %} href="{{ release.linkcore }}" target="_blank" rel="noopener"><i class="fas fa-headphones"></i> 配信で聴く{% if release.title != album.title %}（{{ release.title }}）{% endif %}</a>
 				{%- endif %}
 				{%- for shop in album.shop %}
-				<a class="btn btn-outline" href="{{ shop }}" target="_blank" rel="noopener"><i class="fas fa-compact-disc"></i> {% if shop contains "melonbooks" %}メロンブックスで買う{% elsif album.artist %}BOOTH で買う{% else %}CDを買う（BOOTH）{% endif %}</a>
+				<a class="btn btn-outline" href="{{ shop }}" target="_blank" rel="noopener"><i class="fas {% if album.booth_format == 'dl' and shop contains 'booth' %}fa-download{% else %}fa-compact-disc{% endif %}"></i> {% if shop contains "melonbooks" %}メロンブックスで買う{% elsif album.artist %}BOOTH で買う{% elsif album.booth_format == "dl" %}ダウンロード版を買う（BOOTH）{% else %}CD・ダウンロード版を買う（BOOTH）{% endif %}</a>
 				{%- endfor %}
 				{%- if album.special %}
 				<a class="btn btn-outline" href="{{ album.special }}"><i class="fas fa-star"></i> 特設ページ</a>

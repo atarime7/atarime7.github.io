@@ -10,6 +10,7 @@
   jacket: /images/jackets/mild-chocolate.jpg
   illust: ハレルヤ
   soundcloud_track_id: '258241424'
+  booth_format: dl  # BOOTH はダウンロード版だけ（CD は在庫切れ、2026-11-10 確認）
   shop:
   - https://a-tari-me.booth.pm/items/838915
   tracks:
@@ -44,6 +45,7 @@
   jacket: /images/jackets/daydream-pancake.jpg
   illust: まつり
   soundcloud_track_id: '317803702'
+  booth_format: dl  # BOOTH はダウンロード版だけ（CD は在庫切れ、2026-11-10 確認）
   shop:
   - https://a-tari-me.booth.pm/items/535426
   tracks:
@@ -61,6 +63,7 @@
   jacket: /images/jackets/himawari.jpg
   illust: まつり
   soundcloud_track_id: '336698445'
+  booth_format: dl  # BOOTH はダウンロード版だけ（CD は在庫切れ、2026-11-10 確認）
   shop:
   - https://a-tari-me.booth.pm/items/838928
   tracks:
@@ -128,6 +131,7 @@
   jacket: /images/jackets/glider-line.jpg
   illust: シャム
   soundcloud_track_id: '477852213'
+  booth_format: dl  # BOOTH はダウンロード版だけ（CD は在庫切れ、2026-11-10 確認）
   shop:
   - https://a-tari-me.booth.pm/items/970777
   tracks:
@@ -225,6 +229,7 @@
   jacket: /images/jackets/full-throttle.jpg
   soundcloud_track_id: ''
   note: 力石好乃 × アタリメ（全4曲 編曲）
+  booth_format: dl  # BOOTH はダウンロード版だけ（ダウンロード販売のみ、2026-11-10 確認）
   shop:
   - https://booth.pm/ja/items/1652570  # DL版（YOSHINO - online store-）
   tracks:
@@ -386,6 +391,7 @@
   illust: もけお
   illust_x: mokeooo
   soundcloud_track_id: '1937638718'
+  booth_dl_excludes: [6]  # BOOTH のダウンロード版に入っていない曲（ロケットモード）
   shop:
   - https://a-tari-me.booth.pm/items/6192076
   tracks:
